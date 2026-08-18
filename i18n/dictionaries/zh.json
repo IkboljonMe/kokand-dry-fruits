@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "title": "科坎干果 — 来自乌兹别克斯坦的优质干果和坚果",
+    "description": "来自乌兹别克斯坦科坎核心地带的优质干果、坚果和天然产品。出口至全球20多个国家。"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品",
+    "contact": "联系"
+  },
+  "hero": {
+    "tagline": "源自科坎之心",
+    "title": "优质干果与坚果",
+    "subtitle": "天然采集、精心挑选、全球配送——将乌兹别克斯坦最优质收获的正宗风味带到您的餐桌。",
+    "slides": [
+      {
+        "title": "直送您的国家",
+        "subtitle": "发货至 20 多个国家，采用食品级安全包装——从浩罕的仓库直达您家门口。"
+      },
+      {
+        "title": "价格实在，产地直采",
+        "subtitle": "我们直接向费尔干纳谷地的农场采购，让您以没有中间商加价的价格买到优质产品。"
+      },
+      {
+        "title": "在最佳时节采收的坚果",
+        "subtitle": "巴旦木、核桃与开心果均由人工挑选，妥善储存，绝不添加防腐剂。"
+      }
+    ],
+    "cta": "探索我们的产品",
+    "ctaSecondary": "我们的故事"
+  },
+  "strengths": {
+    "sectionTitle": "为何选择我们",
+    "sectionSubtitle": "我们将百年传统与现代品质标准相结合",
+    "quality": {
+      "title": "卓越品质",
+      "description": "每件产品都经过严格的质量测试。只有最优质、无防腐剂的干果和坚果。"
+    },
+    "fresh": {
+      "title": "时刻新鲜",
+      "description": "我们的产品持续更新，在最佳条件下储存以保持天然风味和营养价值。"
+    },
+    "delivery": {
+      "title": "全球配送",
+      "description": "快速、可靠地运送至20多个国家。"
+    },
+    "selection": {
+      "title": "品种丰富",
+      "description": "从金色葡萄干到优质开心果——超过100种干果、坚果和天然零食。"
+    }
+  },
+  "products": {
+    "sectionTitle": "我们的产品",
+    "sectionSubtitle": "探索我们丰富多样的优质干果和坚果",
+    "priceNote": "价格面议",
+    "prunes": {
+      "name": "西梅干",
+      "description": "口感香甜浓郁，可佐茶食用，也广泛用于菜肴与甜点。保存期长，便于长期备货。"
+    },
+    "peanuts": {
+      "name": "花生",
+      "description": "富含蛋白质、有益脂肪酸、钾、镁及B族维生素。补充能量，增强免疫力。"
+    },
+    "walnuts": {
+      "name": "干核桃仁",
+      "description": "含蛋白质、优质脂肪酸、钾、镁、铁和维生素E。有助于增强记忆力和免疫力。"
+    },
+    "driedApricots": {
+      "name": "无核杏干",
+      "description": "富含维生素A、C、铁和钾，有益于心血管健康，同时帮助消化。"
+    },
+    "raisins": {
+      "name": "葡萄干",
+      "description": "以自然方式晒干的葡萄。因香甜、营养和耐储存而备受青睐。"
+    },
+    "mungBeans": {
+      "name": "绿豆",
+      "description": "富含蛋白质、膳食纤维、铁、镁和B族维生素。助消化、补充能量，适合清淡饮食。"
+    },
+    "viewAll": "查看全部产品"
+  },
+  "stats": {
+    "products": "产品",
+    "clients": "客户",
+    "countries": "国家",
+    "certifications": "认证",
+    "productsValue": "100+",
+    "clientsValue": "500+",
+    "countriesValue": "20+",
+    "certificationsValue": "14"
+  },
+  "testimonials": {
+    "sectionTitle": "客户评价",
+    "sectionSubtitle": "深受全球企业和家庭信赖",
+    "items": [
+      {
+        "name": "米哈伊尔·彼得罗夫",
+        "role": "进口经理，莫斯科",
+        "text": "科坎干果是我们5年来值得信赖的供应商。品质始终卓越。"
+      },
+      {
+        "name": "法蒂玛·阿尔拉希德",
+        "role": "批发采购，迪拜",
+        "text": "我们采购到的最好的杏干和开心果。"
+      },
+      {
+        "name": "陈伟",
+        "role": "健康食品店店主，上海",
+        "text": "天然、无防腐剂的产品深受我们注重健康的客户喜爱。"
+      },
+      {
+        "name": "安娜·施密特",
+        "role": "餐厅主厨，柏林",
+        "text": "这些核桃和杏仁提升了我们的糕点菜单。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "与我们合作",
+    "subtitle": "无论您是零售商、批发商还是食品制造商——让我们共建丰硕的合作伙伴关系。",
+    "button": "联系我们"
+  },
+  "about": {
+    "heroTitle": "关于我们",
+    "heroSubtitle": "我们为您快速送上天然优质的果干",
+    "stats": {
+      "deliveredValue": "5000+",
+      "deliveredLabel": "已送达产品",
+      "customersValue": "1000+",
+      "customersLabel": "客户",
+      "certificatesValue": "14",
+      "certificatesLabel": "认证证书"
+    },
+    "story": {
+      "title": "自 2020 年起深耕这一领域",
+      "p1": "我们是一家值得信赖的优质果干供应商，服务于每一位重视健康饮食的人。",
+      "p2": "我们的产品直接从田间采摘，以自然方式晾晒，不添加任何人工色素或防腐剂，直达您的手中。"
+    },
+    "principles": {
+      "title": "我们的理念",
+      "items": [
+        {
+          "title": "天然产品",
+          "description": "不含任何人工添加剂。"
+        },
+        {
+          "title": "直接来自田间",
+          "description": "新鲜优质的选择。"
+        },
+        {
+          "title": "严格的质量管控",
+          "description": "每一颗都经过精心挑选。"
+        },
+        {
+          "title": "快速可靠的配送",
+          "description": "覆盖整个地区。"
+        },
+        {
+          "title": "客户的信任",
+          "description": "诚信与有保证的品质。"
+        }
+      ]
+    },
+    "partners": {
+      "title": "我们值得信赖的合作伙伴",
+      "subtitle": "我们与值得信赖的合作伙伴携手，提供优质的产品与服务。得益于他们的经验、可靠性和高度的责任感，我们才能为客户带来最好的成果。"
+    }
+  },
+  "contact": {
+    "heroTitle": "联系我们",
+    "heroSubtitle": "欢迎联系我们洽谈合作、下单或咨询。",
+    "form": {
+      "title": "留下您的联系方式，我们会与您联系",
+      "name": "姓名",
+      "phone": "电话号码",
+      "phoneHint": "选择国家/地区后输入号码。填写后邮箱为选填。",
+      "country": "国家/地区",
+      "countrySearch": "搜索国家或区号",
+      "countryNoResults": "未找到国家/地区",
+      "email": "邮箱",
+      "subject": "主题",
+      "message": "留言",
+      "send": "发送",
+      "optional": "选填",
+      "emailRequired": "请填写邮箱，或填写带国家/地区区号的完整电话号码。"
+    },
+    "info": {
+      "title": "联系方式",
+      "address": "乌兹别克斯坦费尔干纳地区科坎市",
+      "addressLabel": "地址",
+      "phone": "+998 73 253 00 00",
+      "phoneLabel": "电话",
+      "email": "info@kokanddryfruits.uz",
+      "emailLabel": "邮箱",
+      "hours": "周一至周六: 9:00 — 18:00 (UZT)",
+      "hoursLabel": "营业时间",
+      "viewOnMap": "在地图中打开"
+    }
+  },
+  "footer": {
+    "description": "来自乌兹别克斯坦科坎的优质干果和坚果——自2020年起出口全球。",
+    "quickLinks": "快速链接",
+    "ourProducts": "我们的产品",
+    "contactUs": "联系我们",
+    "followUs": "关注我们",
+    "rights": "版权所有。"
+  },
+  "common": {
+    "loading": "加载中"
+  },
+  "landing": {
+    "scroll": "向下滚动"
+  }
+}

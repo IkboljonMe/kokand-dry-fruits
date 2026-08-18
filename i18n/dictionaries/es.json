@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "title": "Kokand Frutas Secas — Frutas secas y frutos secos premium de Uzbekistán",
+    "description": "Frutas secas, frutos secos y productos naturales de calidad premium del corazón de Kokand, Uzbekistán. Exportación a más de 20 países."
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "products": "Productos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "tagline": "Del corazón de Kokand",
+    "title": "Frutas secas y frutos secos premium",
+    "subtitle": "De origen natural, cuidadosamente seleccionados y entregados en todo el mundo — el sabor auténtico de la mejor cosecha de Uzbekistán en su mesa.",
+    "slides": [
+      {
+        "title": "Enviamos a su país",
+        "subtitle": "Envíos a más de 20 países con embalaje apto para alimentos — desde nuestro almacén en Kokand hasta su puerta."
+      },
+      {
+        "title": "Precios honestos, directos del origen",
+        "subtitle": "Compramos directamente a las fincas del valle de Fergana, así obtiene calidad premium sin el margen del intermediario."
+      },
+      {
+        "title": "Frutos secos recogidos en su punto",
+        "subtitle": "Almendras, nueces y pistachos seleccionados a mano, bien conservados y nunca tratados con conservantes."
+      }
+    ],
+    "cta": "Explorar productos",
+    "ctaSecondary": "Nuestra historia"
+  },
+  "strengths": {
+    "sectionTitle": "Por qué elegirnos",
+    "sectionSubtitle": "Combinamos tradiciones centenarias con estándares de calidad modernos",
+    "quality": {
+      "title": "Calidad premium",
+      "description": "Cada producto pasa por rigurosas pruebas de calidad."
+    },
+    "fresh": {
+      "title": "Siempre fresco",
+      "description": "Nuestros productos se renuevan continuamente y se almacenan en condiciones óptimas."
+    },
+    "delivery": {
+      "title": "Envío mundial",
+      "description": "Envío rápido y confiable a más de 20 países."
+    },
+    "selection": {
+      "title": "Amplia selección",
+      "description": "De pasas doradas a pistachos premium — más de 100 variedades."
+    }
+  },
+  "products": {
+    "sectionTitle": "Nuestros productos",
+    "sectionSubtitle": "Explore nuestra diversa selección de frutas secas y frutos secos premium",
+    "priceNote": "Precio a convenir",
+    "prunes": {
+      "name": "Ciruelas pasas",
+      "description": "Dulces y sabrosas, se toman con el té y se usan en platos y postres. Se conservan mucho tiempo."
+    },
+    "peanuts": {
+      "name": "Cacahuetes",
+      "description": "Ricos en proteína, ácidos grasos saludables, potasio, magnesio y vitaminas del grupo B. Aportan energía y refuerzan las defensas."
+    },
+    "walnuts": {
+      "name": "Nueces secas",
+      "description": "Aportan proteína, ácidos grasos nutritivos, potasio, magnesio, hierro y vitamina E. Favorecen la memoria y la inmunidad."
+    },
+    "driedApricots": {
+      "name": "Orejones sin hueso",
+      "description": "Ricos en vitamina A y C, hierro y potasio, buenos para el corazón y los vasos sanguíneos. También ayudan a la digestión."
+    },
+    "raisins": {
+      "name": "Pasas",
+      "description": "Uva secada de forma natural. Apreciada por su dulzor, sus propiedades y su larga conservación."
+    },
+    "mungBeans": {
+      "name": "Frijol mungo",
+      "description": "Rico en proteína, fibra, hierro, magnesio y vitaminas del grupo B. Ayuda a la digestión, da energía y encaja en una cocina ligera."
+    },
+    "viewAll": "Ver todos los productos"
+  },
+  "stats": {
+    "products": "Productos",
+    "clients": "Clientes",
+    "countries": "Países",
+    "certifications": "Certificaciones",
+    "productsValue": "100+",
+    "clientsValue": "500+",
+    "countriesValue": "20+",
+    "certificationsValue": "14"
+  },
+  "testimonials": {
+    "sectionTitle": "Lo que dicen nuestros clientes",
+    "sectionSubtitle": "Confianza de empresas y familias de todo el mundo",
+    "items": [
+      {
+        "name": "Mikhail Petrov",
+        "role": "Gerente de importación, Moscú",
+        "text": "Kokand Frutas Secas ha sido nuestro proveedor de confianza durante 5 años."
+      },
+      {
+        "name": "Fatima Al-Rashid",
+        "role": "Compradora mayorista, Dubái",
+        "text": "Los mejores albaricoques secos y pistachos que hemos obtenido."
+      },
+      {
+        "name": "Chen Wei",
+        "role": "Dueño de tienda natural, Shanghái",
+        "text": "Productos naturales sin conservantes que nuestros clientes conscientes de la salud adoran."
+      },
+      {
+        "name": "Anna Schmidt",
+        "role": "Chef de restaurante, Berlín",
+        "text": "Estas nueces y almendras elevaron nuestro menú de repostería."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Sea nuestro socio",
+    "subtitle": "Minorista, mayorista o fabricante de alimentos — construyamos una asociación fructífera juntos.",
+    "button": "Contáctenos"
+  },
+  "about": {
+    "heroTitle": "Sobre nosotros",
+    "heroSubtitle": "Le entregamos frutos secos naturales y de calidad, con rapidez",
+    "stats": {
+      "deliveredValue": "5000+",
+      "deliveredLabel": "Productos entregados",
+      "customersValue": "1000+",
+      "customersLabel": "Clientes",
+      "certificatesValue": "14",
+      "certificatesLabel": "Certificados"
+    },
+    "story": {
+      "title": "En este sector desde 2020",
+      "p1": "Somos una fuente de confianza de frutos secos de calidad para todas las personas que valoran la alimentación saludable.",
+      "p2": "Nuestros productos se recogen directamente del campo, se secan de forma natural y llegan a usted sin ningún colorante ni conservante artificial."
+    },
+    "principles": {
+      "title": "Nuestros principios",
+      "items": [
+        {
+          "title": "Productos naturales",
+          "description": "Sin ningún aditivo artificial."
+        },
+        {
+          "title": "Directo del campo",
+          "description": "Una selección fresca y de calidad."
+        },
+        {
+          "title": "Control de calidad estricto",
+          "description": "Cada pieza se selecciona con esmero."
+        },
+        {
+          "title": "Entrega rápida y fiable",
+          "description": "En toda la región."
+        },
+        {
+          "title": "La confianza del cliente",
+          "description": "Honestidad y calidad garantizada."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Nuestros socios de confianza",
+      "subtitle": "Trabajamos junto a nuestros socios de confianza para ofrecer productos y servicios de calidad. Gracias a su experiencia, su fiabilidad y su alto sentido de la responsabilidad, logramos los mejores resultados para nuestros clientes."
+    }
+  },
+  "contact": {
+    "heroTitle": "Contacto",
+    "heroSubtitle": "Contáctenos para asociaciones, pedidos o cualquier consulta.",
+    "form": {
+      "title": "Déjenos sus datos de contacto y le contactaremos",
+      "name": "Su nombre",
+      "phone": "Número de teléfono",
+      "phoneHint": "Elija su país y escriba el número. Si lo indica, el correo es opcional.",
+      "country": "País",
+      "countrySearch": "Buscar país o prefijo",
+      "countryNoResults": "No se encontraron países",
+      "email": "Su email",
+      "subject": "Asunto",
+      "message": "Su mensaje",
+      "send": "Enviar",
+      "optional": "opcional",
+      "emailRequired": "Indique un correo electrónico o un número de teléfono completo con su prefijo de país."
+    },
+    "info": {
+      "title": "Contáctenos",
+      "address": "Kokand, Región de Fergana, Uzbekistán",
+      "addressLabel": "Dirección",
+      "phone": "+998 73 253 00 00",
+      "phoneLabel": "Teléfono",
+      "email": "info@kokanddryfruits.uz",
+      "emailLabel": "Correo electrónico",
+      "hours": "Lun–Sáb: 9:00 — 18:00 (UZT)",
+      "hoursLabel": "Horario",
+      "viewOnMap": "Abrir en mapas"
+    }
+  },
+  "footer": {
+    "description": "Frutas secas y frutos secos premium de Kokand, Uzbekistán — exportación mundial desde 2020.",
+    "quickLinks": "Enlaces rápidos",
+    "ourProducts": "Productos",
+    "contactUs": "Contacto",
+    "followUs": "Síguenos",
+    "rights": "Todos los derechos reservados."
+  },
+  "common": {
+    "loading": "Cargando"
+  },
+  "landing": {
+    "scroll": "desplazar"
+  }
+}

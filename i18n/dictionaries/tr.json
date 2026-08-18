@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "title": "Kokand Kuru Meyveleri — Özbekistan'dan Premium Kuru Meyveler ve Kuruyemişler",
+    "description": "Özbekistan Kokand'ın kalbinden gelen premium kaliteli kurutulmuş meyveler, kuruyemişler ve doğal ürünler."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünler",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "tagline": "Kokand'ın Kalbinden",
+    "title": "Premium Kuru Meyveler ve Kuruyemişler",
+    "subtitle": "Doğal kaynaklı, özenle seçilmiş ve dünya çapında teslim edilen — Özbekistan'ın en iyi hasadının otantik lezzeti sofranızda.",
+    "slides": [
+      {
+        "title": "Kendi ülkenize teslim",
+        "subtitle": "20’den fazla ülkeye gıdaya uygun ambalajla gönderim — Kokand’daki depomuzdan doğrudan kapınıza."
+      },
+      {
+        "title": "Dürüst fiyatlar, doğrudan kaynağından",
+        "subtitle": "Fergana Vadisi’ndeki çiftliklerden doğrudan alıyoruz; aracı payı olmadan birinci sınıf kalite sizin oluyor."
+      },
+      {
+        "title": "Tam zamanında toplanan kuruyemişler",
+        "subtitle": "Badem, ceviz ve antep fıstığı elle seçilir, doğru koşullarda saklanır ve asla koruyucu madde görmez."
+      }
+    ],
+    "cta": "Ürünlerimizi Keşfedin",
+    "ctaSecondary": "Hikayemiz"
+  },
+  "strengths": {
+    "sectionTitle": "Neden Bizi Seçmelisiniz",
+    "sectionSubtitle": "Asırlık gelenekleri modern kalite standartlarıyla birleştiriyoruz",
+    "quality": {
+      "title": "Premium Kalite",
+      "description": "Her ürün titiz kalite testlerinden geçer. Sadece en iyi, katkı maddesiz kuru meyveler ve kuruyemişler."
+    },
+    "fresh": {
+      "title": "Her Zaman Taze",
+      "description": "Ürünlerimiz sürekli yenilenir ve doğal lezzeti korumak için optimal koşullarda saklanır."
+    },
+    "delivery": {
+      "title": "Küresel Teslimat",
+      "description": "20'den fazla ülkeye hızlı, güvenilir gönderim."
+    },
+    "selection": {
+      "title": "Geniş Seçim",
+      "description": "Altın üzümden premium Antep fıstığına — 100'den fazla çeşit kuru meyve ve kuruyemiş."
+    }
+  },
+  "products": {
+    "sectionTitle": "Ürünlerimiz",
+    "sectionSubtitle": "Premium kuru meyve ve kuruyemişlerin çeşitli seçkisini keşfedin",
+    "priceNote": "Fiyat görüşülür",
+    "prunes": {
+      "name": "Kuru Erik",
+      "description": "Tatlı ve dolgun aromasıyla çayın yanında, yemeklerde ve tatlılarda kullanılır. Uzun süre dayandığı için stoklaması kolaydır."
+    },
+    "peanuts": {
+      "name": "Yer Fıstığı",
+      "description": "Protein, sağlıklı yağ asitleri, potasyum, magnezyum ve B vitaminleri bakımından zengindir. Enerji verir ve bağışıklığı güçlendirir."
+    },
+    "walnuts": {
+      "name": "Kuru Ceviz",
+      "description": "Protein, besleyici yağ asitleri, potasyum, magnezyum, demir ve E vitamini içerir. Hafızayı destekler, bağışıklığı artırır."
+    },
+    "driedApricots": {
+      "name": "Çekirdeksiz Kuru Kayısı",
+      "description": "A ve C vitamini, demir ve potasyum açısından zengindir; kalp ve damar sağlığına iyi gelir. Sindirimi de kolaylaştırır."
+    },
+    "raisins": {
+      "name": "Kuru Üzüm",
+      "description": "Doğal yolla kurutulmuş üzüm. Tatlılığı, faydası ve uzun raf ömrüyle değerlidir."
+    },
+    "mungBeans": {
+      "name": "Maş Fasulyesi",
+      "description": "Protein, lif, demir, magnezyum ve B vitaminleri bakımından zengindir. Sindirime yardımcı olur, enerji verir, diyet yemeklerine uygundur."
+    },
+    "viewAll": "Tüm Ürünleri Gör"
+  },
+  "stats": {
+    "products": "Ürün",
+    "clients": "Müşteri",
+    "countries": "Ülke",
+    "certifications": "Sertifika",
+    "productsValue": "100+",
+    "clientsValue": "500+",
+    "countriesValue": "20+",
+    "certificationsValue": "14"
+  },
+  "testimonials": {
+    "sectionTitle": "Müşterilerimiz Ne Diyor",
+    "sectionSubtitle": "Dünya genelinde işletmeler ve aileler tarafından güveniliyor",
+    "items": [
+      {
+        "name": "Mikhail Petrov",
+        "role": "İthalat Müdürü, Moskova",
+        "text": "Kokand Kuru Meyveleri 5 yıldır güvenilir tedarikçimiz. Kalite sürekli mükemmel."
+      },
+      {
+        "name": "Fatima Al-Rashid",
+        "role": "Toptan Alıcı, Dubai",
+        "text": "Tedarik ettiğimiz en iyi kuru kayısı ve Antep fıstığı."
+      },
+      {
+        "name": "Chen Wei",
+        "role": "Sağlıklı Yaşam Mağazası, Şanghay",
+        "text": "Sağlık bilincine sahip müşterilerimizin sevdiği doğal, katkısız ürünler."
+      },
+      {
+        "name": "Anna Schmidt",
+        "role": "Restoran Şefi, Berlin",
+        "text": "Bu cevizler ve bademler pastane menümüzü yükseltti."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ortağımız Olun",
+    "subtitle": "Perakendeci, toptancı veya gıda üreticisi olun — birlikte verimli bir ortaklık kuralım.",
+    "button": "İletişime Geçin"
+  },
+  "about": {
+    "heroTitle": "Hakkımızda",
+    "heroSubtitle": "Size doğal ve kaliteli kuru meyveleri hızla ulaştırıyoruz",
+    "stats": {
+      "deliveredValue": "5000+",
+      "deliveredLabel": "Teslim edilen ürün",
+      "customersValue": "1000+",
+      "customersLabel": "Müşteri",
+      "certificatesValue": "14",
+      "certificatesLabel": "Sertifika"
+    },
+    "story": {
+      "title": "2020'den beri bu alandayız",
+      "p1": "Sağlıklı beslenmeye değer veren herkes için kaliteli kuru meyve sunan güvenilir bir kaynağız.",
+      "p2": "Ürünlerimiz doğrudan tarladan toplanır, doğal yollarla kurutulur ve hiçbir yapay renklendirici ya da koruyucu madde olmadan size ulaşır."
+    },
+    "principles": {
+      "title": "İlkelerimiz",
+      "items": [
+        {
+          "title": "Doğal ürünler",
+          "description": "Hiçbir yapay katkı maddesi olmadan."
+        },
+        {
+          "title": "Doğrudan tarladan",
+          "description": "Taze ve kaliteli bir seçki."
+        },
+        {
+          "title": "Sıkı kalite kontrolü",
+          "description": "Her bir tanesi özenle ayıklanır."
+        },
+        {
+          "title": "Hızlı ve güvenilir teslimat",
+          "description": "Bölge genelinde."
+        },
+        {
+          "title": "Müşteri güveni",
+          "description": "Dürüstlük ve garantili kalite."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Güvenilir İş Ortaklarımız",
+      "subtitle": "Kaliteli ürün ve hizmet sunmak için güvenilir iş ortaklarımızla birlikte çalışıyoruz. Onların deneyimi, güvenilirliği ve yüksek sorumluluk duygusu sayesinde müşterilerimize en iyi sonucu sunuyoruz."
+    }
+  },
+  "contact": {
+    "heroTitle": "İletişim",
+    "heroSubtitle": "Ortaklıklar, siparişler veya herhangi bir soru için bize ulaşın.",
+    "form": {
+      "title": "İletişim bilgilerinizi bırakın, sizinle iletişime geçelim",
+      "name": "Adınız",
+      "phone": "Telefon Numarası",
+      "phoneHint": "Ülkenizi seçin ve numarayı yazın. Girerseniz e-posta zorunlu değildir.",
+      "country": "Ülke",
+      "countrySearch": "Ülke veya kod ara",
+      "countryNoResults": "Ülke bulunamadı",
+      "email": "E-postanız",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "send": "Gönder",
+      "optional": "isteğe bağlı",
+      "emailRequired": "Lütfen e-posta veya ülke koduyla birlikte eksiksiz bir telefon numarası girin."
+    },
+    "info": {
+      "title": "İletişime Geçin",
+      "address": "Kokand, Fergana Bölgesi, Özbekistan",
+      "addressLabel": "Adres",
+      "phone": "+998 73 253 00 00",
+      "phoneLabel": "Telefon",
+      "email": "info@kokanddryfruits.uz",
+      "emailLabel": "E-posta",
+      "hours": "Pzt–Cmt: 9:00 — 18:00 (UZT)",
+      "hoursLabel": "Çalışma Saatleri",
+      "viewOnMap": "Haritalarda aç"
+    }
+  },
+  "footer": {
+    "description": "Kokand, Özbekistan'dan premium kuru meyveler ve kuruyemişler — 2020'den beri dünya çapında ihracat.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "ourProducts": "Ürünlerimiz",
+    "contactUs": "İletişim",
+    "followUs": "Bizi Takip Edin",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "common": {
+    "loading": "Yükleniyor"
+  },
+  "landing": {
+    "scroll": "kaydır"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "title": "Kokand Fruits Secs — Fruits secs et noix premium d'Ouzbékistan",
+    "description": "Fruits secs, noix et produits naturels de qualité premium du cœur de Kokand, Ouzbékistan. Exportation vers plus de 20 pays."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "products": "Produits",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Du cœur de Kokand",
+    "title": "Fruits secs et noix premium",
+    "subtitle": "Naturellement sourcés, soigneusement sélectionnés et livrés dans le monde entier — le goût authentique de la meilleure récolte d'Ouzbékistan sur votre table.",
+    "slides": [
+      {
+        "title": "Livré dans votre pays",
+        "subtitle": "Expédition vers plus de 20 pays dans un emballage alimentaire soigné — de notre entrepôt de Kokand jusqu’à votre porte."
+      },
+      {
+        "title": "Des prix justes, directement à la source",
+        "subtitle": "Nous achetons directement aux fermes de la vallée de Ferghana : une qualité premium sans marge d’intermédiaire."
+      },
+      {
+        "title": "Des fruits secs cueillis à maturité",
+        "subtitle": "Amandes, noix et pistaches triées à la main, stockées comme il faut et jamais traitées aux conservateurs."
+      }
+    ],
+    "cta": "Découvrir nos produits",
+    "ctaSecondary": "Notre histoire"
+  },
+  "strengths": {
+    "sectionTitle": "Pourquoi nous choisir",
+    "sectionSubtitle": "Nous combinons des traditions séculaires avec des standards de qualité modernes",
+    "quality": {
+      "title": "Qualité premium",
+      "description": "Chaque produit subit des tests de qualité rigoureux. Seuls les meilleurs fruits secs et noix sans conservateurs."
+    },
+    "fresh": {
+      "title": "Toujours frais",
+      "description": "Nos produits sont continuellement renouvelés et stockés dans des conditions optimales."
+    },
+    "delivery": {
+      "title": "Livraison mondiale",
+      "description": "Expédition rapide et fiable vers plus de 20 pays."
+    },
+    "selection": {
+      "title": "Large sélection",
+      "description": "Des raisins dorés aux pistaches premium — plus de 100 variétés de fruits secs et noix."
+    }
+  },
+  "products": {
+    "sectionTitle": "Nos produits",
+    "sectionSubtitle": "Explorez notre sélection diversifiée de fruits secs et noix premium",
+    "priceNote": "Prix sur demande",
+    "prunes": {
+      "name": "Pruneaux séchés",
+      "description": "Doux et parfumés, ils accompagnent le thé et entrent dans les plats comme dans les desserts. Ils se conservent longtemps."
+    },
+    "peanuts": {
+      "name": "Cacahuètes",
+      "description": "Riches en protéines, en bons acides gras, en potassium, en magnésium et en vitamines B. Elles apportent de l'énergie et soutiennent l'immunité."
+    },
+    "walnuts": {
+      "name": "Noix séchées",
+      "description": "Elles apportent protéines, acides gras nourrissants, potassium, magnésium, fer et vitamine E. Bonnes pour la mémoire et l'immunité."
+    },
+    "driedApricots": {
+      "name": "Abricots secs dénoyautés",
+      "description": "Riches en vitamines A et C, en fer et en potassium, utiles au cœur et aux vaisseaux. Ils facilitent aussi la digestion."
+    },
+    "raisins": {
+      "name": "Raisins secs",
+      "description": "Du raisin séché naturellement. Apprécié pour sa douceur, ses bienfaits et sa longue conservation."
+    },
+    "mungBeans": {
+      "name": "Haricots mungo",
+      "description": "Riches en protéines, fibres, fer, magnésium et vitamines B. Ils facilitent la digestion, donnent de l'énergie et conviennent à une cuisine légère."
+    },
+    "viewAll": "Voir tous les produits"
+  },
+  "stats": {
+    "products": "Produits",
+    "clients": "Clients",
+    "countries": "Pays",
+    "certifications": "Certifications",
+    "productsValue": "100+",
+    "clientsValue": "500+",
+    "countriesValue": "20+",
+    "certificationsValue": "14"
+  },
+  "testimonials": {
+    "sectionTitle": "Ce que disent nos clients",
+    "sectionSubtitle": "La confiance des entreprises et familles du monde entier",
+    "items": [
+      {
+        "name": "Mikhail Petrov",
+        "role": "Responsable import, Moscou",
+        "text": "Kokand Fruits Secs est notre fournisseur de confiance depuis 5 ans. La qualité est toujours excellente."
+      },
+      {
+        "name": "Fatima Al-Rashid",
+        "role": "Acheteuse en gros, Dubaï",
+        "text": "Les meilleurs abricots secs et pistaches que nous ayons sourcés."
+      },
+      {
+        "name": "Chen Wei",
+        "role": "Propriétaire de magasin bio, Shanghai",
+        "text": "Des produits naturels sans conservateurs que nos clients soucieux de leur santé adorent."
+      },
+      {
+        "name": "Anna Schmidt",
+        "role": "Chef de restaurant, Berlin",
+        "text": "Ces noix et amandes ont élevé notre menu de pâtisserie."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Devenez notre partenaire",
+    "subtitle": "Détaillant, grossiste ou fabricant alimentaire — construisons un partenariat fructueux ensemble.",
+    "button": "Nous contacter"
+  },
+  "about": {
+    "heroTitle": "À propos de nous",
+    "heroSubtitle": "Nous vous livrons rapidement des fruits secs naturels et de qualité",
+    "stats": {
+      "deliveredValue": "5000+",
+      "deliveredLabel": "Produits livrés",
+      "customersValue": "1000+",
+      "customersLabel": "Clients",
+      "certificatesValue": "14",
+      "certificatesLabel": "Certificats"
+    },
+    "story": {
+      "title": "Dans ce domaine depuis 2020",
+      "p1": "Nous sommes une source fiable de fruits secs de qualité pour tous ceux qui accordent de l’importance à une alimentation saine.",
+      "p2": "Nos produits sont cueillis directement dans les champs, séchés naturellement et vous parviennent sans aucun colorant ni conservateur artificiel."
+    },
+    "principles": {
+      "title": "Nos principes",
+      "items": [
+        {
+          "title": "Produits naturels",
+          "description": "Sans aucun additif artificiel."
+        },
+        {
+          "title": "Directement du champ",
+          "description": "Une sélection fraîche et de qualité."
+        },
+        {
+          "title": "Contrôle qualité rigoureux",
+          "description": "Chaque fruit est trié avec soin."
+        },
+        {
+          "title": "Livraison rapide et fiable",
+          "description": "Dans toute la région."
+        },
+        {
+          "title": "La confiance des clients",
+          "description": "Honnêteté et qualité garantie."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Nos partenaires de confiance",
+      "subtitle": "Nous travaillons aux côtés de nos partenaires de confiance pour offrir des produits et des services de qualité. Grâce à leur expérience, leur fiabilité et leur grand sens des responsabilités, nous obtenons les meilleurs résultats pour nos clients."
+    }
+  },
+  "contact": {
+    "heroTitle": "Contactez-nous",
+    "heroSubtitle": "Contactez-nous pour des partenariats, commandes ou toute question.",
+    "form": {
+      "title": "Laissez vos coordonnées, nous vous recontacterons",
+      "name": "Votre nom",
+      "phone": "Numéro de téléphone",
+      "phoneHint": "Choisissez votre pays, puis saisissez le numéro. Si vous l’indiquez, l’e-mail est facultatif.",
+      "country": "Pays",
+      "countrySearch": "Rechercher un pays ou un indicatif",
+      "countryNoResults": "Aucun pays trouvé",
+      "email": "Votre email",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "send": "Envoyer",
+      "optional": "facultatif",
+      "emailRequired": "Veuillez indiquer un e-mail ou un numéro de téléphone complet avec son indicatif pays."
+    },
+    "info": {
+      "title": "Nous contacter",
+      "address": "Kokand, Région de Fergana, Ouzbékistan",
+      "addressLabel": "Adresse",
+      "phone": "+998 73 253 00 00",
+      "phoneLabel": "Téléphone",
+      "email": "info@kokanddryfruits.uz",
+      "emailLabel": "E-mail",
+      "hours": "Lun–Sam: 9h00 — 18h00 (UZT)",
+      "hoursLabel": "Horaires d’ouverture",
+      "viewOnMap": "Ouvrir dans les cartes"
+    }
+  },
+  "footer": {
+    "description": "Fruits secs et noix premium de Kokand, Ouzbékistan — exportation mondiale depuis 2020.",
+    "quickLinks": "Liens rapides",
+    "ourProducts": "Nos produits",
+    "contactUs": "Contact",
+    "followUs": "Suivez-nous",
+    "rights": "Tous droits réservés."
+  },
+  "common": {
+    "loading": "Chargement"
+  },
+  "landing": {
+    "scroll": "défiler"
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "title": "Kokand Dry Fruits — Premium Dried Fruits & Nuts from Uzbekistan",
+    "description": "Premium quality dried fruits, nuts, and natural products sourced from the heart of Kokand, Uzbekistan. Exported to 20+ countries worldwide."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "From the Heart of Kokand",
+    "title": "Premium Dried Fruits & Nuts",
+    "subtitle": "Naturally sourced, carefully selected, and delivered worldwide — bringing the authentic taste of Uzbekistan's finest harvest to your table.",
+    "slides": [
+      {
+        "title": "Delivered To Your Home Country",
+        "subtitle": "Shipping to 20+ countries with careful, food-safe packaging — from our warehouse in Kokand straight to your door."
+      },
+      {
+        "title": "Honest Prices, Direct From The Source",
+        "subtitle": "We buy straight from Fergana Valley farms, so you get premium quality without the middleman markup."
+      },
+      {
+        "title": "Nuts Picked At Their Peak",
+        "subtitle": "Almonds, walnuts and pistachios selected by hand, stored properly, and never treated with preservatives."
+      }
+    ],
+    "cta": "Explore Our Products",
+    "ctaSecondary": "Our Story"
+  },
+  "strengths": {
+    "sectionTitle": "Why Choose Us",
+    "sectionSubtitle": "We combine centuries-old traditions with modern quality standards",
+    "quality": {
+      "title": "Premium Quality",
+      "description": "Every product undergoes rigorous quality testing. Only the finest, preservative-free dried fruits and nuts make it to our shelves."
+    },
+    "fresh": {
+      "title": "Always Fresh",
+      "description": "Our products are continuously restocked and stored under optimal conditions to preserve their natural taste and nutritional value."
+    },
+    "delivery": {
+      "title": "Global Delivery",
+      "description": "Fast, reliable shipping to over 20 countries. Your products arrive safely packaged and on time, every time."
+    },
+    "selection": {
+      "title": "Wide Selection",
+      "description": "From golden raisins to premium pistachios — over 100 varieties of dried fruits, nuts, and natural snacks in one place."
+    }
+  },
+  "products": {
+    "sectionTitle": "Our Products",
+    "sectionSubtitle": "Explore our diverse selection of premium dried fruits and nuts",
+    "priceNote": "Price on request",
+    "prunes": {
+      "name": "Dried Plums (Prunes)",
+      "description": "Sweet and full-flavoured, served with tea and used throughout cooking and confectionery. They keep for a long time, so they are easy to stock."
+    },
+    "peanuts": {
+      "name": "Peanuts",
+      "description": "Rich in protein, healthy fatty acids, potassium, magnesium and B vitamins. They give the body energy and strengthen the immune system."
+    },
+    "walnuts": {
+      "name": "Dried Walnuts",
+      "description": "Walnuts carry protein, nourishing fatty acids, potassium, magnesium, iron and vitamin E. They support memory and help build immunity."
+    },
+    "driedApricots": {
+      "name": "Pitted Dried Apricots",
+      "description": "High in vitamin A, vitamin C, iron and potassium, which support the heart and blood vessels. They also aid digestion."
+    },
+    "raisins": {
+      "name": "Raisins",
+      "description": "Grapes dried the natural way. Prized for their sweetness, their goodness and how well they keep."
+    },
+    "mungBeans": {
+      "name": "Mung Beans",
+      "description": "Rich in protein, fibre, iron, magnesium and B vitamins. They aid digestion, give energy and suit light, dietary cooking."
+    },
+    "viewAll": "View All Products"
+  },
+  "stats": {
+    "products": "Products",
+    "clients": "Clients",
+    "countries": "Countries",
+    "certifications": "Certifications",
+    "productsValue": "100+",
+    "clientsValue": "500+",
+    "countriesValue": "20+",
+    "certificationsValue": "14"
+  },
+  "testimonials": {
+    "sectionTitle": "What Our Clients Say",
+    "sectionSubtitle": "Trusted by businesses and families around the world",
+    "items": [
+      {
+        "name": "Mikhail Petrov",
+        "role": "Import Manager, Moscow",
+        "text": "Kokand Dry Fruits has been our trusted supplier for 5 years. The quality is consistently excellent, and their delivery is always on time."
+      },
+      {
+        "name": "Fatima Al-Rashid",
+        "role": "Wholesale Buyer, Dubai",
+        "text": "The best dried apricots and pistachios we've sourced. Our customers always come back for more. Outstanding quality from Uzbekistan."
+      },
+      {
+        "name": "Chen Wei",
+        "role": "Health Store Owner, Shanghai",
+        "text": "Natural, preservative-free products that our health-conscious customers love. The golden raisins are a bestseller in our store."
+      },
+      {
+        "name": "Anna Schmidt",
+        "role": "Restaurant Chef, Berlin",
+        "text": "These walnuts and almonds have elevated our pastry menu. The freshness and flavor are unmatched by any European supplier."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Partner With Us",
+    "subtitle": "Whether you're a retailer, wholesaler, or food manufacturer — let's build a fruitful partnership together.",
+    "button": "Get In Touch"
+  },
+  "about": {
+    "heroTitle": "About Us",
+    "heroSubtitle": "We deliver natural, quality dried fruits to you, fast",
+    "stats": {
+      "deliveredValue": "5000+",
+      "deliveredLabel": "Products delivered",
+      "customersValue": "1000+",
+      "customersLabel": "Customers",
+      "certificatesValue": "14",
+      "certificatesLabel": "Certificates"
+    },
+    "story": {
+      "title": "In this business since 2020",
+      "p1": "We are a trusted source of quality dried fruits for everyone who values healthy food.",
+      "p2": "Our products are picked straight from the fields, dried naturally, and reach you without any artificial colourings or preservatives."
+    },
+    "principles": {
+      "title": "What We Stand For",
+      "items": [
+        {
+          "title": "Natural products",
+          "description": "Without any artificial additives."
+        },
+        {
+          "title": "Straight from the field",
+          "description": "A fresh and quality selection."
+        },
+        {
+          "title": "Strict quality control",
+          "description": "Every single piece is carefully sorted."
+        },
+        {
+          "title": "Fast, reliable delivery",
+          "description": "Across the region."
+        },
+        {
+          "title": "Customer trust",
+          "description": "Honesty and guaranteed quality."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Our Trusted Partners",
+      "subtitle": "We work alongside our trusted partners to deliver quality products and services. Thanks to their experience, reliability and high sense of responsibility, we deliver the best results to our customers."
+    }
+  },
+  "contact": {
+    "heroTitle": "Contact Us",
+    "heroSubtitle": "We'd love to hear from you. Reach out for partnerships, orders, or any inquiries.",
+    "form": {
+      "title": "Leave your contact details and we'll contact you",
+      "name": "Your Name",
+      "phone": "Phone Number",
+      "phoneHint": "Pick your country, then type the number. If you provide it, email is optional.",
+      "country": "Country",
+      "countrySearch": "Search country or code",
+      "countryNoResults": "No countries found",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message",
+      "optional": "optional",
+      "emailRequired": "Please enter your email or a complete phone number with its country code."
+    },
+    "info": {
+      "title": "Get In Touch",
+      "address": "Kokand, Fergana Region, Uzbekistan",
+      "addressLabel": "Address",
+      "phone": "+998 73 253 00 00",
+      "phoneLabel": "Phone",
+      "email": "info@kokanddryfruits.uz",
+      "emailLabel": "Email",
+      "hours": "Mon–Sat: 9:00 — 18:00 (UZT)",
+      "hoursLabel": "Working Hours",
+      "viewOnMap": "Open in maps"
+    }
+  },
+  "footer": {
+    "description": "Premium dried fruits & nuts from Kokand, Uzbekistan — exported worldwide since 2020.",
+    "quickLinks": "Quick Links",
+    "ourProducts": "Our Products",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "loading": "Loading"
+  },
+  "landing": {
+    "scroll": "scroll"
+  }
+}

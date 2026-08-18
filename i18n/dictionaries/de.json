@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "title": "Kokand Trockenfrüchte — Premium Trockenfrüchte & Nüsse aus Usbekistan",
+    "description": "Premium Trockenfrüchte, Nüsse und Naturprodukte aus dem Herzen von Kokand, Usbekistan. Export in über 20 Länder weltweit."
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "products": "Produkte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "Aus dem Herzen von Kokand",
+    "title": "Premium Trockenfrüchte & Nüsse",
+    "subtitle": "Natürlich gewonnen, sorgfältig ausgewählt und weltweit geliefert — der authentische Geschmack der besten Ernte Usbekistans.",
+    "slides": [
+      {
+        "title": "Lieferung in Ihr Heimatland",
+        "subtitle": "Versand in über 20 Länder in lebensmittelechter Verpackung — von unserem Lager in Kokand direkt vor Ihre Tür."
+      },
+      {
+        "title": "Faire Preise, direkt vom Erzeuger",
+        "subtitle": "Wir kaufen direkt bei den Höfen im Ferghanatal — Premiumqualität ohne Zwischenhändleraufschlag."
+      },
+      {
+        "title": "Nüsse, im besten Moment geerntet",
+        "subtitle": "Mandeln, Walnüsse und Pistazien werden von Hand verlesen, richtig gelagert und nie mit Konservierungsstoffen behandelt."
+      }
+    ],
+    "cta": "Produkte entdecken",
+    "ctaSecondary": "Unsere Geschichte"
+  },
+  "strengths": {
+    "sectionTitle": "Warum wir",
+    "sectionSubtitle": "Wir verbinden jahrhundertealte Traditionen mit modernen Qualitätsstandards",
+    "quality": {
+      "title": "Premium Qualität",
+      "description": "Jedes Produkt durchläuft strenge Qualitätstests."
+    },
+    "fresh": {
+      "title": "Immer frisch",
+      "description": "Unsere Produkte werden kontinuierlich erneuert und unter optimalen Bedingungen gelagert."
+    },
+    "delivery": {
+      "title": "Weltweite Lieferung",
+      "description": "Schneller, zuverlässiger Versand in über 20 Länder."
+    },
+    "selection": {
+      "title": "Große Auswahl",
+      "description": "Von goldenen Rosinen bis zu Premium-Pistazien — über 100 Sorten."
+    }
+  },
+  "products": {
+    "sectionTitle": "Unsere Produkte",
+    "sectionSubtitle": "Entdecken Sie unsere vielfältige Auswahl an Premium Trockenfrüchten und Nüssen",
+    "priceNote": "Preis auf Anfrage",
+    "prunes": {
+      "name": "Getrocknete Pflaumen",
+      "description": "Süß und aromatisch — zum Tee, in Gerichten und in Süßspeisen. Sie halten lange und lassen sich gut bevorraten."
+    },
+    "peanuts": {
+      "name": "Erdnüsse",
+      "description": "Reich an Eiweiß, guten Fettsäuren, Kalium, Magnesium und B-Vitaminen. Sie geben Energie und stärken die Abwehrkräfte."
+    },
+    "walnuts": {
+      "name": "Getrocknete Walnüsse",
+      "description": "Enthalten Eiweiß, nahrhafte Fettsäuren, Kalium, Magnesium, Eisen und Vitamin E. Gut für Gedächtnis und Immunsystem."
+    },
+    "driedApricots": {
+      "name": "Entsteinte Trockenaprikosen",
+      "description": "Reich an Vitamin A und C, Eisen und Kalium — gut für Herz und Gefäße. Sie unterstützen auch die Verdauung."
+    },
+    "raisins": {
+      "name": "Rosinen",
+      "description": "Auf natürliche Weise getrocknete Trauben. Geschätzt für Süße, Nährwert und lange Haltbarkeit."
+    },
+    "mungBeans": {
+      "name": "Mungbohnen",
+      "description": "Reich an Eiweiß, Ballaststoffen, Eisen, Magnesium und B-Vitaminen. Sie fördern die Verdauung, geben Energie und passen zu leichter Küche."
+    },
+    "viewAll": "Alle Produkte ansehen"
+  },
+  "stats": {
+    "products": "Produkte",
+    "clients": "Kunden",
+    "countries": "Länder",
+    "certifications": "Zertifikate",
+    "productsValue": "100+",
+    "clientsValue": "500+",
+    "countriesValue": "20+",
+    "certificationsValue": "14"
+  },
+  "testimonials": {
+    "sectionTitle": "Was unsere Kunden sagen",
+    "sectionSubtitle": "Vertraut von Unternehmen und Familien weltweit",
+    "items": [
+      {
+        "name": "Mikhail Petrov",
+        "role": "Importmanager, Moskau",
+        "text": "Kokand Trockenfrüchte ist seit 5 Jahren unser vertrauenswürdiger Lieferant."
+      },
+      {
+        "name": "Fatima Al-Rashid",
+        "role": "Großhändlerin, Dubai",
+        "text": "Die besten getrockneten Aprikosen und Pistazien, die wir beschafft haben."
+      },
+      {
+        "name": "Chen Wei",
+        "role": "Bioladen-Besitzer, Shanghai",
+        "text": "Natürliche, konservierungsstofffreie Produkte, die unsere gesundheitsbewussten Kunden lieben."
+      },
+      {
+        "name": "Anna Schmidt",
+        "role": "Restaurantköchin, Berlin",
+        "text": "Diese Walnüsse und Mandeln haben unser Gebäckmenü auf ein neues Niveau gehoben."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Werden Sie unser Partner",
+    "subtitle": "Ob Einzelhändler, Großhändler oder Lebensmittelhersteller — lassen Sie uns eine fruchtbare Partnerschaft aufbauen.",
+    "button": "Kontaktieren"
+  },
+  "about": {
+    "heroTitle": "Über uns",
+    "heroSubtitle": "Wir liefern Ihnen natürliche, hochwertige Trockenfrüchte – schnell",
+    "stats": {
+      "deliveredValue": "5000+",
+      "deliveredLabel": "Gelieferte Produkte",
+      "customersValue": "1000+",
+      "customersLabel": "Kunden",
+      "certificatesValue": "14",
+      "certificatesLabel": "Zertifikate"
+    },
+    "story": {
+      "title": "Seit 2020 in dieser Branche",
+      "p1": "Wir sind eine vertrauenswürdige Quelle für hochwertige Trockenfrüchte – für alle, die gesunde Ernährung schätzen.",
+      "p2": "Unsere Produkte werden direkt auf den Feldern geerntet, auf natürliche Weise getrocknet und erreichen Sie ohne künstliche Farb- oder Konservierungsstoffe."
+    },
+    "principles": {
+      "title": "Wofür wir stehen",
+      "items": [
+        {
+          "title": "Natürliche Produkte",
+          "description": "Ohne jegliche künstliche Zusätze."
+        },
+        {
+          "title": "Direkt vom Feld",
+          "description": "Eine frische Auswahl in bester Qualität."
+        },
+        {
+          "title": "Strenge Qualitätskontrolle",
+          "description": "Jedes einzelne Stück wird sorgfältig sortiert."
+        },
+        {
+          "title": "Schnelle, zuverlässige Lieferung",
+          "description": "In der gesamten Region."
+        },
+        {
+          "title": "Vertrauen der Kunden",
+          "description": "Ehrlichkeit und garantierte Qualität."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Unsere vertrauensvollen Partner",
+      "subtitle": "Wir arbeiten gemeinsam mit unseren vertrauensvollen Partnern daran, hochwertige Produkte und Dienstleistungen zu liefern. Dank ihrer Erfahrung, Zuverlässigkeit und hohen Verantwortung erzielen wir für unsere Kunden die besten Ergebnisse."
+    }
+  },
+  "contact": {
+    "heroTitle": "Kontakt",
+    "heroSubtitle": "Kontaktieren Sie uns für Partnerschaften, Bestellungen oder Fragen.",
+    "form": {
+      "title": "Hinterlassen Sie Ihre Kontaktdaten — wir melden uns bei Ihnen",
+      "name": "Ihr Name",
+      "phone": "Telefonnummer",
+      "phoneHint": "Land auswählen und Nummer eingeben. Wenn Sie sie angeben, ist die E-Mail optional.",
+      "country": "Land",
+      "countrySearch": "Land oder Vorwahl suchen",
+      "countryNoResults": "Keine Länder gefunden",
+      "email": "Ihre E-Mail",
+      "subject": "Betreff",
+      "message": "Ihre Nachricht",
+      "send": "Senden",
+      "optional": "optional",
+      "emailRequired": "Bitte geben Sie eine E-Mail oder eine vollständige Telefonnummer mit Ländervorwahl an."
+    },
+    "info": {
+      "title": "Kontakt",
+      "address": "Kokand, Region Fergana, Usbekistan",
+      "addressLabel": "Adresse",
+      "phone": "+998 73 253 00 00",
+      "phoneLabel": "Telefon",
+      "email": "info@kokanddryfruits.uz",
+      "emailLabel": "E-Mail",
+      "hours": "Mo–Sa: 9:00 — 18:00 (UZT)",
+      "hoursLabel": "Öffnungszeiten",
+      "viewOnMap": "In Karten öffnen"
+    }
+  },
+  "footer": {
+    "description": "Premium Trockenfrüchte & Nüsse aus Kokand, Usbekistan — weltweiter Export seit 2020.",
+    "quickLinks": "Schnelllinks",
+    "ourProducts": "Produkte",
+    "contactUs": "Kontakt",
+    "followUs": "Folgen Sie uns",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "common": {
+    "loading": "Wird geladen"
+  },
+  "landing": {
+    "scroll": "scrollen"
+  }
+}

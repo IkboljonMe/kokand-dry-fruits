@@ -4,3 +4,10 @@ assets-src/
 node_modules/
 .DS_Store
 *.log
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+.vercel
+tsconfig.tsbuildinfo

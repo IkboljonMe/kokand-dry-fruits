@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "title": "코칸드 건과일 — 우즈베키스탄의 프리미엄 건과일과 견과류",
+    "description": "우즈베키스탄 코칸드 중심부에서 생산된 프리미엄 건과일, 견과류, 천연 제품. 전 세계 20개국 이상 수출."
+  },
+  "nav": {
+    "home": "홈",
+    "about": "회사 소개",
+    "products": "제품",
+    "contact": "문의"
+  },
+  "hero": {
+    "tagline": "코칸드의 심장에서",
+    "title": "프리미엄 건과일과 견과류",
+    "subtitle": "자연에서 얻고, 정성껏 선별하여 전 세계에 배송합니다 — 우즈베키스탄 최고 수확물의 정통 맛을 식탁에 전합니다.",
+    "slides": [
+      {
+        "title": "고객님의 나라까지 배송",
+        "subtitle": "20개국 이상으로 식품용 안전 포장으로 발송합니다. 코칸트 창고에서 문 앞까지 곧바로 전해 드립니다."
+      },
+      {
+        "title": "산지 직거래, 정직한 가격",
+        "subtitle": "페르가나 계곡 농가에서 직접 사들이기 때문에 중간 마진 없이 프리미엄 품질을 드립니다."
+      },
+      {
+        "title": "가장 좋은 때에 수확한 견과",
+        "subtitle": "아몬드, 호두, 피스타치오를 손으로 골라 알맞게 보관하며 보존료는 전혀 쓰지 않습니다."
+      }
+    ],
+    "cta": "제품 살펴보기",
+    "ctaSecondary": "우리의 이야기"
+  },
+  "strengths": {
+    "sectionTitle": "왜 저희를 선택하시나요",
+    "sectionSubtitle": "수백 년의 전통과 현대 품질 기준을 결합합니다",
+    "quality": {
+      "title": "프리미엄 품질",
+      "description": "모든 제품은 엄격한 품질 테스트를 거칩니다."
+    },
+    "fresh": {
+      "title": "항상 신선한",
+      "description": "제품은 지속적으로 갱신되며 천연 맛과 영양가를 보존하기 위해 최적의 조건에서 보관됩니다."
+    },
+    "delivery": {
+      "title": "글로벌 배송",
+      "description": "20개국 이상으로 빠르고 신뢰할 수 있는 배송."
+    },
+    "selection": {
+      "title": "다양한 선택",
+      "description": "황금 건포도부터 프리미엄 피스타치오까지 — 100가지 이상의 건과일과 견과류."
+    }
+  },
+  "products": {
+    "sectionTitle": "제품",
+    "sectionSubtitle": "프리미엄 건과일과 견과류의 다양한 선택을 살펴보세요",
+    "priceNote": "가격 협의",
+    "prunes": {
+      "name": "건자두 (프룬)",
+      "description": "달콤하고 풍미가 깊어 차와 함께 즐기고 요리와 디저트에도 두루 쓰입니다. 오래 보관할 수 있습니다."
+    },
+    "peanuts": {
+      "name": "땅콩",
+      "description": "단백질과 유익한 지방산, 칼륨, 마그네슘, 비타민 B가 풍부합니다. 에너지를 공급하고 면역력을 높여 줍니다."
+    },
+    "walnuts": {
+      "name": "건호두",
+      "description": "단백질, 양질의 지방산, 칼륨, 마그네슘, 철분, 비타민 E가 들어 있습니다. 기억력과 면역력에 도움이 됩니다."
+    },
+    "driedApricots": {
+      "name": "씨 없는 건살구",
+      "description": "비타민 A와 C, 철분, 칼륨이 풍부해 심혈관 건강에 좋습니다. 소화에도 도움이 됩니다."
+    },
+    "raisins": {
+      "name": "건포도",
+      "description": "자연 건조한 포도입니다. 단맛과 영양, 긴 보관성으로 사랑받습니다."
+    },
+    "mungBeans": {
+      "name": "녹두",
+      "description": "단백질, 식이섬유, 철분, 마그네슘, 비타민 B가 풍부합니다. 소화를 돕고 에너지를 주며 담백한 요리에 잘 맞습니다."
+    },
+    "viewAll": "전체 제품 보기"
+  },
+  "stats": {
+    "products": "제품",
+    "clients": "고객",
+    "countries": "국가",
+    "certifications": "인증",
+    "productsValue": "100+",
+    "clientsValue": "500+",
+    "countriesValue": "20+",
+    "certificationsValue": "14"
+  },
+  "testimonials": {
+    "sectionTitle": "고객 후기",
+    "sectionSubtitle": "전 세계 기업과 가족들에게 신뢰받고 있습니다",
+    "items": [
+      {
+        "name": "미하일 페트로프",
+        "role": "수입 관리자, 모스크바",
+        "text": "코칸드 건과일은 5년간 신뢰할 수 있는 공급업체였습니다."
+      },
+      {
+        "name": "파티마 알라시드",
+        "role": "도매 구매자, 두바이",
+        "text": "우리가 공급받은 최고의 건살구와 피스타치오."
+      },
+      {
+        "name": "첸 웨이",
+        "role": "건강식품점 운영, 상하이",
+        "text": "건강을 중시하는 고객들이 좋아하는 천연 무방부제 제품."
+      },
+      {
+        "name": "안나 슈미트",
+        "role": "레스토랑 셰프, 베를린",
+        "text": "이 호두와 아몬드가 페이스트리 메뉴를 한 단계 끌어올렸습니다."
+      }
+    ]
+  },
+  "cta": {
+    "title": "파트너가 되어주세요",
+    "subtitle": "소매업체, 도매업체, 식품 제조업체 — 함께 성과를 이루는 파트너십을 만들어 갑시다.",
+    "button": "문의하기"
+  },
+  "about": {
+    "heroTitle": "회사 소개",
+    "heroSubtitle": "자연 그대로의 고품질 건과일을 빠르게 전해 드립니다",
+    "stats": {
+      "deliveredValue": "5000+",
+      "deliveredLabel": "배송된 제품",
+      "customersValue": "1000+",
+      "customersLabel": "고객",
+      "certificatesValue": "14",
+      "certificatesLabel": "인증서"
+    },
+    "story": {
+      "title": "2020년부터 이 분야에서",
+      "p1": "저희는 건강한 먹거리를 소중히 여기는 모든 분들께 고품질 건과일을 공급하는 믿을 수 있는 공급처입니다.",
+      "p2": "저희 제품은 밭에서 직접 수확하여 자연 건조하며, 어떠한 인공 색소나 방부제 없이 고객님께 전달됩니다."
+    },
+    "principles": {
+      "title": "우리의 원칙",
+      "items": [
+        {
+          "title": "자연 그대로의 제품",
+          "description": "인공 첨가물을 일절 사용하지 않습니다."
+        },
+        {
+          "title": "밭에서 곧바로",
+          "description": "신선하고 품질 좋은 선택."
+        },
+        {
+          "title": "엄격한 품질 관리",
+          "description": "한 알 한 알 꼼꼼하게 선별합니다."
+        },
+        {
+          "title": "빠르고 안정적인 배송",
+          "description": "지역 전역으로."
+        },
+        {
+          "title": "고객의 신뢰",
+          "description": "정직함과 보장된 품질."
+        }
+      ]
+    },
+    "partners": {
+      "title": "신뢰할 수 있는 파트너",
+      "subtitle": "품질 높은 제품과 서비스를 제공하기 위해 신뢰할 수 있는 파트너들과 함께 일합니다. 이들의 경험과 신뢰성, 높은 책임감 덕분에 고객께 최상의 결과를 전해 드릴 수 있습니다."
+    }
+  },
+  "contact": {
+    "heroTitle": "문의하기",
+    "heroSubtitle": "파트너십, 주문 또는 문의 사항은 연락 주세요.",
+    "form": {
+      "title": "연락처를 남겨주시면 저희가 연락드리겠습니다",
+      "name": "이름",
+      "phone": "전화번호",
+      "phoneHint": "국가를 선택한 뒤 번호를 입력하세요. 입력하시면 이메일은 선택 사항입니다.",
+      "country": "국가",
+      "countrySearch": "국가 또는 국가번호 검색",
+      "countryNoResults": "국가를 찾을 수 없습니다",
+      "email": "이메일",
+      "subject": "제목",
+      "message": "메시지",
+      "send": "보내기",
+      "optional": "선택",
+      "emailRequired": "이메일 또는 국가번호를 포함한 전체 전화번호를 입력해 주세요."
+    },
+    "info": {
+      "title": "연락처",
+      "address": "우즈베키스탄 페르가나 지역 코칸드",
+      "addressLabel": "주소",
+      "phone": "+998 73 253 00 00",
+      "phoneLabel": "전화",
+      "email": "info@kokanddryfruits.uz",
+      "emailLabel": "이메일",
+      "hours": "월–토: 9:00 — 18:00 (UZT)",
+      "hoursLabel": "영업시간",
+      "viewOnMap": "지도에서 열기"
+    }
+  },
+  "footer": {
+    "description": "우즈베키스탄 코칸드의 프리미엄 건과일과 견과류 — 2020년부터 전 세계 수출.",
+    "quickLinks": "빠른 링크",
+    "ourProducts": "제품",
+    "contactUs": "문의",
+    "followUs": "팔로우",
+    "rights": "모든 권리 보유."
+  },
+  "common": {
+    "loading": "불러오는 중"
+  },
+  "landing": {
+    "scroll": "스크롤"
+  }
+}
