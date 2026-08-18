@@ -1,0 +1,6 @@
+# Original raqobatchi assetlari — faqat lokal referens, repoga tushmaydi (878 MB)
+assets-src/
+
+node_modules/
+.DS_Store
+*.log
