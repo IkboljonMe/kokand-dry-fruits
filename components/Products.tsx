@@ -1,5 +1,7 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { PRODUCTS } from '@/lib/products';
+import type { Locale } from '@/i18n/config';
 import type { Dictionary } from '@/i18n/types';
 
 function Arrow() {
@@ -10,7 +12,7 @@ function Arrow() {
   );
 }
 
-export default function Products({ dict }: { dict: Dictionary }) {
+export default function Products({ dict, lang }: { dict: Dictionary; lang: Locale }) {
   return (
     <section className="products" id="catalog">
       <div className="container">
@@ -20,7 +22,7 @@ export default function Products({ dict }: { dict: Dictionary }) {
         </div>
 
         <div className="cards">
-          {PRODUCTS.map(({ key, image }) => {
+          {PRODUCTS.map(({ key, slug, image }) => {
             const product = dict.products[key];
             return (
               <article className="card reveal-up" key={key}>
@@ -36,9 +38,9 @@ export default function Products({ dict }: { dict: Dictionary }) {
                 <h3 className="card__title">{product.name}</h3>
                 <p className="card__desc">{product.description}</p>
                 <span className="card__meta">{dict.products.priceNote}</span>
-                <a href="#contacts" className="card__link">
-                  {dict.cta.button} <Arrow />
-                </a>
+                <Link href={`/${lang}/products/${slug}`} className="card__link">
+                  {dict.products.viewAll} <Arrow />
+                </Link>
               </article>
             );
           })}

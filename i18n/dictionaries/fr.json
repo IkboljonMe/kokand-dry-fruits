@@ -211,5 +211,171 @@
   },
   "landing": {
     "scroll": "défiler"
+  },
+  "productPage": {
+    "labels": {
+      "catalog": "Catalogue",
+      "allProducts": "Tous les produits",
+      "otherProducts": "Autres produits",
+      "varieties": "Variétés",
+      "varietiesSub": "Les qualités que nous livrons, et celles que nous préparons selon votre cahier des charges",
+      "specifications": "Spécification",
+      "specificationsSub": "Paramètres d'exportation standard pour ce produit",
+      "benefits": "Pourquoi les acheteurs le choisissent",
+      "requestQuote": "Demander une offre",
+      "calibre": "Calibre",
+      "moisture": "Humidité",
+      "packaging": "Conditionnement",
+      "shelfLife": "Durée de conservation",
+      "storage": "Stockage",
+      "hsCode": "Code SH",
+      "origin": "Origine",
+      "originValue": "Vallée de Ferghana, Ouzbékistan",
+      "specNote": "Ces valeurs sont indicatives et confirmées au contrat. Nous ajustons le calibre, le conditionnement et le degré de transformation à votre cahier des charges."
+    },
+    "items": {
+      "driedApricots": {
+        "tagline": "Séchés au soleil dans la vallée de Ferghana",
+        "intro": "Les abricots sont mis à sécher dans les heures qui suivent la cueillette : les sucres se concentrent sans que le fruit ne cuise. Nous trions par couleur et par taille, de l'extra-clair à l'ambre foncé, sans colorant. Lots soufrés et non soufrés disponibles.",
+        "benefits": [
+          {
+            "title": "Vitamine A et potassium",
+            "text": "Le pigment orange est le bêta-carotène, que l'organisme convertit en vitamine A. L'abricot apporte aussi du potassium et du fer, d'où sa réputation d'aliment du cœur et de la circulation."
+          },
+          {
+            "title": "Un classement couleur fiable",
+            "text": "Les lots passent sur trieuse optique : l'extra-clair reste extra-clair. Carton après carton, vous recevez la teinte achetée."
+          },
+          {
+            "title": "Stable jusqu'à la récolte suivante",
+            "text": "Séché sous 20 % d'humidité et conservé en entrepôt à température contrôlée, le fruit garde texture et goût une année entière."
+          }
+        ],
+        "varieties": {
+          "natural": "Naturel",
+          "yellow": "Jaune",
+          "cut": "Coupé",
+          "amber": "Ambré"
+        }
+      },
+      "raisins": {
+        "tagline": "Du raisin séché comme il l'a toujours été",
+        "intro": "Nos raisins secs viennent des vignes de la vallée de Ferghana et sèchent au soleil ou à l'ombre selon la qualité. Le séchage à l'ombre est plus long et plus coûteux, mais il garde le fruit souple et clair — exactement ce que demande le haut de gamme.",
+        "benefits": [
+          {
+            "title": "Sucre naturel, sans additif",
+            "text": "Rien n'est ajouté, rien n'est enrobé. La douceur vient du raisin lui-même, concentrée par le séchage et non par un sirop."
+          },
+          {
+            "title": "Quatre qualités distinctes",
+            "text": "Sultana dorée, Jumbo extra-large, Crimson sans pépins et séchage traditionnel à l'ombre — chacune avec sa couleur, son calibre et son prix."
+          },
+          {
+            "title": "Se conserve et voyage bien",
+            "text": "À 17 % d'humidité ou moins, le raisin sec voyage sans froid et reste souple un an en carton fermé."
+          }
+        ],
+        "varieties": {
+          "sultana": "Sultana dorée",
+          "jumbo": "Jumbo Golden",
+          "crimson": "Crimson sans pépins",
+          "shade": "Séché à l'ombre"
+        }
+      },
+      "prunes": {
+        "tagline": "Prunes séchées lentement",
+        "intro": "Les prunes sèchent entières et lentement : c'est ce qui donne au pruneau sa couleur sombre et sa profondeur. Nous livrons dénoyauté ou avec noyau, calibré au nombre de pièces par kilo, pour que vous sachiez exactement ce qui arrive.",
+        "benefits": [
+          {
+            "title": "Fibres et sorbitol",
+            "text": "Le pruneau est l'un des aliments digestifs les plus connus, et la raison est réelle : fibres solubles et sorbitol naturel."
+          },
+          {
+            "title": "Compté, pas estimé",
+            "text": "Le calibrage se fait en pièces par kilo — 70/80, 80/90, 90/100 — ce qui rend le portionnement et l'emballage en aval prévisibles."
+          },
+          {
+            "title": "En cuisine comme en rayon",
+            "text": "Aussi à sa place en confiserie, en cuisine carnée et en sachets de snacking, ce qui en fait une référence facile à écouler."
+          }
+        ],
+        "varieties": {
+          "pitted": "Dénoyauté",
+          "unpitted": "Avec noyau",
+          "softened": "Prêt à consommer"
+        }
+      },
+      "walnuts": {
+        "tagline": "Cerneaux triés à la machine et à la main",
+        "intro": "Les noix sont cassées puis classées en cerneaux clairs, quarts et brisures, ou livrées en coque. Dans ce commerce, c'est la couleur qui fait le prix : les cerneaux passent sur trieuse optique puis en contrôle manuel.",
+        "benefits": [
+          {
+            "title": "Oméga-3 et vitamine E",
+            "text": "La noix contient plus d'acide alpha-linolénique que tout autre fruit à coque courant, avec de la vitamine E, du magnésium et des protéines."
+          },
+          {
+            "title": "Cerneaux clairs, bien triés",
+            "text": "La prime va au cerneau clair. Les nôtres sont séparés optiquement puis vérifiés à la main : la qualité tient sur tout le lot."
+          },
+          {
+            "title": "Sous vide sur demande",
+            "text": "Le cerneau s'oxyde plus vite que le fruit sec. Le vide ou l'atmosphère protectrice préserve la fraîcheur sur une longue traversée."
+          }
+        ],
+        "varieties": {
+          "halves": "Cerneaux clairs",
+          "quarters": "Quarts",
+          "pieces": "Brisures",
+          "inShell": "En coque"
+        }
+      },
+      "peanuts": {
+        "tagline": "Crue, blanchie ou grillée",
+        "intro": "Nous fournissons l'arachide en coque, en graine crue, blanchie sans peau ou grillée selon votre profil. Le calibrage suit les grades habituels et chaque lot est contrôlé en aflatoxine avant expédition.",
+        "benefits": [
+          {
+            "title": "De la protéine au prix de travail",
+            "text": "Environ un quart de protéines en poids, avec potassium, magnésium et vitamines du groupe B — d'où le rôle central de l'arachide dans tant de lignes de snacking et de confiserie."
+          },
+          {
+            "title": "Testée en aflatoxine",
+            "text": "Chaque lot passe au laboratoire avant départ. Sur cette culture, c'est le principal risque à l'import : le test n'est pas facultatif."
+          },
+          {
+            "title": "Transformée selon votre brief",
+            "text": "Blanchiment et torréfaction se font à la commande : vous prenez la graine au stade qui convient à votre ligne."
+          }
+        ],
+        "varieties": {
+          "blanched": "Blanchie",
+          "raw": "Graines crues",
+          "roasted": "Grillée",
+          "inShell": "En coque"
+        }
+      },
+      "mungBeans": {
+        "tagline": "Une légumineuse qui part en volume",
+        "intro": "Le haricot mungo est nettoyé, calibré et classé pour la cuisine ou pour la germination. C'est un aliment de base en Asie du Sud et de l'Est, et la qualité germination répond à une exigence de taux de germination plus stricte.",
+        "benefits": [
+          {
+            "title": "Protéines et fibres",
+            "text": "Riche en protéines végétales, en fibres, en fer et en magnésium, et assez léger pour la cuisine diététique et hospitalière."
+          },
+          {
+            "title": "Qualité germination disponible",
+            "text": "L'acheteur de germes regarde le taux de germination, pas seulement le calibre. Cette qualité est sélectionnée et testée séparément."
+          },
+          {
+            "title": "Deux ans de conservation",
+            "text": "Les légumineuses sèches tiennent bien plus longtemps que les fruits secs. Correctement stocké, le mungo se garde vingt-quatre mois."
+          }
+        ],
+        "varieties": {
+          "standard": "Standard",
+          "large": "Gros",
+          "sprouting": "Qualité germination"
+        }
+      }
+    }
   }
 }

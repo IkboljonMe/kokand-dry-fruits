@@ -211,5 +211,171 @@
   },
   "landing": {
     "scroll": "scroll"
+  },
+  "productPage": {
+    "labels": {
+      "catalog": "Catalogue",
+      "allProducts": "All products",
+      "otherProducts": "Other products",
+      "varieties": "Varieties",
+      "varietiesSub": "Grades we supply, and the ones we can prepare to your specification",
+      "specifications": "Specification",
+      "specificationsSub": "Standard export parameters for this product",
+      "benefits": "Why buyers choose it",
+      "requestQuote": "Request a quote",
+      "calibre": "Calibre",
+      "moisture": "Moisture",
+      "packaging": "Packaging",
+      "shelfLife": "Shelf life",
+      "storage": "Storage",
+      "hsCode": "HS code",
+      "origin": "Origin",
+      "originValue": "Fergana Valley, Uzbekistan",
+      "specNote": "Parameters are indicative and confirmed per contract. We adjust calibre, packaging and processing to your specification."
+    },
+    "items": {
+      "driedApricots": {
+        "tagline": "Sun-dried in the Fergana Valley",
+        "intro": "Apricots are laid out to dry within hours of picking, so the sugars concentrate without the fruit ever being stewed. We sort by colour and size, from extra-light through to deep amber, and we do not use dye. Sulphured and unsulphured lots are both available.",
+        "benefits": [
+          {
+            "title": "Vitamin A and potassium",
+            "text": "The orange pigment is beta-carotene, which the body converts to vitamin A. Apricots also carry potassium and iron, which is why they are sold as a heart and circulation food."
+          },
+          {
+            "title": "Colour grading you can rely on",
+            "text": "Lots are separated on an optical sorter, so a shipment of extra-light stays extra-light. You get the shade you bought, crate after crate."
+          },
+          {
+            "title": "Stable through to the next harvest",
+            "text": "Dried to under 20% moisture and held in temperature-controlled storage, the fruit keeps its texture and flavour for a full year."
+          }
+        ],
+        "varieties": {
+          "natural": "Natural sun-dried",
+          "yellow": "Yellow",
+          "cut": "Cut",
+          "amber": "Amber"
+        }
+      },
+      "raisins": {
+        "tagline": "Grapes dried the way they always have been",
+        "intro": "Our raisins come from Fergana Valley vineyards and are dried in the sun or in the shade, depending on the grade. Shade drying takes longer and costs more, but it keeps the fruit soft and pale, which is what the premium trade asks for.",
+        "benefits": [
+          {
+            "title": "Natural sugars, no additives",
+            "text": "Nothing is added and nothing is coated. The sweetness is the grape's own, concentrated by drying rather than by syrup."
+          },
+          {
+            "title": "Four distinct grades",
+            "text": "Golden Sultana, extra-large Jumbo, seedless Crimson and traditional shade-dried — each with its own colour, size and price point."
+          },
+          {
+            "title": "Keeps and travels well",
+            "text": "At 17% moisture or less, raisins ship without refrigeration and hold their softness for a year in sealed cartons."
+          }
+        ],
+        "varieties": {
+          "sultana": "Golden Sultana",
+          "jumbo": "Jumbo Golden",
+          "crimson": "Crimson seedless",
+          "shade": "Shade-dried"
+        }
+      },
+      "prunes": {
+        "tagline": "Slow-dried plums, deep and sweet",
+        "intro": "Plums are dried whole and slowly, which is what gives prunes their dark colour and their depth of flavour. We supply them pitted or with the stone in, calibrated by the number of pieces per kilogram so you know exactly what arrives.",
+        "benefits": [
+          {
+            "title": "Fibre and sorbitol",
+            "text": "Prunes are one of the best-known digestive foods, and the reason is real: soluble fibre plus naturally occurring sorbitol."
+          },
+          {
+            "title": "Counted, not estimated",
+            "text": "Calibration is by pieces per kilogram — 70/80, 80/90, 90/100 — so portioning and packing downstream stays predictable."
+          },
+          {
+            "title": "Works in kitchens and on shelves",
+            "text": "Equally at home in confectionery, meat cookery and retail snack packs, which makes it an easy line to move."
+          }
+        ],
+        "varieties": {
+          "pitted": "Pitted",
+          "unpitted": "With stone",
+          "softened": "Ready to eat"
+        }
+      },
+      "walnuts": {
+        "tagline": "Kernels graded by hand and by machine",
+        "intro": "Walnuts are cracked and graded to light halves, quarters and pieces, or supplied in shell. Colour is what sets the price in this trade, so kernels pass an optical sorter and then a hand-check before they are packed.",
+        "benefits": [
+          {
+            "title": "Omega-3 and vitamin E",
+            "text": "Walnuts carry more alpha-linolenic acid than any other common nut, along with vitamin E, magnesium and protein."
+          },
+          {
+            "title": "Light halves, properly sorted",
+            "text": "Light-coloured halves command the premium. Ours are separated optically and then checked by hand, so the grade holds across the lot."
+          },
+          {
+            "title": "Vacuum packing on request",
+            "text": "Kernels oxidise faster than dried fruit. Vacuum or gas-flushed packing keeps them fresh through a long sea voyage."
+          }
+        ],
+        "varieties": {
+          "halves": "Light halves",
+          "quarters": "Quarters",
+          "pieces": "Pieces",
+          "inShell": "In shell"
+        }
+      },
+      "peanuts": {
+        "tagline": "Raw, blanched or roasted",
+        "intro": "We supply peanuts in shell, as raw kernels, blanched with the skin removed, or roasted to your profile. Calibration follows the usual count-per-ounce grades, and every lot is checked for aflatoxin before it ships.",
+        "benefits": [
+          {
+            "title": "Protein at a working price",
+            "text": "Around a quarter protein by weight, with potassium, magnesium and B vitamins — the reason peanuts anchor so many snack and confectionery lines."
+          },
+          {
+            "title": "Aflatoxin tested",
+            "text": "Every lot is laboratory checked before dispatch. For a crop where this is the main import risk, that testing is not optional."
+          },
+          {
+            "title": "Processed to your brief",
+            "text": "Blanching and roasting are done to order, so you can take the kernel at whatever stage suits your line."
+          }
+        ],
+        "varieties": {
+          "blanched": "Blanched",
+          "raw": "Raw kernels",
+          "roasted": "Roasted",
+          "inShell": "In shell"
+        }
+      },
+      "mungBeans": {
+        "tagline": "A pulse that moves in volume",
+        "intro": "Mung beans are cleaned, calibrated and graded for cooking or for sprouting. They are a staple across South and East Asia, and the sprouting grade is held to a tighter germination standard than the culinary one.",
+        "benefits": [
+          {
+            "title": "Protein and fibre",
+            "text": "High in plant protein, fibre, iron and magnesium, and light enough to sit in dietary and hospital cooking."
+          },
+          {
+            "title": "Sprouting grade available",
+            "text": "Sprouting buyers need germination rate, not just size. That grade is selected and tested separately."
+          },
+          {
+            "title": "Two-year shelf life",
+            "text": "Dry pulses outlast dried fruit comfortably. Stored properly, mung beans hold for twenty-four months."
+          }
+        ],
+        "varieties": {
+          "standard": "Standard",
+          "large": "Large",
+          "sprouting": "Sprouting grade"
+        }
+      }
+    }
   }
 }

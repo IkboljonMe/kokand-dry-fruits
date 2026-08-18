@@ -211,5 +211,171 @@
   },
   "landing": {
     "scroll": "aylantiring"
+  },
+  "productPage": {
+    "labels": {
+      "catalog": "Katalog",
+      "allProducts": "Barcha mahsulotlar",
+      "otherProducts": "Boshqa mahsulotlar",
+      "varieties": "Navlar",
+      "varietiesSub": "Biz yetkazadigan navlar va sizning talabingizga moslab tayyorlanadiganlari",
+      "specifications": "Spetsifikatsiya",
+      "specificationsSub": "Ushbu mahsulot uchun odatiy eksport ko‘rsatkichlari",
+      "benefits": "Nega tanlashadi",
+      "requestQuote": "Narx so‘rash",
+      "calibre": "Kalibr",
+      "moisture": "Namlik",
+      "packaging": "Qadoq",
+      "shelfLife": "Saqlash muddati",
+      "storage": "Saqlash sharoiti",
+      "hsCode": "HS kodi",
+      "origin": "Kelib chiqishi",
+      "originValue": "Farg‘ona vodiysi, O‘zbekiston",
+      "specNote": "Ko‘rsatkichlar taxminiy bo‘lib, shartnomada aniqlanadi. Kalibr, qadoq va qayta ishlash darajasini talabingizga moslaymiz."
+    },
+    "items": {
+      "driedApricots": {
+        "tagline": "Farg‘ona vodiysida quyoshda quritilgan",
+        "intro": "O‘rik terilgandan keyin bir necha soat ichida quritishga yoyiladi — shu bois shakar to‘planadi, meva esa qaynab ketmaydi. Rangi va o‘lchami bo‘yicha saralaymiz: o‘ta ochiqdan qahrabogacha, bo‘yoq ishlatilmaydi. Oltingugurtli va oltingugurtsiz partiyalar bor.",
+        "benefits": [
+          {
+            "title": "A vitamini va kaliy",
+            "text": "To‘q sariq rang — bu beta-karotin, organizm uni A vitaminiga aylantiradi. O‘rik qoqisida kaliy va temir ham bor, shuning uchun u yurak va qon tomir mahsuloti sanaladi."
+          },
+          {
+            "title": "Ishonchli rang darajasi",
+            "text": "Partiyalar optik saralagichdan o‘tadi, shuning uchun o‘ta ochiq nav o‘ta ochiqligicha qoladi. Qutidan qutiga siz sotib olgan tus keladi."
+          },
+          {
+            "title": "Keyingi hosilgacha barqaror",
+            "text": "Namlik 20% dan past va harorat nazorat qilinadigan omborda meva bir yil davomida tuzilishi va ta’mini saqlaydi."
+          }
+        ],
+        "varieties": {
+          "natural": "Tabiiy",
+          "yellow": "Sariq",
+          "cut": "Kesilgan",
+          "amber": "Qahrabo"
+        }
+      },
+      "raisins": {
+        "tagline": "Uzum azaldan qanday quritilsa, shunday",
+        "intro": "Mayiz Farg‘ona vodiysi uzumzorlaridan olinadi va navga qarab quyoshda yoki soyada quritiladi. Soyada quritish uzoqroq va qimmatroq, ammo meva yumshoq va och rangda qoladi — premium bozor aynan shuni so‘raydi.",
+        "benefits": [
+          {
+            "title": "Tabiiy shirinlik, qo‘shimchasiz",
+            "text": "Hech narsa qo‘shilmaydi va ustiga hech narsa surtilmaydi. Shirinlik uzumning o‘ziniki, sirop emas, quritish uni jamlaydi."
+          },
+          {
+            "title": "To‘rt xil nav",
+            "text": "Oltin Sultoni, yirik Jumbo, danaksiz Krimson va an’anaviy soyada quritilgan nav — har birining rangi, o‘lchami va narxi boshqa."
+          },
+          {
+            "title": "Yaxshi saqlanadi va yo‘l yuradi",
+            "text": "Namlik 17% dan oshmasa, mayiz sovutgichsiz jo‘natiladi va yopiq qutida bir yil yumshoqligini yo‘qotmaydi."
+          }
+        ],
+        "varieties": {
+          "sultana": "Oltin Sultoni",
+          "jumbo": "Jumbo Golden",
+          "crimson": "Krimson danaksiz",
+          "shade": "Soyada quritilgan"
+        }
+      },
+      "prunes": {
+        "tagline": "Sekin quritilgan olxo‘ri",
+        "intro": "Olxo‘ri butun holda va sekin quritiladi — qora olxo‘rining to‘q rangi va ta’m chuqurligi shundan. Danakli va danaksiz holda yetkazamiz, kilogrammdagi dona soni bo‘yicha kalibrlanadi, ya’ni nima kelishini aniq bilasiz.",
+        "benefits": [
+          {
+            "title": "Tola va sorbit",
+            "text": "Qora olxo‘ri hazm uchun eng mashhur mahsulotlardan biri va buning sababi bor: eriydigan tola hamda tabiiy sorbit."
+          },
+          {
+            "title": "Taxmin emas, sanoq",
+            "text": "Kalibrlash kilogrammdagi dona bo‘yicha — 70/80, 80/90, 90/100 — shuning uchun keyingi bosqichdagi qadoqlash bashorat qilinadi."
+          },
+          {
+            "title": "Oshxonada ham, javonda ham",
+            "text": "Qandolatchilikda, go‘shtli taomlarda va chakana snek qadoqlarida bir xil o‘rinli, shu bois bu pozitsiya oson sotiladi."
+          }
+        ],
+        "varieties": {
+          "pitted": "Danaksiz",
+          "unpitted": "Danakli",
+          "softened": "Iste’molga tayyor"
+        }
+      },
+      "walnuts": {
+        "tagline": "Mashina va qo‘l bilan saralangan mag‘iz",
+        "intro": "Yong‘oq chaqiladi va och rangli yarim, chorak hamda mayda fraksiyaga ajratiladi yoki po‘chog‘ida yetkaziladi. Bu savdoda narxni rang belgilaydi, shuning uchun mag‘iz optik saralagichdan, so‘ng qo‘l nazoratidan o‘tadi.",
+        "benefits": [
+          {
+            "title": "Omega-3 va E vitamini",
+            "text": "Yong‘oqda alfa-linolen kislotasi boshqa keng tarqalgan yong‘oqlarga qaraganda ko‘p, bundan tashqari E vitamini, magniy va oqsil bor."
+          },
+          {
+            "title": "Och rangli yarim — halol saralangan",
+            "text": "Ustama narxni och rangli mag‘iz beradi. Bizniki optik ajratiladi va qo‘lda tekshiriladi, shuning uchun nav butun partiyada saqlanadi."
+          },
+          {
+            "title": "So‘rovga ko‘ra vakuum",
+            "text": "Mag‘iz quruq mevaga qaraganda tezroq oksidlanadi. Vakuum yoki gaz muhiti uzoq dengiz yo‘lida yangilikni saqlaydi."
+          }
+        ],
+        "varieties": {
+          "halves": "Och rangli yarim",
+          "quarters": "Chorak",
+          "pieces": "Fraksiya",
+          "inShell": "Po‘chog‘ida"
+        }
+      },
+      "peanuts": {
+        "tagline": "Xom, tozalangan yoki qovurilgan",
+        "intro": "Yeryong‘oqni po‘chog‘ida, xom mag‘iz holida, po‘sti olingan yoki sizning talabingizga ko‘ra qovurilgan holda yetkazamiz. Kalibrlash odatiy darajalarda, har bir partiya jo‘natishdan oldin aflatoksinga tekshiriladi.",
+        "benefits": [
+          {
+            "title": "Arzon narxdagi oqsil",
+            "text": "Og‘irligining chorak qismi oqsil, ustiga kaliy, magniy va B guruh vitaminlari — shuning uchun yeryong‘oq ko‘plab snek va qandolat liniyalarining asosi."
+          },
+          {
+            "title": "Aflatoksin tekshiruvi",
+            "text": "Har bir partiya jo‘natishdan oldin laboratoriyada tekshiriladi. Bu ekin uchun asosiy import xavfi shu, demak tekshiruv ixtiyoriy emas."
+          },
+          {
+            "title": "Talabingizga moslab qayta ishlash",
+            "text": "Po‘st tozalash va qovurish buyurtmaga ko‘ra bajariladi, shuning uchun mag‘izni liniyangizga mos bosqichda olasiz."
+          }
+        ],
+        "varieties": {
+          "blanched": "Po‘sti olingan",
+          "raw": "Xom mag‘iz",
+          "roasted": "Qovurilgan",
+          "inShell": "Po‘chog‘ida"
+        }
+      },
+      "mungBeans": {
+        "tagline": "Katta hajmda ketadigan dukkakli",
+        "intro": "Mosh tozalanadi, kalibrlanadi va oshxona hamda undirish navlariga ajratiladi. U Janubiy va Sharqiy Osiyoning asosiy mahsuloti, undirish naviga esa unib chiqish bo‘yicha qattiqroq talab qo‘yiladi.",
+        "benefits": [
+          {
+            "title": "Oqsil va tola",
+            "text": "O‘simlik oqsili, tola, temir va magniyga boy, ayni paytda parhez va shifoxona taomlariga yetarlicha yengil."
+          },
+          {
+            "title": "Undirish navi bor",
+            "text": "Undirish uchun oluvchiga o‘lcham emas, unib chiqish foizi kerak. Bu nav alohida tanlanadi va sinovdan o‘tkaziladi."
+          },
+          {
+            "title": "Ikki yillik saqlash muddati",
+            "text": "Quruq dukkaklilar quruq mevadan ancha uzoq turadi. To‘g‘ri saqlansa, mosh yigirma to‘rt oy saqlanadi."
+          }
+        ],
+        "varieties": {
+          "standard": "Standart",
+          "large": "Yirik",
+          "sprouting": "Undirish navi"
+        }
+      }
+    }
   }
 }

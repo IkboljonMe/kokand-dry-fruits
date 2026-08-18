@@ -41,7 +41,7 @@ export default async function Page({
       <Marquee dict={dict} />
       <Production dict={dict} />
       <Process dict={dict} />
-      <Products dict={dict} />
+      <Products dict={dict} lang={lang} />
       <Geo dict={dict} lang={lang} />
       <Cta dict={dict} lang={lang} />
       <Footer dict={dict} />

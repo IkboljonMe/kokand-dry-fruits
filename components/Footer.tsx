@@ -2,7 +2,13 @@ import Logo from './Logo';
 import { CONTACTS, SOCIALS } from '@/lib/contacts';
 import type { Dictionary } from '@/i18n/types';
 
-export default function Footer({ dict }: { dict: Dictionary }) {
+export default function Footer({
+  dict,
+  homeHref = '',
+}: {
+  dict: Dictionary;
+  homeHref?: string;
+}) {
   const info = dict.contact.info;
 
   return (
@@ -10,14 +16,14 @@ export default function Footer({ dict }: { dict: Dictionary }) {
       <div className="container">
         <div className="footer__top">
           <div className="footer__brand">
-            <Logo href="#top" className="logo--footer" />
+            <Logo href={homeHref || '#top'} className="logo--footer" />
             <p className="footer__desc">{dict.footer.description}</p>
           </div>
           <nav className="footer__nav" aria-label={dict.footer.quickLinks}>
-            <a href="#catalog">{dict.nav.products}</a>
-            <a href="#about">{dict.nav.about}</a>
-            <a href="#geo">{dict.strengths.delivery.title}</a>
-            <a href="#contacts">{dict.nav.contact}</a>
+            <a href={`${homeHref}#catalog`}>{dict.nav.products}</a>
+            <a href={`${homeHref}#about`}>{dict.nav.about}</a>
+            <a href={`${homeHref}#geo`}>{dict.strengths.delivery.title}</a>
+            <a href={`${homeHref}#contacts`}>{dict.nav.contact}</a>
           </nav>
         </div>
 

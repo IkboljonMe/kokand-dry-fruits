@@ -18,9 +18,18 @@ export type HeaderText = {
 export default function Header({
   lang,
   t,
+  homeHref = '',
+  pathAfterLocale = '',
+  solid = false,
 }: {
   lang: Locale;
   t: HeaderText;
+  /** Ichki sahifalarda anchorlar bosh sahifaga ishora qilishi uchun. */
+  homeHref?: string;
+  /** Til almashtirilganda shu sahifada qolish uchun: "/products/raisins". */
+  pathAfterLocale?: string;
+  /** Yorug' fonli sahifalarda header doim quyuq bo'lsin. */
+  solid?: boolean;
 }) {
   const [stuck, setStuck] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
@@ -58,15 +67,15 @@ export default function Header({
   const closeNav = () => setNavOpen(false);
 
   return (
-    <header className={`header${stuck ? ' is-stuck' : ''}`} id="header">
+    <header className={`header${stuck || solid ? ' is-stuck' : ''}`} id="header">
       <div className="header__inner">
-        <Logo href="#top" priority />
+        <Logo href={homeHref || '#top'} priority />
 
         <nav className={`nav${navOpen ? ' is-open' : ''}`} id="nav">
-          <a href="#catalog" onClick={closeNav}>{t.products}</a>
-          <a href="#about" onClick={closeNav}>{t.about}</a>
-          <a href="#geo" onClick={closeNav}>{t.delivery}</a>
-          <a href="#contacts" onClick={closeNav}>{t.contact}</a>
+          <a href={`${homeHref}#catalog`} onClick={closeNav}>{t.products}</a>
+          <a href={`${homeHref}#about`} onClick={closeNav}>{t.about}</a>
+          <a href={`${homeHref}#geo`} onClick={closeNav}>{t.delivery}</a>
+          <a href={`${homeHref}#contacts`} onClick={closeNav}>{t.contact}</a>
 
           <div className={`lang${langOpen ? ' is-open' : ''}`} ref={langRef}>
             <button
@@ -96,7 +105,12 @@ export default function Header({
               {locales
                 .filter((locale) => locale !== lang)
                 .map((locale) => (
-                  <Link key={locale} href={`/${locale}`} onClick={closeNav} hrefLang={locale}>
+                  <Link
+                    key={locale}
+                    href={`/${locale}${pathAfterLocale}`}
+                    onClick={closeNav}
+                    hrefLang={locale}
+                  >
                     <Image
                       src={`/assets/flags/${localeFlag[locale]}.svg`}
                       alt=""

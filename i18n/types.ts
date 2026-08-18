@@ -111,4 +111,40 @@ export type Dictionary = {
   };
   common: { loading: string };
   landing: { scroll: string };
+  productPage: ProductPage;
+};
+
+/** Alohida mahsulot sahifasining matnlari. */
+export type ProductPage = {
+  labels: {
+    catalog: string;
+    allProducts: string;
+    otherProducts: string;
+    varieties: string;
+    varietiesSub: string;
+    specifications: string;
+    specificationsSub: string;
+    benefits: string;
+    requestQuote: string;
+    calibre: string;
+    moisture: string;
+    packaging: string;
+    shelfLife: string;
+    storage: string;
+    hsCode: string;
+    origin: string;
+    originValue: string;
+    specNote: string;
+  };
+  items: Record<ProductKey, ProductPageItem>;
+};
+
+export type ProductPageItem = {
+  /** Hero ostidagi qisqa shior */
+  tagline: string;
+  /** Ikki-uch jumlalik kirish */
+  intro: string;
+  benefits: { title: string; text: string }[];
+  /** Nav kaliti -> nomi (lib/products.ts dagi kalitlarga mos) */
+  varieties: Record<string, string>;
 };

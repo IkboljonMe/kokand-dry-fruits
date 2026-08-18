@@ -211,5 +211,171 @@
   },
   "landing": {
     "scroll": "desplazar"
+  },
+  "productPage": {
+    "labels": {
+      "catalog": "Catálogo",
+      "allProducts": "Todos los productos",
+      "otherProducts": "Otros productos",
+      "varieties": "Variedades",
+      "varietiesSub": "Las calidades que suministramos y las que preparamos según su especificación",
+      "specifications": "Especificación",
+      "specificationsSub": "Parámetros de exportación habituales para este producto",
+      "benefits": "Por qué lo eligen",
+      "requestQuote": "Solicitar oferta",
+      "calibre": "Calibre",
+      "moisture": "Humedad",
+      "packaging": "Envase",
+      "shelfLife": "Vida útil",
+      "storage": "Almacenamiento",
+      "hsCode": "Código SA",
+      "origin": "Origen",
+      "originValue": "Valle de Fergana, Uzbekistán",
+      "specNote": "Los valores son orientativos y se confirman en contrato. Ajustamos calibre, envase y grado de procesado a su especificación."
+    },
+    "items": {
+      "driedApricots": {
+        "tagline": "Secados al sol en el valle de Fergana",
+        "intro": "Los albaricoques se tienden a secar pocas horas después de la recolección, de modo que los azúcares se concentran sin que la fruta llegue a cocerse. Clasificamos por color y calibre, del extraclaro al ámbar oscuro, y no usamos colorantes. Hay lotes sulfitados y sin sulfitar.",
+        "benefits": [
+          {
+            "title": "Vitamina A y potasio",
+            "text": "El pigmento naranja es betacaroteno, que el organismo convierte en vitamina A. El albaricoque aporta además potasio y hierro, de ahí su fama de alimento para el corazón y la circulación."
+          },
+          {
+            "title": "Clasificación de color fiable",
+            "text": "Los lotes pasan por seleccionadora óptica, así que el extraclaro sigue siendo extraclaro. Caja tras caja recibe el tono que compró."
+          },
+          {
+            "title": "Estable hasta la siguiente cosecha",
+            "text": "Secado por debajo del 20 % de humedad y guardado en almacén con temperatura controlada, el fruto mantiene textura y sabor todo un año."
+          }
+        ],
+        "varieties": {
+          "natural": "Natural",
+          "yellow": "Amarillo",
+          "cut": "Cortado",
+          "amber": "Ámbar"
+        }
+      },
+      "raisins": {
+        "tagline": "Uva secada como se ha hecho siempre",
+        "intro": "Nuestras pasas proceden de viñedos del valle de Fergana y se secan al sol o a la sombra según la calidad. El secado a la sombra es más lento y más caro, pero deja el fruto blando y claro, que es justo lo que pide el segmento premium.",
+        "benefits": [
+          {
+            "title": "Azúcar natural, sin aditivos",
+            "text": "No se añade nada ni se recubre. El dulzor es de la propia uva, concentrado por el secado y no por almíbar."
+          },
+          {
+            "title": "Cuatro calidades distintas",
+            "text": "Sultana dorada, Jumbo extragrande, Crimson sin pepita y el secado tradicional a la sombra: cada una con su color, su calibre y su precio."
+          },
+          {
+            "title": "Se conserva y viaja bien",
+            "text": "Con un 17 % de humedad o menos, la pasa viaja sin frío y aguanta blanda un año en caja cerrada."
+          }
+        ],
+        "varieties": {
+          "sultana": "Sultana dorada",
+          "jumbo": "Jumbo Golden",
+          "crimson": "Crimson sin pepita",
+          "shade": "Secada a la sombra"
+        }
+      },
+      "prunes": {
+        "tagline": "Ciruela secada despacio",
+        "intro": "La ciruela se seca entera y despacio, y de ahí vienen el color oscuro y la profundidad de la ciruela pasa. La servimos con hueso o deshuesada, calibrada por piezas por kilo, para que sepa exactamente qué llega.",
+        "benefits": [
+          {
+            "title": "Fibra y sorbitol",
+            "text": "La ciruela pasa es uno de los alimentos digestivos más conocidos, y el motivo es real: fibra soluble más sorbitol natural."
+          },
+          {
+            "title": "Contado, no estimado",
+            "text": "El calibrado va por piezas por kilo —70/80, 80/90, 90/100—, de modo que el porcionado y el envasado posterior siguen siendo previsibles."
+          },
+          {
+            "title": "Sirve en cocina y en lineal",
+            "text": "Igual de cómoda en confitería, en cocina de carnes y en formatos de aperitivo, por lo que es una referencia que rota sin esfuerzo."
+          }
+        ],
+        "varieties": {
+          "pitted": "Deshuesada",
+          "unpitted": "Con hueso",
+          "softened": "Lista para comer"
+        }
+      },
+      "walnuts": {
+        "tagline": "Grano seleccionado a máquina y a mano",
+        "intro": "La nuez se parte y se clasifica en mitades claras, cuartos y trozos, o se sirve con cáscara. En este comercio el color marca el precio, así que el grano pasa por seleccionadora óptica y después por revisión manual.",
+        "benefits": [
+          {
+            "title": "Omega-3 y vitamina E",
+            "text": "La nuez contiene más ácido alfa-linolénico que cualquier otro fruto seco habitual, además de vitamina E, magnesio y proteína."
+          },
+          {
+            "title": "Mitades claras bien clasificadas",
+            "text": "La prima la da el grano claro. El nuestro se separa ópticamente y luego se revisa a mano, así la calidad se mantiene en todo el lote."
+          },
+          {
+            "title": "Envasado al vacío si lo pide",
+            "text": "El grano se oxida antes que la fruta seca. El vacío o la atmósfera protectora mantienen la frescura en una travesía larga."
+          }
+        ],
+        "varieties": {
+          "halves": "Mitades claras",
+          "quarters": "Cuartos",
+          "pieces": "Trozos",
+          "inShell": "Con cáscara"
+        }
+      },
+      "peanuts": {
+        "tagline": "Crudo, pelado o tostado",
+        "intro": "Servimos cacahuete con cáscara, en grano crudo, pelado sin piel o tostado según su perfil. El calibrado sigue los grados habituales y cada lote se analiza en aflatoxina antes de salir.",
+        "benefits": [
+          {
+            "title": "Proteína a precio de trabajo",
+            "text": "Alrededor de una cuarta parte de proteína en peso, con potasio, magnesio y vitaminas del grupo B: por eso el cacahuete sostiene tantas líneas de aperitivo y confitería."
+          },
+          {
+            "title": "Analizado en aflatoxina",
+            "text": "Cada lote pasa por laboratorio antes del envío. En este cultivo ése es el principal riesgo de importación, así que el análisis no es opcional."
+          },
+          {
+            "title": "Procesado a su medida",
+            "text": "El pelado y el tostado se hacen bajo pedido, de modo que toma el grano en la fase que encaje con su línea."
+          }
+        ],
+        "varieties": {
+          "blanched": "Pelado",
+          "raw": "Grano crudo",
+          "roasted": "Tostado",
+          "inShell": "Con cáscara"
+        }
+      },
+      "mungBeans": {
+        "tagline": "Una legumbre que se mueve en volumen",
+        "intro": "La judía mungo se limpia, se calibra y se clasifica para cocina o para germinación. Es un básico en el sur y el este de Asia, y la calidad de germinación responde a una exigencia más estricta de poder germinativo.",
+        "benefits": [
+          {
+            "title": "Proteína y fibra",
+            "text": "Rica en proteína vegetal, fibra, hierro y magnesio, y lo bastante ligera para cocina dietética y hospitalaria."
+          },
+          {
+            "title": "Calidad de germinación disponible",
+            "text": "A quien compra germinados le importa el poder germinativo, no sólo el calibre. Esa calidad se selecciona y se analiza aparte."
+          },
+          {
+            "title": "Dos años de vida útil",
+            "text": "La legumbre seca aguanta bastante más que la fruta seca. Bien almacenada, la judía mungo se conserva veinticuatro meses."
+          }
+        ],
+        "varieties": {
+          "standard": "Estándar",
+          "large": "Grande",
+          "sprouting": "Calidad germinación"
+        }
+      }
+    }
   }
 }
