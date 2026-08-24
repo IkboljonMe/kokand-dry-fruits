@@ -1,75 +1,82 @@
 # Kokand Dry Fruits
 
-> Qo'qondan dunyoga — tabiiy quritilgan meva va yong'oq eksporti.
+> Qo'qondan dunyoga — tabiiy quritilgan meva, yong'oq va dukkakli mahsulotlar eksporti.
 
-## Qisqacha
+*Ma'lumot manbasi: kompaniya profili (2026-yil 23-avgust). Saytdagi barcha raqam va
+da'volar shu hujjatga moslashtirilgan.*
 
-**Kokand Dry Fruits** — O'zbekistonning Farg'ona vodiysida, Qo'qon shahrida joylashgan
-quruq meva va yong'oq yetkazib beruvchi kompaniya. Mahsulotlar dalalardan
-to'g'ridan-to'g'ri olinadi, tabiiy yo'l bilan quritiladi va sun'iy bo'yoq hamda
-konservantlarsiz xaridorga yetib boradi.
-
-## Sohada qachondan beri
-
-**2020-yildan beri** — kompaniya shu yildan buyon quruq meva biznesida ishlaydi va
-o'sha vaqtdan boshlab mahsulotlarini xalqaro bozorga eksport qiladi.
+## Kompaniya
 
 | | |
 |---|---|
+| **Brend** | Kokand Dry Fruits |
+| **Yuridik shaxs** | "KOKAND DRY FRUITS" LLC |
+| **Asoschi** | Sodiqov Qahramonjon |
+| **Jamoa** | Sodiqov Hojiakbar, Sodiqov Shuhratjon |
+| **Manzil** | Farg'ona viloyati, Qo'qon tumani, Kichik Oqmasjid MFY, Mustaqillik ko'chasi, 36 |
+| **Faoliyat turi** | Quruq meva va yong'oq ishlab chiqarish va eksport |
 | **Faoliyat boshlangan** | 2020-yil |
-| **Tajriba** | 6 yil (2026-yil holatiga) |
-| **Joylashuv** | Qo'qon, Farg'ona viloyati, O'zbekiston |
-| **Faoliyat turi** | Quruq meva va yong'oq yetkazib berish, eksport |
+| **Aloqa** | Saytdagi forma orqali — Telegramga ulangan |
 
 ## Raqamlarda
 
 | Ko'rsatkich | Qiymat |
 |---|---|
-| Mahsulot turlari | 100+ |
-| Mijozlar | 500+ |
-| Eksport davlatlari | 20+ |
-| Sertifikatlar | 14 ta |
-| Yetkazilgan mahsulot | 5 000+ |
-| Doimiy xaridorlar | 1 000+ |
+| Katalogdagi mahsulot | 13 |
+| Yillik quvvat | 250 tonna |
+| Eksport bozori | 3 (Xitoy, Turkiya, Rossiya) |
+| Tajriba | 6 yil (2026-yil holatiga) |
 
-## Mahsulotlar (6 ta asosiy yo'nalish)
+Asosiy hajm uchta mahsulotga to'g'ri keladi: **qora olxo'ri, mosh, kuraga**.
+Mayiz, grek yong'og'i va yeryong'oq kichikroq hajmda — aniq tonnaj taqsimlanmagan.
 
-| Mahsulot | Tavsif |
+## Mahsulotlar
+
+### 6 ta asosiy yo'nalish (nav ro'yxati tasdiqlangan)
+
+| Mahsulot | Navlari |
 |---|---|
-| **Danaksiz kuraga** | A va C vitamini, temir va kaliyga boy. Yurak-qon tomir tizimini quvvatlaydi, hazmga yordam beradi. |
-| **Mayiz** | Tabiiy yo'l bilan quritilgan uzum. Shirinligi, foydasi va uzoq saqlanishi bilan qadrlanadi. |
-| **Qora olxo'ri** | Shirin va to'yimli. Choy bilan, pazandachilik va qandolatchilikda ishlatiladi, uzoq saqlanadi. |
-| **Grek yong'og'i** | Oqsil, foydali yog'lar, kaliy, magniy, temir va E vitamini. Xotirani quvvatlaydi, immunitetni mustahkamlaydi. |
-| **Yeryong'oq** | Oqsil, foydali yog' kislotalari, kaliy, magniy va B guruh vitaminlari. Energiya beradi, immunitetni kuchaytiradi. |
-| **Mosh** | Oqsil, tolalar, temir, magniy va B vitaminlari. Hazmga yordam beradi, parhez taomlarga mos. |
+| **Kuraga** | Qizil, Sariq, Shakarli, Limonka, Natural, Kesilgan |
+| **Mayiz** | Malayar, Sultana, Natural, Crimson, Jumbo Golden |
+| **Grek yong'og'i** | Yarim (1/2), Chorak (1/4), Yirik bo'lak, Mayda bo'lak, Granula |
+| **Qora olxo'ri** | Danakli, Danaksiz |
+| **Yeryong'oq** | Po'stli, Po'stsiz (tozalangan) |
+| **Mosh** | Standart (nav ajratilmagan) |
 
-## Tamoyillarimiz
+### Eng ko'p sotiladigan qolgan mahsulotlar
 
-1. **Tabiiy mahsulot** — hech qanday sun'iy qo'shimchasiz.
-2. **To'g'ridan-to'g'ri daladan** — yangi va sifatli tanlov.
-3. **Qat'iy sifat nazorati** — har bir dona diqqat bilan saralanadi.
-4. **Tez va ishonchli yetkazib berish** — mintaqa bo'ylab.
-5. **Mijoz ishonchi** — halollik va kafolatlangan sifat.
+Lo'ya, O'rik mag'izi, Quritilgan qalampir, Qovun qoqi, Kampot aralashmasi, Olcha, Olma qoqi.
 
-## Ustunliklar
+Bularga nav ro'yxati hali berilmagan — sayt ularda nav bo'limini umuman ko'rsatmaydi.
+Spetsifikatsiyada faqat HS kod va qadoqlash bor.
 
-- **Premium sifat** — har bir mahsulot qat'iy sifat tekshiruvidan o'tadi, konservantsiz.
-- **Doim yangi** — mahsulotlar uzluksiz yangilanadi va optimal sharoitda saqlanadi.
-- **Global yetkazib berish** — 20+ davlatga tez va ishonchli jo'natish.
-- **Keng assortiment** — oltin mayizdan premium pistagacha, 100+ tur.
+> **Tekshirilishi kerak:** 6 ta asosiy yo'nalishning kalibr, namlik, saqlash muddati va
+> qadoqlash qiymatlari soha uchun odatiy ko'rsatkichlar asosida kiritilgan
+> (`lib/products.ts`). Sayt buni ochiq aytadi ("Parameters are indicative and confirmed
+> per contract"), lekin real ishlab chiqarish ma'lumoti bilan almashtirilishi kerak.
 
-## Aloqa
+## Sertifikatlar
+
+**GACC (Xitoy Bojxona Bosh Boshqarmasi) ro'yxatidan o'tgan:**
 
 | | |
 |---|---|
-| **Manzil** | Qo'qon, Farg'ona viloyati, O'zbekiston |
-| **Telefon** | +998 73 253 00 00 |
-| **Email** | info@kokanddryfruits.uz |
-| **Ish vaqti** | Dushanba–Shanba, 9:00 — 18:00 (UZT) |
+| Xitoy reg. № | CUZB13012509280167 |
+| Chet el reg. № | 2837474 |
+| Qamrov | HS 0813 10 (kuraga) · HS 0813 20 (olxo'ri va olcha) |
+
+ISO 22000, HACCP, Kosher, Halal — **hali yo'q**, saytda ham ko'rsatilmaydi.
+GACC ro'yxati mayiz, yong'oq, yeryong'oq va moshni qamrab olmaydi.
+
+## B2B
+
+- **Private label** — xaridorning o'z brendi ostida ishlab chiqarish taklif qilinadi.
+- Mijozlar fikri (testimonial) mavjud, lekin matnlari hali berilmagan —
+  saytdan olib tashlangan.
 
 ## Tillar
 
-Sayt **12 tilda** ishlaydi:
+Sayt **12 tilda** ishlaydi (profildagi "13 ta til" bilan farq qiladi — aniqlashtirish kerak):
 
 | Kod | Til | Kod | Til |
 |---|---|---|---|
@@ -80,18 +87,26 @@ Sayt **12 tilda** ishlaydi:
 | `tr` | Türkçe | `fr` | Français |
 | `de` | Deutsch | `es` | Español |
 
-Arab tili (`ar`) o'ngdan chapga (RTL) yo'nalishda ishlaydi.
+## Texnik
 
-## Brend assetlari
+| | |
+|---|---|
+| **Framework** | Next.js 15 (App Router, SSG) |
+| **Lug'atlar** | `i18n/dictionaries/*.json` — 12 ta fayl, bir xil kalit tuzilishi |
+| **Sxema** | `i18n/types.ts` |
+| **Mahsulot katalogi** | `lib/products.ts` |
+| **Kompaniya rekvizitlari** | `lib/contacts.ts` (`COMPANY`, `GACC`, `EXPORT_REGIONS`) |
+
+### Brend assetlari
 
 | Fayl | Tavsif |
 |---|---|
-| `assets/brand/logo-horizontal.png` | Asosiy gorizontal logotip (header uchun) |
-| `assets/brand/logo-emblem.png` | Emblema — mis laganda quruq mevalar (500×500) |
-| `assets/brand/hero-pattern.svg` | Fon naqshi |
-| `assets/img/products-kdf/` | 6 ta mahsulot fotosi |
+| `assets/brand/logo-horizontal.png` | Asosiy gorizontal logotip |
+| `assets/brand/logo-emblem.png` | Emblema (500×500) |
+| `assets/img/products-kdf/` | 13 ta mahsulot fotosi (1536×1024) |
+| `assets/video/products/` | 6 ta asosiy mahsulot videosi |
 | `assets/flags/` | 12 ta til bayrog'i (SVG) |
 
----
-
-*Ma'lumot manbasi: kokanddryfruits loyihasining `src/dictionaries/` tarjima fayllari.*
+> **Video:** profilda "video kontent hali yo'q" deyilgan, lekin saytda 6 ta asosiy
+> mahsulot uchun umumiy video bor. Yangi 7 ta mahsulotda video yo'q — ularda rasm
+> ko'rsatiladi (`Product.video` ixtiyoriy).

@@ -7,12 +7,21 @@ export type NamedItem = { name: string; description: string };
 export type TitledItem = { title: string; description: string };
 
 export type ProductKey =
+  // Kompaniya profilidagi 6 ta asosiy yo'nalish
   | 'driedApricots'
   | 'raisins'
   | 'prunes'
   | 'walnuts'
   | 'peanuts'
-  | 'mungBeans';
+  | 'mungBeans'
+  // Eng ko'p sotiladigan qolgan mahsulotlar
+  | 'beans'
+  | 'apricotKernels'
+  | 'driedPeppers'
+  | 'driedMelon'
+  | 'compoteMix'
+  | 'sourCherries'
+  | 'driedApples';
 
 export type Dictionary = {
   meta: { title: string; description: string };
@@ -21,7 +30,6 @@ export type Dictionary = {
     tagline: string;
     title: string;
     subtitle: string;
-    slides: { title: string; subtitle: string }[];
     cta: string;
     ctaSecondary: string;
   };
@@ -31,7 +39,7 @@ export type Dictionary = {
     quality: TitledItem;
     fresh: TitledItem;
     delivery: TitledItem;
-    selection: TitledItem;
+    privateLabel: TitledItem;
   };
   products: {
     sectionTitle: string;
@@ -41,34 +49,29 @@ export type Dictionary = {
   } & Record<ProductKey, NamedItem>;
   stats: {
     products: string;
-    clients: string;
+    capacity: string;
     countries: string;
-    certifications: string;
+    experience: string;
     productsValue: string;
-    clientsValue: string;
+    capacityValue: string;
     countriesValue: string;
-    certificationsValue: string;
+    experienceValue: string;
   };
-  testimonials: {
+  certification: {
     sectionTitle: string;
     sectionSubtitle: string;
-    items: { name: string; role: string; text: string }[];
+    gaccTitle: string;
+    gaccBody: string;
+    chinaRegLabel: string;
+    foreignRegLabel: string;
+    coveredLabel: string;
+    coveredNote: string;
   };
   cta: { title: string; subtitle: string; button: string };
   about: {
     heroTitle: string;
-    heroSubtitle: string;
-    stats: {
-      deliveredValue: string;
-      deliveredLabel: string;
-      customersValue: string;
-      customersLabel: string;
-      certificatesValue: string;
-      certificatesLabel: string;
-    };
     story: { title: string; p1: string; p2: string };
     principles: { title: string; items: TitledItem[] };
-    partners: { title: string; subtitle: string };
   };
   contact: {
     heroTitle: string;
@@ -145,6 +148,6 @@ export type ProductPageItem = {
   /** Ikki-uch jumlalik kirish */
   intro: string;
   benefits: { title: string; text: string }[];
-  /** Nav kaliti -> nomi (lib/products.ts dagi kalitlarga mos) */
+  /** Nav kaliti -> nomi (lib/products.ts dagi kalitlarga mos). Navsiz mahsulotlarda bo'sh. */
   varieties: Record<string, string>;
 };

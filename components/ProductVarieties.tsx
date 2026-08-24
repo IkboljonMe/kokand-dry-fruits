@@ -12,6 +12,8 @@ export default function ProductVarieties({
   const L = dict.productPage.labels;
   const name = dict.products[product.key].name;
 
+  if (product.varieties.length === 0) return null;
+
   return (
     <section className="pvar">
       <div className="container">

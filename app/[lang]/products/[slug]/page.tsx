@@ -43,7 +43,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${name} — Kokand Dry Fruits`,
       description: item.intro,
-      images: [product.poster],
+      images: [product.poster ?? product.image],
     },
   };
 }

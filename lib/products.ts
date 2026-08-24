@@ -6,8 +6,13 @@ import type { ProductKey } from '@/i18n/types';
  * Bu yerdagi qiymatlar tilga bog'liq emas (raqamlar, kalibrlar, HS kodlar),
  * shuning uchun lug'atlarda takrorlanmaydi — faqat yorliqlari tarjima qilinadi.
  *
- * DIQQAT: spetsifikatsiya qiymatlari soha uchun odatiy ko'rsatkichlar asosida
- * kiritilgan. Ishlab chiqarish ma'lumotlari bilan solishtirib tasdiqlash kerak.
+ * Navlar (`varieties`) kompaniya profilidan (2026-08-23) olingan — 6 ta asosiy
+ * yo'nalish uchun. Eng ko'p sotiladigan qolgan mahsulotlar uchun nav ro'yxati
+ * hali berilmagan, shuning uchun ular bo'sh — nav bo'limi umuman chiqmaydi.
+ *
+ * DIQQAT: 6 ta asosiy yo'nalishning spetsifikatsiya qiymatlari soha uchun
+ * odatiy ko'rsatkichlar asosida kiritilgan va tasdiqlanishi kerak. Qolgan
+ * mahsulotlarga faqat HS kod va qadoqlash ko'rsatilgan.
  */
 export type ProductSpec = {
   /** Lug'atdagi yorliq kaliti */
@@ -28,25 +33,32 @@ export type Product = {
   key: ProductKey;
   slug: string;
   image: string;
-  video: string;
-  poster: string;
+  /** Video hali faqat 6 ta asosiy mahsulotda bor — qolganlarida rasm ko'rsatiladi */
+  video?: string;
+  poster?: string;
   /** Navlar — nomlari lug'atdan, texnik izohi shu yerdan */
   varieties: { key: string; note: string }[];
   specs: ProductSpec[];
 };
 
+const IMG = '/assets/img/products-kdf';
+const VID = '/assets/video/products';
+const POSTER = '/assets/img/products-video';
+
 export const PRODUCTS: Product[] = [
   {
     key: 'driedApricots',
     slug: 'dried-apricots',
-    image: '/assets/img/products-kdf/dried-apricots.jpg',
-    video: '/assets/video/products/dried-apricots',
-    poster: '/assets/img/products-video/dried-apricots.jpg',
+    image: `${IMG}/dried-apricots.jpg`,
+    video: `${VID}/dried-apricots`,
+    poster: `${POSTER}/dried-apricots.jpg`,
     varieties: [
-      { key: 'natural', note: '80–100 pcs/kg' },
-      { key: 'yellow', note: '60–80 pcs/kg' },
-      { key: 'cut', note: 'halved' },
-      { key: 'amber', note: 'extra light' },
+      { key: 'red', note: 'deep orange-red' },
+      { key: 'yellow', note: 'light golden' },
+      { key: 'sugar', note: 'high-sugar grade' },
+      { key: 'lemon', note: 'pale lemon shade' },
+      { key: 'natural', note: 'sun-dried' },
+      { key: 'cut', note: 'halved, pitted' },
     ],
     specs: [
       { label: 'calibre', value: '60–80 · 80–100 · 100–120 pcs/kg' },
@@ -60,14 +72,15 @@ export const PRODUCTS: Product[] = [
   {
     key: 'raisins',
     slug: 'raisins',
-    image: '/assets/img/products-kdf/raisins.jpg',
-    video: '/assets/video/products/raisins',
-    poster: '/assets/img/products-video/raisins.jpg',
+    image: `${IMG}/raisins.jpg`,
+    video: `${VID}/raisins`,
+    poster: `${POSTER}/raisins.jpg`,
     varieties: [
-      { key: 'sultana', note: 'golden' },
-      { key: 'jumbo', note: 'extra large' },
+      { key: 'malayar', note: 'large, dark' },
+      { key: 'sultana', note: 'golden, seedless' },
+      { key: 'natural', note: 'sun-dried' },
       { key: 'crimson', note: 'seedless' },
-      { key: 'shade', note: 'shade-dried' },
+      { key: 'jumboGolden', note: 'extra large' },
     ],
     specs: [
       { label: 'calibre', value: 'Jumbo · Standard · Midget' },
@@ -81,13 +94,12 @@ export const PRODUCTS: Product[] = [
   {
     key: 'prunes',
     slug: 'prunes',
-    image: '/assets/img/products-kdf/prunes.jpg',
-    video: '/assets/video/products/prunes',
-    poster: '/assets/img/products-video/prunes.jpg',
+    image: `${IMG}/prunes.jpg`,
+    video: `${VID}/prunes`,
+    poster: `${POSTER}/prunes.jpg`,
     varieties: [
-      { key: 'pitted', note: 'without stone' },
       { key: 'unpitted', note: 'with stone' },
-      { key: 'softened', note: 'ready to eat' },
+      { key: 'pitted', note: 'without stone' },
     ],
     specs: [
       { label: 'calibre', value: '70/80 · 80/90 · 90/100 pcs/kg' },
@@ -101,17 +113,18 @@ export const PRODUCTS: Product[] = [
   {
     key: 'walnuts',
     slug: 'walnuts',
-    image: '/assets/img/products-kdf/walnuts.jpg',
-    video: '/assets/video/products/walnuts',
-    poster: '/assets/img/products-video/walnuts.jpg',
+    image: `${IMG}/walnuts.jpg`,
+    video: `${VID}/walnuts`,
+    poster: `${POSTER}/walnuts.jpg`,
     varieties: [
-      { key: 'halves', note: 'light halves' },
-      { key: 'quarters', note: 'quarters' },
-      { key: 'pieces', note: '8 mm pieces' },
-      { key: 'inShell', note: '30–34 mm' },
+      { key: 'halves', note: '1/2 kernels' },
+      { key: 'quarters', note: '1/4 kernels' },
+      { key: 'largePieces', note: 'coarse pieces' },
+      { key: 'smallPieces', note: 'fine pieces' },
+      { key: 'granules', note: 'granulate' },
     ],
     specs: [
-      { label: 'calibre', value: 'Halves · Quarters · Pieces · In shell' },
+      { label: 'calibre', value: 'Halves · Quarters · Pieces · Granulate' },
       { label: 'moisture', value: '≤ 8%' },
       { label: 'packaging', value: '10 / 25 kg carton · vacuum' },
       { label: 'shelfLife', value: '12 months' },
@@ -122,14 +135,12 @@ export const PRODUCTS: Product[] = [
   {
     key: 'peanuts',
     slug: 'peanuts',
-    image: '/assets/img/products-kdf/peanuts.jpg',
-    video: '/assets/video/products/peanuts',
-    poster: '/assets/img/products-video/peanuts.jpg',
+    image: `${IMG}/peanuts.jpg`,
+    video: `${VID}/peanuts`,
+    poster: `${POSTER}/peanuts.jpg`,
     varieties: [
-      { key: 'blanched', note: 'skin removed' },
-      { key: 'raw', note: 'kernels' },
-      { key: 'roasted', note: 'roasted' },
       { key: 'inShell', note: 'in shell' },
+      { key: 'shelled', note: 'cleaned kernels' },
     ],
     specs: [
       { label: 'calibre', value: '50/60 · 60/70 · 70/80 pcs/oz' },
@@ -143,14 +154,10 @@ export const PRODUCTS: Product[] = [
   {
     key: 'mungBeans',
     slug: 'mung-beans',
-    image: '/assets/img/products-kdf/mung-beans.jpg',
-    video: '/assets/video/products/mung-beans',
-    poster: '/assets/img/products-video/mung-beans.jpg',
-    varieties: [
-      { key: 'standard', note: '3.0–3.2 mm' },
-      { key: 'large', note: '3.4–3.6 mm' },
-      { key: 'sprouting', note: 'sprouting grade' },
-    ],
+    image: `${IMG}/mung-beans.jpg`,
+    video: `${VID}/mung-beans`,
+    poster: `${POSTER}/mung-beans.jpg`,
+    varieties: [{ key: 'standard', note: 'single grade' }],
     specs: [
       { label: 'calibre', value: '3.0–3.6 mm' },
       { label: 'moisture', value: '≤ 12%' },
@@ -158,6 +165,79 @@ export const PRODUCTS: Product[] = [
       { label: 'shelfLife', value: '24 months' },
       { label: 'storage', value: '5–20 °C · ≤ 65% RH' },
       { label: 'hsCode', value: '0713 31' },
+    ],
+  },
+
+  // Eng ko'p sotiladigan qolgan mahsulotlar — nav va to'liq spetsifikatsiya
+  // hali tasdiqlanmagan, shuning uchun faqat HS kod va qadoqlash ko'rsatilgan.
+  {
+    key: 'beans',
+    slug: 'beans',
+    image: `${IMG}/beans.jpg`,
+    varieties: [],
+    specs: [
+      { label: 'packaging', value: 'to buyer specification' },
+      { label: 'hsCode', value: '0713 33' },
+    ],
+  },
+  {
+    key: 'apricotKernels',
+    slug: 'apricot-kernels',
+    image: `${IMG}/apricot-kernels.jpg`,
+    varieties: [],
+    specs: [
+      { label: 'packaging', value: 'to buyer specification' },
+      { label: 'hsCode', value: '1212 99' },
+    ],
+  },
+  {
+    key: 'driedPeppers',
+    slug: 'dried-peppers',
+    image: `${IMG}/dried-peppers.jpg`,
+    varieties: [],
+    specs: [
+      { label: 'packaging', value: 'to buyer specification' },
+      { label: 'hsCode', value: '0904 21' },
+    ],
+  },
+  {
+    key: 'driedMelon',
+    slug: 'dried-melon',
+    image: `${IMG}/dried-melon.jpg`,
+    varieties: [],
+    specs: [
+      { label: 'packaging', value: 'to buyer specification' },
+      { label: 'hsCode', value: '0813 40' },
+    ],
+  },
+  {
+    key: 'compoteMix',
+    slug: 'compote-mix',
+    image: `${IMG}/compote-mix.jpg`,
+    varieties: [],
+    specs: [
+      { label: 'packaging', value: 'to buyer specification' },
+      { label: 'hsCode', value: '0813 50' },
+    ],
+  },
+  {
+    key: 'sourCherries',
+    slug: 'sour-cherries',
+    image: `${IMG}/sour-cherries.jpg`,
+    varieties: [],
+    specs: [
+      { label: 'packaging', value: 'to buyer specification' },
+      { label: 'hsCode', value: '0813 40' },
+    ],
+  },
+  {
+    key: 'driedApples',
+    slug: 'dried-apples',
+    image: `${IMG}/dried-apples.jpg`,
+    varieties: [],
+    specs: [
+      { label: 'packaging', value: 'to buyer specification' },
+      { label: 'hsCode', value: '0813 30' },
     ],
   },
 ];

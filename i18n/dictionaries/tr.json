@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Kokand Kuru Meyveleri — Özbekistan'dan Premium Kuru Meyveler ve Kuruyemişler",
-    "description": "Özbekistan Kokand'ın kalbinden gelen premium kaliteli kurutulmuş meyveler, kuruyemişler ve doğal ürünler."
+    "title": "Kokand Dry Fruits — Özbekistan'dan kuru meyve, kuruyemiş ve bakliyat",
+    "description": "Özbekistan Hokand'dan kuru meyve, kuruyemiş ve bakliyat. GACC kayıtlı üretici; Çin, Türkiye ve Rusya'ya ihracat, yılda 250 ton kapasite ve özel markalı üretim."
   },
   "nav": {
     "home": "Ana Sayfa",
@@ -11,131 +11,120 @@
   },
   "hero": {
     "tagline": "Kokand'ın Kalbinden",
-    "title": "Premium Kuru Meyveler ve Kuruyemişler",
-    "subtitle": "Doğal kaynaklı, özenle seçilmiş ve dünya çapında teslim edilen — Özbekistan'ın en iyi hasadının otantik lezzeti sofranızda.",
-    "slides": [
-      {
-        "title": "Kendi ülkenize teslim",
-        "subtitle": "20’den fazla ülkeye gıdaya uygun ambalajla gönderim — Kokand’daki depomuzdan doğrudan kapınıza."
-      },
-      {
-        "title": "Dürüst fiyatlar, doğrudan kaynağından",
-        "subtitle": "Fergana Vadisi’ndeki çiftliklerden doğrudan alıyoruz; aracı payı olmadan birinci sınıf kalite sizin oluyor."
-      },
-      {
-        "title": "Tam zamanında toplanan kuruyemişler",
-        "subtitle": "Badem, ceviz ve antep fıstığı elle seçilir, doğru koşullarda saklanır ve asla koruyucu madde görmez."
-      }
-    ],
+    "title": "Kuru meyve, kuruyemiş ve bakliyat",
+    "subtitle": "Fergana Vadisi'nde kurutuluyor, Hokand'daki kendi tesisimizde ayıklanıp paketleniyor ve Çin, Türkiye ile Rusya'daki alıcılara gönderiliyor.",
     "cta": "Ürünlerimizi Keşfedin",
     "ctaSecondary": "Hikayemiz"
   },
   "strengths": {
     "sectionTitle": "Neden Bizi Seçmelisiniz",
-    "sectionSubtitle": "Asırlık gelenekleri modern kalite standartlarıyla birleştiriyoruz",
+    "sectionSubtitle": "Fergana Vadisi'nde bir aile işletmesi — yılda 250 ton üretim",
     "quality": {
       "title": "Premium Kalite",
-      "description": "Her ürün titiz kalite testlerinden geçer. Sadece en iyi, katkı maddesiz kuru meyveler ve kuruyemişler."
+      "description": "Her parti paketlemeden önce ayıklanır ve sınıflandırılır. Yapay renklendirici yok, koruyucu yok."
     },
     "fresh": {
       "title": "Her Zaman Taze",
-      "description": "Ürünlerimiz sürekli yenilenir ve doğal lezzeti korumak için optimal koşullarda saklanır."
+      "description": "Meyve mevsiminde kurutulur ve kontrollü depoda tutulur; böylece doku ve aroma yolculuğu atlatır."
     },
     "delivery": {
-      "title": "Küresel Teslimat",
-      "description": "20'den fazla ülkeye hızlı, güvenilir gönderim."
+      "title": "İhracat pazarları",
+      "description": "Çin, Türkiye ve Rusya — GACC kaydı Çin pazarına erişimi resmen doğruluyor."
     },
-    "selection": {
-      "title": "Geniş Seçim",
-      "description": "Altın üzümden premium Antep fıstığına — 100'den fazla çeşit kuru meyve ve kuruyemiş."
+    "privateLabel": {
+      "title": "Özel marka üretimi",
+      "description": "Kendi markanız altında üretiyoruz — sizin ambalajınız, sizin spesifikasyonunuz, Hokand'daki tesisimizde."
     }
   },
   "products": {
     "sectionTitle": "Ürünlerimiz",
-    "sectionSubtitle": "Premium kuru meyve ve kuruyemişlerin çeşitli seçkisini keşfedin",
+    "sectionSubtitle": "Altı üretim hattı ve alıcılarımızın en çok sipariş ettiği mevsimlik ürünler",
     "priceNote": "Fiyat görüşülür",
-    "prunes": {
-      "name": "Kuru Erik",
-      "description": "Tatlı ve dolgun aromasıyla çayın yanında, yemeklerde ve tatlılarda kullanılır. Uzun süre dayandığı için stoklaması kolaydır."
-    },
-    "peanuts": {
-      "name": "Yer Fıstığı",
-      "description": "Protein, sağlıklı yağ asitleri, potasyum, magnezyum ve B vitaminleri bakımından zengindir. Enerji verir ve bağışıklığı güçlendirir."
-    },
-    "walnuts": {
-      "name": "Kuru Ceviz",
-      "description": "Protein, besleyici yağ asitleri, potasyum, magnezyum, demir ve E vitamini içerir. Hafızayı destekler, bağışıklığı artırır."
-    },
     "driedApricots": {
-      "name": "Çekirdeksiz Kuru Kayısı",
+      "name": "Kuru kayısı",
       "description": "A ve C vitamini, demir ve potasyum açısından zengindir; kalp ve damar sağlığına iyi gelir. Sindirimi de kolaylaştırır."
     },
     "raisins": {
       "name": "Kuru Üzüm",
       "description": "Doğal yolla kurutulmuş üzüm. Tatlılığı, faydası ve uzun raf ömrüyle değerlidir."
     },
+    "prunes": {
+      "name": "Kuru erik",
+      "description": "Tatlı ve dolgun aromasıyla çayın yanında, yemeklerde ve tatlılarda kullanılır. Uzun süre dayandığı için stoklaması kolaydır."
+    },
+    "walnuts": {
+      "name": "Ceviz",
+      "description": "Protein, besleyici yağ asitleri, potasyum, magnezyum, demir ve E vitamini içerir. Hafızayı destekler, bağışıklığı artırır."
+    },
+    "peanuts": {
+      "name": "Yer Fıstığı",
+      "description": "Protein, sağlıklı yağ asitleri, potasyum, magnezyum ve B vitaminleri bakımından zengindir. Enerji verir ve bağışıklığı güçlendirir."
+    },
     "mungBeans": {
       "name": "Maş Fasulyesi",
       "description": "Protein, lif, demir, magnezyum ve B vitaminleri bakımından zengindir. Sindirime yardımcı olur, enerji verir, diyet yemeklerine uygundur."
+    },
+    "beans": {
+      "name": "Kuru fasulye",
+      "description": "Kurutulmuş ve temizlenmiş adi fasulye. Temel bir bakliyat — bitkisel protein, lif ve demir bakımından zengin, yıllarca saklanır."
+    },
+    "apricotKernels": {
+      "name": "Kayısı çekirdeği içi",
+      "description": "Kayısı çekirdeğinin içindeki iç. Sağlıklı yağlar ve protein açısından zengin; şekerlemede, fırıncılıkta ve yağ çıkarmada kullanılır."
+    },
+    "driedPeppers": {
+      "name": "Kuru biber",
+      "description": "Bütün hâlde güneşte kurutulmuş biber. Baharat karışımları, soslar ve turşu için — kurutma acılığı ve rengi yoğunlaştırır."
+    },
+    "driedMelon": {
+      "name": "Kuru kavun",
+      "description": "Şeritler hâlinde kesilip güneşte kurutulmuş Fergana kavunu. Yoğun tatlı ve kokulu — çay yanında sunulan bir Orta Asya lezzeti."
+    },
+    "compoteMix": {
+      "name": "Komposto karışımı",
+      "description": "Kuru elma, kayısı, erik, vişne ve orman meyvelerinden hazır karışım. Tek kalem olarak satılır, ayrıca harmanlamaya gerek yoktur."
+    },
+    "sourCherries": {
+      "name": "Vişne",
+      "description": "Bütün hâlde kurutulmuş vişne. Antosiyanin bakımından zengin; asitliği fırında, şekerlemede ve kompostoda korunur."
+    },
+    "driedApples": {
+      "name": "Kuru elma",
+      "description": "Halka hâlinde kesilip kurutulmuş elma. Hafif, lifli ve saklaması kolay — komposto, müsli ve atıştırmalık için."
     },
     "viewAll": "Tüm Ürünleri Gör"
   },
   "stats": {
     "products": "Ürün",
-    "clients": "Müşteri",
-    "countries": "Ülke",
-    "certifications": "Sertifika",
-    "productsValue": "100+",
-    "clientsValue": "500+",
-    "countriesValue": "20+",
-    "certificationsValue": "14"
+    "capacity": "Ton/yıl",
+    "countries": "İhracat pazarı",
+    "experience": "Yıllık tecrübe",
+    "productsValue": "13",
+    "capacityValue": "250",
+    "countriesValue": "3",
+    "experienceValue": "6"
   },
-  "testimonials": {
-    "sectionTitle": "Müşterilerimiz Ne Diyor",
-    "sectionSubtitle": "Dünya genelinde işletmeler ve aileler tarafından güveniliyor",
-    "items": [
-      {
-        "name": "Mikhail Petrov",
-        "role": "İthalat Müdürü, Moskova",
-        "text": "Kokand Kuru Meyveleri 5 yıldır güvenilir tedarikçimiz. Kalite sürekli mükemmel."
-      },
-      {
-        "name": "Fatima Al-Rashid",
-        "role": "Toptan Alıcı, Dubai",
-        "text": "Tedarik ettiğimiz en iyi kuru kayısı ve Antep fıstığı."
-      },
-      {
-        "name": "Chen Wei",
-        "role": "Sağlıklı Yaşam Mağazası, Şanghay",
-        "text": "Sağlık bilincine sahip müşterilerimizin sevdiği doğal, katkısız ürünler."
-      },
-      {
-        "name": "Anna Schmidt",
-        "role": "Restoran Şefi, Berlin",
-        "text": "Bu cevizler ve bademler pastane menümüzü yükseltti."
-      }
-    ]
+  "certification": {
+    "sectionTitle": "Sertifikasyon",
+    "sectionSubtitle": "Çin Gümrük Genel İdaresi siciline kayıtlı",
+    "gaccTitle": "GACC kaydı",
+    "gaccBody": "“KOKAND DRY FRUITS” LLC, GACC'in onaylı yurt dışı gıda üreticileri siciline kayıtlıdır. Ürünümüzün Çin gümrüğünden bir aracının değil, kendi kayıt numaramız üzerinden geçmesini sağlayan da bu kayıttır.",
+    "chinaRegLabel": "Çin kayıt no.",
+    "foreignRegLabel": "Yurt dışı kayıt no.",
+    "coveredLabel": "Kapsanan GTİP kodları",
+    "coveredNote": "GACC kaydı kuru kayısıyı (HS 0813 10) ve kuru erik ile vişneyi (HS 0813 20) kapsar. Diğer ürünlerimiz bu kaydın gerekmediği pazarlara gönderilir."
   },
   "cta": {
     "title": "Ortağımız Olun",
-    "subtitle": "Perakendeci, toptancı veya gıda üreticisi olun — birlikte verimli bir ortaklık kuralım.",
+    "subtitle": "İthalatçı, toptancı ya da gıda üreticisi olun — kendi markanız altında da olmak üzere — birlikte verimli bir iş ortaklığı kuralım.",
     "button": "İletişime Geçin"
   },
   "about": {
     "heroTitle": "Hakkımızda",
-    "heroSubtitle": "Size doğal ve kaliteli kuru meyveleri hızla ulaştırıyoruz",
-    "stats": {
-      "deliveredValue": "5000+",
-      "deliveredLabel": "Teslim edilen ürün",
-      "customersValue": "1000+",
-      "customersLabel": "Müşteri",
-      "certificatesValue": "14",
-      "certificatesLabel": "Sertifika"
-    },
     "story": {
       "title": "2020'den beri bu alandayız",
-      "p1": "Sağlıklı beslenmeye değer veren herkes için kaliteli kuru meyve sunan güvenilir bir kaynağız.",
-      "p2": "Ürünlerimiz doğrudan tarladan toplanır, doğal yollarla kurutulur ve hiçbir yapay renklendirici ya da koruyucu madde olmadan size ulaşır."
+      "p1": "Fergana Vadisi'nde kuru meyve, kuruyemiş ve bakliyat üreten ve ihraç eden bir aile işletmesi.",
+      "p2": "“KOKAND DRY FRUITS” LLC, Fergana bölgesi Hokand ilçesindeki Kiçik Okmescid mahallesinde faaliyet gösteriyor; yıllık üretim kapasitesi 250 ton. Bu hacmin büyük bölümü kuru erik, maş fasulyesi ve kuru kayısıdan geliyor; kuru üzüm, ceviz ve yer fıstığı daha küçük miktarlarda üretiliyor."
     },
     "principles": {
       "title": "İlkelerimiz",
@@ -161,10 +150,6 @@
           "description": "Dürüstlük ve garantili kalite."
         }
       ]
-    },
-    "partners": {
-      "title": "Güvenilir İş Ortaklarımız",
-      "subtitle": "Kaliteli ürün ve hizmet sunmak için güvenilir iş ortaklarımızla birlikte çalışıyoruz. Onların deneyimi, güvenilirliği ve yüksek sorumluluk duygusu sayesinde müşterilerimize en iyi sonucu sunuyoruz."
     }
   },
   "contact": {
@@ -187,7 +172,7 @@
     },
     "info": {
       "title": "İletişime Geçin",
-      "address": "Kokand, Fergana Bölgesi, Özbekistan",
+      "address": "Mustaqillik Cad. 36, Kiçik Okmescid Mahallesi, Hokand İlçesi, Fergana Bölgesi, Özbekistan",
       "addressLabel": "Adres",
       "phone": "+998 73 253 00 00",
       "phoneLabel": "Telefon",
@@ -199,7 +184,7 @@
     }
   },
   "footer": {
-    "description": "Kokand, Özbekistan'dan premium kuru meyveler ve kuruyemişler — 2020'den beri dünya çapında ihracat.",
+    "description": "Özbekistan Hokand'dan kuru meyve, kuruyemiş ve bakliyat — 2020'den bu yana Çin, Türkiye ve Rusya'ya ihracat.",
     "quickLinks": "Hızlı Bağlantılar",
     "ourProducts": "Ürünlerimiz",
     "contactUs": "İletişim",
@@ -236,145 +221,277 @@
     "items": {
       "driedApricots": {
         "tagline": "Fergana Vadisi'nde güneşte kurutuldu",
-        "intro": "Kayısı toplandıktan birkaç saat içinde kurutmaya serilir; böylece şeker yoğunlaşır, meyve pişmez. Renk ve boya göre ayırıyoruz: ekstra açıktan koyu kehribara kadar, boya kullanmıyoruz. Kükürtlü ve kükürtsüz partiler mevcut.",
+        "intro": "Kayısılar toplandıktan sonraki saatler içinde kurumaya serilir; böylece şekerler meyve hiç pişmeden yoğunlaşır. Renk ve boya göre altı sınıfa ayırıyoruz — kırmızı, sarı, şekerli, Limonka, natürel ve kesilmiş — ve boya kullanmıyoruz.",
         "benefits": [
           {
             "title": "A vitamini ve potasyum",
-            "text": "Turuncu pigment beta-karotendir; vücut onu A vitaminine çevirir. Kayısı ayrıca potasyum ve demir taşır, bu yüzden kalp ve dolaşım gıdası sayılır."
+            "text": "Turuncu pigment beta-karotendir; vücut bunu A vitaminine çevirir. Kayısıda ayrıca potasyum ve demir bulunur, bu yüzden kalp ve dolaşım için bir gıda olarak satılır."
           },
           {
-            "title": "Güvenilir renk sınıflandırması",
-            "text": "Partiler optik ayırıcıdan geçer, böylece ekstra açık olan ekstra açık kalır. Koli koli, satın aldığınız tonu alırsınız."
+            "title": "Güvenebileceğiniz renk sınıflandırması",
+            "text": "Partiler paketlemeden önce tona ve boya göre ayrılır; açık renkli mal açık kalır. Hangi sınıfı aldıysanız kasa kasa onu alırsınız."
           },
           {
-            "title": "Sonraki hasada kadar stabil",
-            "text": "Nem %20'nin altına indirilir ve sıcaklık kontrollü depoda tutulur; meyve bir yıl boyunca dokusunu ve tadını korur."
+            "title": "GACC kaydımız kapsamında",
+            "text": "Kuru kayısı HS 0813 10 kapsamındadır; bu, GACC kaydımızın kapsadığı iki koddan biridir, yani bu hat Çin'e kendi kaydımızla girer."
           }
         ],
         "varieties": {
-          "natural": "Doğal",
+          "red": "Kırmızı",
           "yellow": "Sarı",
-          "cut": "Kesilmiş",
-          "amber": "Kehribar"
+          "sugar": "Şekerli (Shakarli)",
+          "lemon": "Limonka",
+          "natural": "Natürel",
+          "cut": "Kesilmiş"
         }
       },
       "raisins": {
         "tagline": "Üzüm, her zamanki gibi kurutuldu",
-        "intro": "Kuru üzümümüz Fergana Vadisi bağlarından gelir; kaliteye göre güneşte ya da gölgede kurutulur. Gölge kurutma daha uzun ve daha pahalıdır ama meyveyi yumuşak ve açık renkli bırakır — premium piyasanın istediği tam da budur.",
+        "intro": "Kuru üzümümüz Fergana Vadisi bağlarından gelir ve geleneksel yöntemle güneşte kurutulur. Beş sınıf çalışıyoruz — Malayar, Sultana, natürel, Crimson ve Jumbo Golden — aralarındaki fark işlemede değil, boy, renk ve fiyattadır.",
         "benefits": [
           {
-            "title": "Doğal şeker, katkısız",
-            "text": "Hiçbir şey eklenmez, üzeri kaplanmaz. Tatlılık üzümün kendisine aittir; şurupla değil, kurutmayla yoğunlaşır."
+            "title": "Doğal şeker, katkı yok",
+            "text": "Hiçbir şey eklenmez, hiçbir şeyle kaplanmaz. Tatlılık üzümün kendisinindir; şurupla değil, kurutmayla yoğunlaşır."
           },
           {
-            "title": "Dört ayrı kalite",
-            "text": "Altın Sultana, iri Jumbo, çekirdeksiz Crimson ve geleneksel gölge kurutma — her birinin rengi, boyu ve fiyatı farklı."
+            "title": "Beş ayrı sınıf",
+            "text": "Malayar, Sultana, natürel, Crimson ve Jumbo Golden — her birinin kendi boyu, rengi ve fiyat seviyesi var."
           },
           {
-            "title": "İyi saklanır, iyi yol gider",
-            "text": "Nem %17 ve altındayken kuru üzüm soğutmasız sevk edilir ve kapalı kolide bir yıl yumuşaklığını korur."
+            "title": "İyi saklanır, yolu kaldırır",
+            "text": "Nem %17'yi geçmediği için kuru üzüm soğutmasız sevk edilir ve kapalı kolilerde bir yıl yumuşaklığını korur."
           }
         ],
         "varieties": {
-          "sultana": "Altın Sultana",
-          "jumbo": "Jumbo Golden",
-          "crimson": "Çekirdeksiz Crimson",
-          "shade": "Gölgede kurutulmuş"
+          "malayar": "Malayar",
+          "sultana": "Sultana",
+          "natural": "Natürel",
+          "crimson": "Crimson",
+          "jumboGolden": "Jumbo Golden"
         }
       },
       "prunes": {
         "tagline": "Yavaş kurutulmuş erik",
-        "intro": "Erik bütün halde ve yavaş kurutulur; kuru eriğin koyu rengi ve tat derinliği buradan gelir. Çekirdekli ve çekirdeksiz tedarik ediyoruz, kilogram başına adet üzerinden kalibre edilir, yani ne geleceğini tam olarak bilirsiniz.",
+        "intro": "Erikler bütün hâlde ve yavaş kurutulur; kuru eriğin koyu rengi ve derin aroması buradan gelir. Çekirdekli veya çekirdeksiz veriyoruz; kalibrasyon kilogramdaki adet sayısıyla yapılır, böylece gelenin ne olduğunu tam olarak bilirsiniz.",
         "benefits": [
           {
             "title": "Lif ve sorbitol",
-            "text": "Kuru erik sindirim için en bilinen gıdalardan biridir ve nedeni gerçektir: çözünür lif ile doğal sorbitol."
+            "text": "Kuru erik sindirim için en bilinen gıdalardan biridir ve sebebi gerçektir: çözünür lif artı doğal olarak bulunan sorbitol."
           },
           {
             "title": "Tahmin değil, sayım",
-            "text": "Kalibrasyon kilogram başına adetle yapılır — 70/80, 80/90, 90/100 — böylece sonraki aşamadaki paketleme öngörülebilir kalır."
+            "text": "Kalibrasyon kilogramdaki adet üzerinden yapılır — 70/80, 80/90, 90/100 — böylece sizin tarafınızdaki porsiyonlama ve paketleme öngörülebilir kalır."
           },
           {
-            "title": "Hem mutfakta hem rafta",
-            "text": "Şekerlemede, et yemeklerinde ve perakende atıştırmalık paketlerinde aynı derecede yerinde; bu yüzden kolay dönen bir kalem."
+            "title": "En büyük hattımız ve GACC kapsamında",
+            "text": "Yılda 250 tonun en büyük payı kuru eriğe ait ve HS 0813 20, Çin için GACC kaydımızın kapsamında."
           }
         ],
         "varieties": {
-          "pitted": "Çekirdeksiz",
           "unpitted": "Çekirdekli",
-          "softened": "Yemeye hazır"
+          "pitted": "Çekirdeksiz"
         }
       },
       "walnuts": {
-        "tagline": "Makineyle ve elle ayrılmış iç",
-        "intro": "Ceviz kırılır ve açık renkli yarım, çeyrek ve kırık olarak sınıflandırılır ya da kabuklu verilir. Bu ticarette fiyatı renk belirler; bu yüzden iç, optik ayırıcıdan sonra elle kontrolden geçer.",
+        "tagline": "Boy ve renge göre ayrılmış iç ceviz",
+        "intro": "Cevizler kırılır ve yarım, çeyrek, iri parça, ince parça ve granül olarak sınıflandırılır. Bu ticarette fiyatı renk belirler; bu yüzden içler tona göre ayrılır ve paketlenmeden önce elle kontrol edilir.",
         "benefits": [
           {
             "title": "Omega-3 ve E vitamini",
-            "text": "Ceviz, yaygın sert kabuklular arasında en çok alfa-linolenik asidi taşır; ayrıca E vitamini, magnezyum ve protein içerir."
+            "text": "Ceviz, yaygın kuruyemişler arasında en yüksek alfa-linolenik asit içeriğine sahiptir; ayrıca E vitamini, magnezyum ve protein taşır."
           },
           {
-            "title": "Düzgün ayrılmış açık yarım",
-            "text": "Primi açık renkli iç kazandırır. Bizimki optik ayrılır, sonra elle kontrol edilir; böylece kalite parti boyunca korunur."
+            "title": "Açık renkli yarımlar, düzgün ayrılmış",
+            "text": "Açık renkli yarımlar primi alır. Bizimkiler renge göre ayrılır ve elle kontrol edilir, böylece sınıf parti boyunca korunur."
           },
           {
-            "title": "Talebe göre vakum",
-            "text": "İç, kuru meyveden daha hızlı oksitlenir. Vakum veya gaz ortamı uzun deniz yolculuğunda tazeliği korur."
+            "title": "Talebe göre vakumlu ambalaj",
+            "text": "İç ceviz kuru meyveden daha hızlı oksitlenir. Vakum veya gazlı ambalaj, uzun deniz yolculuğunda tazeliği korur."
           }
         ],
         "varieties": {
-          "halves": "Açık yarım",
-          "quarters": "Çeyrek",
-          "pieces": "Kırık",
-          "inShell": "Kabuklu"
+          "halves": "Yarım (1/2)",
+          "quarters": "Çeyrek (1/4)",
+          "largePieces": "İri parça",
+          "smallPieces": "İnce parça",
+          "granules": "Granül"
         }
       },
       "peanuts": {
-        "tagline": "Çiğ, kabuğu soyulmuş veya kavrulmuş",
-        "intro": "Yer fıstığını kabuklu, çiğ iç, zarı alınmış ya da sizin profilinize göre kavrulmuş olarak veriyoruz. Kalibrasyon alışılmış derecelerle yapılır ve her parti sevkiyattan önce aflatoksin açısından kontrol edilir.",
+        "tagline": "Kabuklu veya iç",
+        "intro": "Yer fıstığını kabuklu ve temizlenmiş iç olarak veriyoruz. Kalibrasyon alışılmış ons başına adet sınıflarına göre yapılır; partiler varış pazarınızın istediği sertifikalarla sevk edilir.",
         "benefits": [
           {
-            "title": "Uygun fiyatlı protein",
-            "text": "Ağırlığının yaklaşık dörtte biri protein; yanında potasyum, magnezyum ve B grubu vitaminleri — bu yüzden yer fıstığı pek çok atıştırmalık ve şekerleme hattının temeli."
+            "title": "Çalışan fiyata protein",
+            "text": "Ağırlığın yaklaşık dörtte biri protein; ayrıca potasyum, magnezyum ve B grubu vitaminleri. Bu kadar çok atıştırmalık ve şekerleme hattının temelinde yer fıstığının olması bundan."
           },
           {
-            "title": "Aflatoksin testli",
-            "text": "Her parti sevkten önce laboratuvarda kontrol edilir. Bu ürün için ana ithalat riski budur, dolayısıyla test isteğe bağlı değildir."
+            "title": "Sizin protokolünüze göre test",
+            "text": "Aflatoksin limitleri pazara göre değişir. İthalatınızın istediği protokolü ve limiti söyleyin, o sertifikayla sevk edelim."
           },
           {
-            "title": "Brifinginize göre işleme",
-            "text": "Zar alma ve kavurma siparişe göre yapılır; içi hattınıza uyan aşamada alabilirsiniz."
+            "title": "Talebinize göre işleme",
+            "text": "Kabuk ayırma ve sonraki işlemler siparişe göre yapılır; içi kendi hattınıza uyan aşamada teslim alabilirsiniz."
           }
         ],
         "varieties": {
-          "blanched": "Zarı alınmış",
-          "raw": "Çiğ iç",
-          "roasted": "Kavrulmuş",
-          "inShell": "Kabuklu"
+          "inShell": "Kabuklu",
+          "shelled": "İç (kabuksuz)"
         }
       },
       "mungBeans": {
         "tagline": "Hacimle dönen bir bakliyat",
-        "intro": "Maş fasulyesi temizlenir, kalibre edilir ve pişirmelik ile filizlendirmelik olarak ayrılır. Güney ve Doğu Asya'da temel bir üründür; filizlendirmelik kalite, çimlenme oranı bakımından daha sıkı bir standarda tutulur.",
+        "intro": "Maş fasulyesi temizlenir, kalibre edilir ve tek bir standart sınıf olarak paketlenir. Güney ve Doğu Asya'da temel bir üründür ve yıllık hacmimizin büyük bölümünü taşıyan üç hattan biridir.",
         "benefits": [
           {
             "title": "Protein ve lif",
-            "text": "Bitkisel protein, lif, demir ve magnezyum bakımından zengin; diyet ve hastane mutfağına girecek kadar da hafif."
+            "text": "Bitkisel protein, lif, demir ve magnezyum bakımından zengin; aynı zamanda diyet ve hastane mutfağına girecek kadar hafif."
           },
           {
-            "title": "Filizlendirmelik kalite mevcut",
-            "text": "Filiz alıcısı için boy değil çimlenme oranı önemlidir. Bu kalite ayrıca seçilir ve test edilir."
+            "title": "Ana hacimlerimizden biri",
+            "text": "Kuru erik ve kuru kayısıyla birlikte maş fasulyesi, yılda ürettiğimiz 250 tonun büyük kısmını oluşturur; yani miktar nadiren kısıt olur."
           },
           {
             "title": "İki yıl raf ömrü",
-            "text": "Kuru bakliyat, kuru meyveden rahatlıkla uzun dayanır. Doğru saklandığında maş fasulyesi yirmi dört ay durur."
+            "text": "Kuru bakliyat, kuru meyveden rahatlıkla uzun dayanır. Doğru saklandığında maş fasulyesi yirmi dört ay dayanır."
           }
         ],
         "varieties": {
-          "standard": "Standart",
-          "large": "İri",
-          "sprouting": "Filizlendirmelik"
+          "standard": "Standart"
         }
+      },
+      "beans": {
+        "tagline": "Saklanan ve yol giden bir bakliyat",
+        "intro": "Gıda kalitesinde kurutulmuş ve temizlenmiş adi fasulye. En istikrarlı hatlarımızdan biri: soğuk zincir yok, alım tarafında dar bir mevsim penceresi yok ve raf ömrü aylarla değil yıllarla ölçülüyor.",
+        "benefits": [
+          {
+            "title": "Protein ve lif",
+            "text": "Ağırlığın yaklaşık beşte biri protein; ayrıca lif, demir, folat ve potasyum. Bakliyatın dünyanın gündelik mutfağının bu kadar merkezinde olmasının nedeni bu."
+          },
+          {
+            "title": "Temizlenmiş ve kalibre edilmiş",
+            "text": "Taş, kırık ve rengi bozulmuş taneler paketlemeden önce ayıklanır; gelen mal yeniden ayıklanmadan pişirilebilir."
+          },
+          {
+            "title": "Uzun ve zahmetsiz saklama",
+            "text": "Kuru bakliyata serin ve kuru bir depodan başka bir şey gerekmez. Soğutma yok, kontrollü atmosfer yok, stoku eritme telaşı yok."
+          }
+        ],
+        "varieties": {}
+      },
+      "apricotKernels": {
+        "tagline": "Çekirdeğin içindeki iç",
+        "intro": "Kayısılar kurutma için çekirdeğinden ayrıldığında çekirdekler kırılır ve içleri çıkarılır. Hiçbir şey ziyan olmaz ve iç, başlı başına bir ürün — şekerlemede ve fırıncılıkta kullanılır, ayrıca yağı çıkarılır.",
+        "benefits": [
+          {
+            "title": "Sağlıklı yağlar ve protein",
+            "text": "Ağırlıklı olarak doymamış yağ; ayrıca protein, magnezyum ve E vitamini. Bileşim olarak bademe yakın ve büyük ölçüde aynı şekilde kullanılıyor."
+          },
+          {
+            "title": "Arz, kayısı hattımızı izler",
+            "text": "İçler kendi kayısı işlememizden çıkar; bu yüzden bulunabilirlik ayrı bir ürüne değil, kayısı hasadına bağlıdır."
+          },
+          {
+            "title": "Şekerleme ve yağ çıkarma",
+            "text": "Bütün içler tatlı ve fırın ürünlerine gider; geri kalanı kendi kozmetik pazarı olan kayısı çekirdeği yağı için sıkılır."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedPeppers": {
+        "tagline": "Bütün hâlde güneşte kurutulmuş, acısı yerinde",
+        "intro": "Biber açık havada bütün hâlde kurutulur; bu hem rengi hem acılığı yoğunlaştırır, sert fırın kurutmasının bıraktığı düz tadı bırakmaz. Öğütülmüş değil bütün veriyoruz, öğütmeyi alıcı belirliyor.",
+        "benefits": [
+          {
+            "title": "Renk ve acılık yoğunlaşır",
+            "text": "Kurutma suyu alır; kapsaisini ya da karotenoid pigmenti değil. Geriye aynı biber kalır, sadece kat kat daha yoğun."
+          },
+          {
+            "title": "Bütün, öğütülmemiş",
+            "text": "Öğütülmüş biber rafta aromasını kaybeder. Bütün biber onu değirmene girene kadar tutar; baharat harmancıları bu yüzden böyle alır."
+          },
+          {
+            "title": "C vitamini ve karotenoidler",
+            "text": "Biber, ağırlık başına turunçgillerden daha fazla C vitamini taşır; ayrıca rengini veren karotenoidleri içerir."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedMelon": {
+        "tagline": "Bir Fergana lezzeti",
+        "intro": "Kavun uzun şeritler hâlinde kesilip güneşte kurutulur, sonra çoğu zaman örülür. Başka hiçbir kuru meyvede olmayan bir yoğunlukta tatlı ve çiçeksidir; Özbekistan'da başkalarının bisküvi sunduğu yerde o çayla sunulur.",
+        "benefits": [
+          {
+            "title": "Hiçbir şey eklenmemiş tatlılık",
+            "text": "Kurutma kavunun kendi şekerini yoğunlaştırır. Hiçbir şey eklenmez — bu yoğunluk, su gittikten sonra geriye kalanın ta kendisi."
+          },
+          {
+            "title": "Potasyum ve beta-karoten",
+            "text": "Kavun potasyum ve karotenoid içeriğini kurutma boyunca korur, lif de şekerlerle birlikte yoğunlaşır."
+          },
+          {
+            "title": "Emtia değil, özel bir ürün",
+            "text": "Onu ihracat kalitesinde üreten çok az menşe var. Rafta henüz olmayan bir şey arayan alıcı için mesele tam da bu."
+          }
+        ],
+        "varieties": {}
+      },
+      "compoteMix": {
+        "tagline": "Tek kalem, harmanlamaya gerek yok",
+        "intro": "Orta Asya kompostosunun gerçekte yapıldığı oranlarda karıştırılmış kuru elma, kayısı, erik, vişne ve orman meyvesi karışımı. Beş kalem yerine tek kalem almak; tek SKU, tek fiyat ve tek sevkiyat demek.",
+        "benefits": [
+          {
+            "title": "Sabit reçeteye göre harmanlanır",
+            "text": "Oran partiden partiye korunur; müşterinizin martta yaptığı komposto, ekimde yaptığıyla aynı tadı verir."
+          },
+          {
+            "title": "Kendi hatlarımızdan yapılır",
+            "text": "Elma, kayısı, erik ve vişnenin hepsi kendi kurutma alanlarımızdan çıkar; karışımın tutarlılığı buradan gelir."
+          },
+          {
+            "title": "Beş yerine tek SKU",
+            "text": "Daha az sipariş, daha az yarım palet ve alıcı tarafında hiçbir karıştırma adımı yok."
+          }
+        ],
+        "varieties": {}
+      },
+      "sourCherries": {
+        "tagline": "Ekşi, koyu ve bütün hâlde kurutulmuş",
+        "intro": "Vişne bütün hâlde ve yavaş kurutulur; böylece kabuk sağlam, asitlik yüksek kalır. Mutfakta tatlı kirazdan farklı davranır — ekşilik fırını atlatır, fırıncıların onu almasının sebebi tam olarak budur.",
+        "benefits": [
+          {
+            "title": "Antosiyaninler ve asitlik",
+            "text": "Koyu renk antosiyanindir; antioksidan etkisi üzerine çalışılan pigment sınıfı. Asitlik de onunla birlikte gelir."
+          },
+          {
+            "title": "Fırında dayanır",
+            "text": "Tatlı kiraz ısı ve şeker altında dağılır. Vişne dağılmaz; strudel, turta ve şekerleme dolgularını taşımasının sebebi bu."
+          },
+          {
+            "title": "GACC kaydımız kapsamında",
+            "text": "Vişne HS 0813 20 kapsamındadır; bu, GACC kaydımızın kapsadığı iki koddan biridir, yani bu hat Çin'e kendi kaydımızla girer."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedApples": {
+        "tagline": "Halkalar, kurutma ve başka bir şey yok",
+        "intro": "Elmaların çekirdek evi çıkarılır, halka hâlinde kesilir ve kurutulur. Yaptığımız en basit ve kullanımı en geniş ürün — komposto, müsli, fırıncılık ve doğrudan atıştırmalık.",
+        "benefits": [
+          {
+            "title": "Lif, çoğunlukla pektin",
+            "text": "Elma çözünür lif bakımından alışılmadık ölçüde zengindir. Kurutma bunu yoğunlaştırır ve kompostoyu kıvamlandıran şey pektindir."
+          },
+          {
+            "title": "Taşıması hafif",
+            "text": "Yaş ağırlığın küçük bir kısmı olduğundan elma halkaları palet başına çok porsiyon taşır; porsiyon başına navlun düşük kalır."
+          },
+          {
+            "title": "Dört kategoride işe yarar",
+            "text": "Komposto, kahvaltılık gevrek, fırın ürünlerine katkı ve perakende atıştırmalık — tek ürün, dört tür alıcı."
+          }
+        ],
+        "varieties": {}
       }
     }
   }

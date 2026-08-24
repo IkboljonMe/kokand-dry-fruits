@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Kokand Dry Fruits — Premium Dried Fruits & Nuts from Uzbekistan",
-    "description": "Premium quality dried fruits, nuts, and natural products sourced from the heart of Kokand, Uzbekistan. Exported to 20+ countries worldwide."
+    "title": "Kokand Dry Fruits — Dried Fruits, Nuts & Pulses from Uzbekistan",
+    "description": "Dried fruits, nuts and pulses from Kokand, Uzbekistan. A GACC-registered producer exporting to China, Türkiye and Russia, with 250 tonnes of annual capacity and private label production."
   },
   "nav": {
     "home": "Home",
@@ -11,131 +11,120 @@
   },
   "hero": {
     "tagline": "From the Heart of Kokand",
-    "title": "Premium Dried Fruits & Nuts",
-    "subtitle": "Naturally sourced, carefully selected, and delivered worldwide — bringing the authentic taste of Uzbekistan's finest harvest to your table.",
-    "slides": [
-      {
-        "title": "Delivered To Your Home Country",
-        "subtitle": "Shipping to 20+ countries with careful, food-safe packaging — from our warehouse in Kokand straight to your door."
-      },
-      {
-        "title": "Honest Prices, Direct From The Source",
-        "subtitle": "We buy straight from Fergana Valley farms, so you get premium quality without the middleman markup."
-      },
-      {
-        "title": "Nuts Picked At Their Peak",
-        "subtitle": "Almonds, walnuts and pistachios selected by hand, stored properly, and never treated with preservatives."
-      }
-    ],
+    "title": "Dried Fruits, Nuts & Pulses",
+    "subtitle": "Dried in the Fergana Valley, sorted and packed at our own facility in Kokand, and shipped to buyers in China, Türkiye and Russia.",
     "cta": "Explore Our Products",
     "ctaSecondary": "Our Story"
   },
   "strengths": {
     "sectionTitle": "Why Choose Us",
-    "sectionSubtitle": "We combine centuries-old traditions with modern quality standards",
+    "sectionSubtitle": "A family business in the Fergana Valley, producing 250 tonnes a year",
     "quality": {
       "title": "Premium Quality",
-      "description": "Every product undergoes rigorous quality testing. Only the finest, preservative-free dried fruits and nuts make it to our shelves."
+      "description": "Every lot is sorted and graded before packing. No artificial colouring and no preservatives."
     },
     "fresh": {
       "title": "Always Fresh",
-      "description": "Our products are continuously restocked and stored under optimal conditions to preserve their natural taste and nutritional value."
+      "description": "Fruit is dried in season and held in controlled storage, so texture and flavour survive the journey."
     },
     "delivery": {
-      "title": "Global Delivery",
-      "description": "Fast, reliable shipping to over 20 countries. Your products arrive safely packaged and on time, every time."
+      "title": "Export Markets",
+      "description": "China, Türkiye and Russia — with GACC registration confirming access to the Chinese market."
     },
-    "selection": {
-      "title": "Wide Selection",
-      "description": "From golden raisins to premium pistachios — over 100 varieties of dried fruits, nuts, and natural snacks in one place."
+    "privateLabel": {
+      "title": "Private Label",
+      "description": "We produce under your own brand — your packaging and your specification, made at our facility in Kokand."
     }
   },
   "products": {
     "sectionTitle": "Our Products",
-    "sectionSubtitle": "Explore our diverse selection of premium dried fruits and nuts",
+    "sectionSubtitle": "Six production lines, plus the seasonal items our buyers order most",
     "priceNote": "Price on request",
-    "prunes": {
-      "name": "Dried Plums (Prunes)",
-      "description": "Sweet and full-flavoured, served with tea and used throughout cooking and confectionery. They keep for a long time, so they are easy to stock."
-    },
-    "peanuts": {
-      "name": "Peanuts",
-      "description": "Rich in protein, healthy fatty acids, potassium, magnesium and B vitamins. They give the body energy and strengthen the immune system."
-    },
-    "walnuts": {
-      "name": "Dried Walnuts",
-      "description": "Walnuts carry protein, nourishing fatty acids, potassium, magnesium, iron and vitamin E. They support memory and help build immunity."
-    },
     "driedApricots": {
-      "name": "Pitted Dried Apricots",
+      "name": "Dried Apricots",
       "description": "High in vitamin A, vitamin C, iron and potassium, which support the heart and blood vessels. They also aid digestion."
     },
     "raisins": {
       "name": "Raisins",
       "description": "Grapes dried the natural way. Prized for their sweetness, their goodness and how well they keep."
     },
+    "prunes": {
+      "name": "Prunes (Dried Plums)",
+      "description": "Sweet and full-flavoured, served with tea and used throughout cooking and confectionery. They keep for a long time, so they are easy to stock."
+    },
+    "walnuts": {
+      "name": "Walnuts",
+      "description": "Walnuts carry protein, nourishing fatty acids, potassium, magnesium, iron and vitamin E. They support memory and help build immunity."
+    },
+    "peanuts": {
+      "name": "Peanuts",
+      "description": "Rich in protein, healthy fatty acids, potassium, magnesium and B vitamins. They give the body energy and strengthen the immune system."
+    },
     "mungBeans": {
       "name": "Mung Beans",
       "description": "Rich in protein, fibre, iron, magnesium and B vitamins. They aid digestion, give energy and suit light, dietary cooking."
+    },
+    "beans": {
+      "name": "Beans",
+      "description": "Common beans, dried and cleaned for cooking. A staple pulse — high in plant protein, fibre and iron, and stable in storage for years."
+    },
+    "apricotKernels": {
+      "name": "Apricot Kernels",
+      "description": "The kernel from inside the apricot stone. Rich in healthy fats and protein, used in confectionery and baking, and pressed for oil."
+    },
+    "driedPeppers": {
+      "name": "Dried Peppers",
+      "description": "Capsicum dried whole in the sun. Used for spice blends, sauces and pickling, with the heat and colour concentrated by drying."
+    },
+    "driedMelon": {
+      "name": "Dried Melon",
+      "description": "Fergana melon cut into strips and sun-dried. Intensely sweet and fragrant — a Central Asian speciality served with tea."
+    },
+    "compoteMix": {
+      "name": "Dried Fruit Compote Mix",
+      "description": "A ready blend of dried apples, apricots, plums, cherries and berries for compote. Sold as a single line, so there is nothing to assemble."
+    },
+    "sourCherries": {
+      "name": "Sour Cherries",
+      "description": "Tart cherries dried whole. High in anthocyanins, and the acidity holds up in baking, confectionery and compote."
+    },
+    "driedApples": {
+      "name": "Dried Apples",
+      "description": "Apples cut into rings and dried. Light, fibrous and easy to store — used for compote, muesli and snacking."
     },
     "viewAll": "View All Products"
   },
   "stats": {
     "products": "Products",
-    "clients": "Clients",
-    "countries": "Countries",
-    "certifications": "Certifications",
-    "productsValue": "100+",
-    "clientsValue": "500+",
-    "countriesValue": "20+",
-    "certificationsValue": "14"
+    "capacity": "Tonnes a year",
+    "countries": "Export markets",
+    "experience": "Years in business",
+    "productsValue": "13",
+    "capacityValue": "250",
+    "countriesValue": "3",
+    "experienceValue": "6"
   },
-  "testimonials": {
-    "sectionTitle": "What Our Clients Say",
-    "sectionSubtitle": "Trusted by businesses and families around the world",
-    "items": [
-      {
-        "name": "Mikhail Petrov",
-        "role": "Import Manager, Moscow",
-        "text": "Kokand Dry Fruits has been our trusted supplier for 5 years. The quality is consistently excellent, and their delivery is always on time."
-      },
-      {
-        "name": "Fatima Al-Rashid",
-        "role": "Wholesale Buyer, Dubai",
-        "text": "The best dried apricots and pistachios we've sourced. Our customers always come back for more. Outstanding quality from Uzbekistan."
-      },
-      {
-        "name": "Chen Wei",
-        "role": "Health Store Owner, Shanghai",
-        "text": "Natural, preservative-free products that our health-conscious customers love. The golden raisins are a bestseller in our store."
-      },
-      {
-        "name": "Anna Schmidt",
-        "role": "Restaurant Chef, Berlin",
-        "text": "These walnuts and almonds have elevated our pastry menu. The freshness and flavor are unmatched by any European supplier."
-      }
-    ]
+  "certification": {
+    "sectionTitle": "Certification",
+    "sectionSubtitle": "Registered with China's General Administration of Customs",
+    "gaccTitle": "GACC registered",
+    "gaccBody": "“KOKAND DRY FRUITS” LLC is listed in the GACC register of approved overseas food producers. That listing is what lets our product clear Chinese customs under our own registration rather than a trader's.",
+    "chinaRegLabel": "China registration no.",
+    "foreignRegLabel": "Overseas registration no.",
+    "coveredLabel": "Covered HS codes",
+    "coveredNote": "The GACC listing covers dried apricots (HS 0813 10) and dried plums and cherries (HS 0813 20). Our other lines ship to markets where this registration is not required."
   },
   "cta": {
     "title": "Partner With Us",
-    "subtitle": "Whether you're a retailer, wholesaler, or food manufacturer — let's build a fruitful partnership together.",
+    "subtitle": "Whether you're an importer, a wholesaler or a food manufacturer — including under your own label — let's build a fruitful partnership together.",
     "button": "Get In Touch"
   },
   "about": {
     "heroTitle": "About Us",
-    "heroSubtitle": "We deliver natural, quality dried fruits to you, fast",
-    "stats": {
-      "deliveredValue": "5000+",
-      "deliveredLabel": "Products delivered",
-      "customersValue": "1000+",
-      "customersLabel": "Customers",
-      "certificatesValue": "14",
-      "certificatesLabel": "Certificates"
-    },
     "story": {
       "title": "In this business since 2020",
-      "p1": "We are a trusted source of quality dried fruits for everyone who values healthy food.",
-      "p2": "Our products are picked straight from the fields, dried naturally, and reach you without any artificial colourings or preservatives."
+      "p1": "a family-run producer and exporter of dried fruit, nuts and pulses in the Fergana Valley.",
+      "p2": "“KOKAND DRY FRUITS” LLC works out of Kichik Oqmasjid in the Kokand district of Fergana Region, with a production capacity of 250 tonnes a year. Prunes, mung beans and dried apricots account for most of that volume; raisins, walnuts and peanuts are produced in smaller quantities."
     },
     "principles": {
       "title": "What We Stand For",
@@ -161,10 +150,6 @@
           "description": "Honesty and guaranteed quality."
         }
       ]
-    },
-    "partners": {
-      "title": "Our Trusted Partners",
-      "subtitle": "We work alongside our trusted partners to deliver quality products and services. Thanks to their experience, reliability and high sense of responsibility, we deliver the best results to our customers."
     }
   },
   "contact": {
@@ -187,7 +172,7 @@
     },
     "info": {
       "title": "Get In Touch",
-      "address": "Kokand, Fergana Region, Uzbekistan",
+      "address": "Mustaqillik St. 36, Kichik Oqmasjid MFY, Kokand District, Fergana Region, Uzbekistan",
       "addressLabel": "Address",
       "phone": "+998 73 253 00 00",
       "phoneLabel": "Phone",
@@ -199,7 +184,7 @@
     }
   },
   "footer": {
-    "description": "Premium dried fruits & nuts from Kokand, Uzbekistan — exported worldwide since 2020.",
+    "description": "Dried fruits, nuts and pulses from Kokand, Uzbekistan — exporting to China, Türkiye and Russia since 2020.",
     "quickLinks": "Quick Links",
     "ourProducts": "Our Products",
     "contactUs": "Contact Us",
@@ -236,7 +221,7 @@
     "items": {
       "driedApricots": {
         "tagline": "Sun-dried in the Fergana Valley",
-        "intro": "Apricots are laid out to dry within hours of picking, so the sugars concentrate without the fruit ever being stewed. We sort by colour and size, from extra-light through to deep amber, and we do not use dye. Sulphured and unsulphured lots are both available.",
+        "intro": "Apricots are laid out to dry within hours of picking, so the sugars concentrate without the fruit ever being stewed. We sort by colour and size across six grades — red, yellow, sugared, Limonka, natural and cut — and we do not use dye.",
         "benefits": [
           {
             "title": "Vitamin A and potassium",
@@ -244,31 +229,33 @@
           },
           {
             "title": "Colour grading you can rely on",
-            "text": "Lots are separated on an optical sorter, so a shipment of extra-light stays extra-light. You get the shade you bought, crate after crate."
+            "text": "Lots are separated by shade and size before packing, so a shipment of light fruit stays light. You get the grade you bought, crate after crate."
           },
           {
-            "title": "Stable through to the next harvest",
-            "text": "Dried to under 20% moisture and held in temperature-controlled storage, the fruit keeps its texture and flavour for a full year."
+            "title": "Covered by our GACC listing",
+            "text": "Dried apricots fall under HS 0813 10, one of the two codes our GACC registration covers, so this line enters China under our own registration."
           }
         ],
         "varieties": {
-          "natural": "Natural sun-dried",
+          "red": "Red",
           "yellow": "Yellow",
-          "cut": "Cut",
-          "amber": "Amber"
+          "sugar": "Sugared (Shakarli)",
+          "lemon": "Lemon (Limonka)",
+          "natural": "Natural",
+          "cut": "Cut"
         }
       },
       "raisins": {
         "tagline": "Grapes dried the way they always have been",
-        "intro": "Our raisins come from Fergana Valley vineyards and are dried in the sun or in the shade, depending on the grade. Shade drying takes longer and costs more, but it keeps the fruit soft and pale, which is what the premium trade asks for.",
+        "intro": "Our raisins come from Fergana Valley vineyards and are sun-dried in the traditional way. We run five grades — Malayar, Sultana, Natural, Crimson and Jumbo Golden — which differ in size, colour and price rather than in processing.",
         "benefits": [
           {
             "title": "Natural sugars, no additives",
             "text": "Nothing is added and nothing is coated. The sweetness is the grape's own, concentrated by drying rather than by syrup."
           },
           {
-            "title": "Four distinct grades",
-            "text": "Golden Sultana, extra-large Jumbo, seedless Crimson and traditional shade-dried — each with its own colour, size and price point."
+            "title": "Five distinct grades",
+            "text": "Malayar, Sultana, Natural, Crimson and Jumbo Golden — each with its own size, colour and price point."
           },
           {
             "title": "Keeps and travels well",
@@ -276,15 +263,16 @@
           }
         ],
         "varieties": {
-          "sultana": "Golden Sultana",
-          "jumbo": "Jumbo Golden",
-          "crimson": "Crimson seedless",
-          "shade": "Shade-dried"
+          "malayar": "Malayar",
+          "sultana": "Sultana",
+          "natural": "Natural",
+          "crimson": "Crimson",
+          "jumboGolden": "Jumbo Golden"
         }
       },
       "prunes": {
         "tagline": "Slow-dried plums, deep and sweet",
-        "intro": "Plums are dried whole and slowly, which is what gives prunes their dark colour and their depth of flavour. We supply them pitted or with the stone in, calibrated by the number of pieces per kilogram so you know exactly what arrives.",
+        "intro": "Plums are dried whole and slowly, which is what gives prunes their dark colour and their depth of flavour. We supply them with the stone in or pitted, calibrated by the number of pieces per kilogram so you know exactly what arrives.",
         "benefits": [
           {
             "title": "Fibre and sorbitol",
@@ -295,19 +283,18 @@
             "text": "Calibration is by pieces per kilogram — 70/80, 80/90, 90/100 — so portioning and packing downstream stays predictable."
           },
           {
-            "title": "Works in kitchens and on shelves",
-            "text": "Equally at home in confectionery, meat cookery and retail snack packs, which makes it an easy line to move."
+            "title": "Our largest line, and GACC covered",
+            "text": "Prunes carry the biggest share of our 250 tonnes a year, and HS 0813 20 is covered by our GACC registration for China."
           }
         ],
         "varieties": {
-          "pitted": "Pitted",
           "unpitted": "With stone",
-          "softened": "Ready to eat"
+          "pitted": "Pitted"
         }
       },
       "walnuts": {
-        "tagline": "Kernels graded by hand and by machine",
-        "intro": "Walnuts are cracked and graded to light halves, quarters and pieces, or supplied in shell. Colour is what sets the price in this trade, so kernels pass an optical sorter and then a hand-check before they are packed.",
+        "tagline": "Kernels graded by size and colour",
+        "intro": "Walnuts are cracked and graded to halves, quarters, large and small pieces, and granulate. Colour is what sets the price in this trade, so kernels are separated by shade and then hand-checked before they are packed.",
         "benefits": [
           {
             "title": "Omega-3 and vitamin E",
@@ -315,7 +302,7 @@
           },
           {
             "title": "Light halves, properly sorted",
-            "text": "Light-coloured halves command the premium. Ours are separated optically and then checked by hand, so the grade holds across the lot."
+            "text": "Light-coloured halves command the premium. Ours are separated by colour and checked by hand, so the grade holds across the lot."
           },
           {
             "title": "Vacuum packing on request",
@@ -323,47 +310,46 @@
           }
         ],
         "varieties": {
-          "halves": "Light halves",
-          "quarters": "Quarters",
-          "pieces": "Pieces",
-          "inShell": "In shell"
+          "halves": "Halves (1/2)",
+          "quarters": "Quarters (1/4)",
+          "largePieces": "Large pieces",
+          "smallPieces": "Small pieces",
+          "granules": "Granulate"
         }
       },
       "peanuts": {
-        "tagline": "Raw, blanched or roasted",
-        "intro": "We supply peanuts in shell, as raw kernels, blanched with the skin removed, or roasted to your profile. Calibration follows the usual count-per-ounce grades, and every lot is checked for aflatoxin before it ships.",
+        "tagline": "In shell or shelled",
+        "intro": "We supply peanuts in shell and as cleaned kernels. Calibration follows the usual count-per-ounce grades, and lots ship with the certificates your destination market requires.",
         "benefits": [
           {
             "title": "Protein at a working price",
             "text": "Around a quarter protein by weight, with potassium, magnesium and B vitamins — the reason peanuts anchor so many snack and confectionery lines."
           },
           {
-            "title": "Aflatoxin tested",
-            "text": "Every lot is laboratory checked before dispatch. For a crop where this is the main import risk, that testing is not optional."
+            "title": "Tested to your protocol",
+            "text": "Aflatoxin limits differ by destination market. Tell us the protocol and the limit your import requires and we ship against that certificate."
           },
           {
             "title": "Processed to your brief",
-            "text": "Blanching and roasting are done to order, so you can take the kernel at whatever stage suits your line."
+            "text": "Shelling and further processing are done to order, so you can take the kernel at whatever stage suits your line."
           }
         ],
         "varieties": {
-          "blanched": "Blanched",
-          "raw": "Raw kernels",
-          "roasted": "Roasted",
-          "inShell": "In shell"
+          "inShell": "In shell",
+          "shelled": "Shelled"
         }
       },
       "mungBeans": {
         "tagline": "A pulse that moves in volume",
-        "intro": "Mung beans are cleaned, calibrated and graded for cooking or for sprouting. They are a staple across South and East Asia, and the sprouting grade is held to a tighter germination standard than the culinary one.",
+        "intro": "Mung beans are cleaned, calibrated and packed to a single standard grade. They are a staple across South and East Asia, and they are one of the three lines that carry the bulk of our annual volume.",
         "benefits": [
           {
             "title": "Protein and fibre",
             "text": "High in plant protein, fibre, iron and magnesium, and light enough to sit in dietary and hospital cooking."
           },
           {
-            "title": "Sprouting grade available",
-            "text": "Sprouting buyers need germination rate, not just size. That grade is selected and tested separately."
+            "title": "One of our main volumes",
+            "text": "Along with prunes and dried apricots, mung beans account for most of the 250 tonnes we produce each year, so quantity is rarely the constraint."
           },
           {
             "title": "Two-year shelf life",
@@ -371,10 +357,141 @@
           }
         ],
         "varieties": {
-          "standard": "Standard",
-          "large": "Large",
-          "sprouting": "Sprouting grade"
+          "standard": "Standard"
         }
+      },
+      "beans": {
+        "tagline": "A pulse that stores and travels",
+        "intro": "Common beans, dried and cleaned to food grade. They are one of the steadiest lines we run — no cold chain, no narrow seasonal window on the buying side, and a shelf life measured in years rather than months.",
+        "benefits": [
+          {
+            "title": "Protein and fibre",
+            "text": "Around a fifth protein by weight, with fibre, iron, folate and potassium. The reason pulses anchor so much of the world's everyday cooking."
+          },
+          {
+            "title": "Cleaned and calibrated",
+            "text": "Stones, splits and discoloured grain are taken out before packing, so what arrives is what you can cook without re-sorting."
+          },
+          {
+            "title": "Long, undemanding shelf life",
+            "text": "Dry pulses need nothing but a cool, dry store. No refrigeration, no controlled atmosphere, and no seasonal rush to move stock."
+          }
+        ],
+        "varieties": {}
+      },
+      "apricotKernels": {
+        "tagline": "The kernel inside the stone",
+        "intro": "When apricots are pitted for drying, the stones are cracked and the kernels recovered. Nothing is wasted, and the kernel is a product in its own right — used in confectionery and baking, and pressed for oil.",
+        "benefits": [
+          {
+            "title": "Healthy fats and protein",
+            "text": "Mostly unsaturated fat, with protein, magnesium and vitamin E. Close to almonds in composition, and used in much the same way."
+          },
+          {
+            "title": "Supply tracks our apricot line",
+            "text": "The kernels come out of our own apricot processing, so availability follows the apricot harvest rather than a separate crop."
+          },
+          {
+            "title": "Confectionery and pressing",
+            "text": "Whole kernels go into sweets and baking; the rest is pressed for apricot kernel oil, which has its own cosmetic market."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedPeppers": {
+        "tagline": "Sun-dried whole, heat intact",
+        "intro": "Capsicum is dried whole in the open air, which concentrates the colour and the heat without the flat taste that hard kiln drying leaves behind. We supply the pods whole rather than ground, so the buyer controls the grind.",
+        "benefits": [
+          {
+            "title": "Colour and heat concentrated",
+            "text": "Drying removes water, not capsaicin or carotenoid pigment. What is left is the same pepper at several times the intensity."
+          },
+          {
+            "title": "Whole, not ground",
+            "text": "Ground pepper loses its aroma on the shelf. Whole pods keep it until they are milled, which is why spice blenders buy them this way."
+          },
+          {
+            "title": "Vitamin C and carotenoids",
+            "text": "Peppers carry more vitamin C by weight than citrus, along with the carotenoids that give them their colour."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedMelon": {
+        "tagline": "A Fergana speciality",
+        "intro": "Melon is cut into long strips and dried in the sun, then often braided. It is intensely sweet and floral in a way no other dried fruit is, and in Uzbekistan it is served with tea the way others serve biscuits.",
+        "benefits": [
+          {
+            "title": "Sweetness with nothing added",
+            "text": "Drying concentrates the melon's own sugars. Nothing is added — the intensity is simply what is left once the water has gone."
+          },
+          {
+            "title": "Potassium and beta-carotene",
+            "text": "Melon holds its potassium and carotenoid content through drying, and the fibre concentrates along with the sugars."
+          },
+          {
+            "title": "A speciality, not a commodity",
+            "text": "Few origins produce it at export quality. For a buyer looking for something the shelf does not already have, that is the point."
+          }
+        ],
+        "varieties": {}
+      },
+      "compoteMix": {
+        "tagline": "One line, no assembly",
+        "intro": "A ready blend of dried apples, apricots, plums, cherries and berries, mixed in the proportions Central Asian compote is actually made in. Buying it as one line means one SKU, one price and one delivery instead of five.",
+        "benefits": [
+          {
+            "title": "Blended to a fixed recipe",
+            "text": "The ratio is held from batch to batch, so the compote your customer makes in March tastes like the one they made in October."
+          },
+          {
+            "title": "Made from our own lines",
+            "text": "Apples, apricots, plums and cherries all come off our own drying floors, which is what keeps the blend consistent."
+          },
+          {
+            "title": "One SKU instead of five",
+            "text": "Fewer purchase orders, fewer part-pallets, and no in-house mixing step at the buyer's end."
+          }
+        ],
+        "varieties": {}
+      },
+      "sourCherries": {
+        "tagline": "Tart, dark, and dried whole",
+        "intro": "Sour cherries are dried whole and slowly, which keeps the skin intact and the acidity high. They behave differently from sweet cherries in a kitchen — the tartness survives baking, which is exactly why bakers buy them.",
+        "benefits": [
+          {
+            "title": "Anthocyanins and acidity",
+            "text": "The deep colour is anthocyanin, the pigment class studied for its antioxidant activity. The acidity comes with it."
+          },
+          {
+            "title": "Holds up in baking",
+            "text": "Sweet cherries flatten out under heat and sugar. Sour cherries do not, which is why they anchor strudel, pie and confectionery fillings."
+          },
+          {
+            "title": "Covered by our GACC listing",
+            "text": "Cherries fall under HS 0813 20, one of the two codes our GACC registration covers, so this line enters China under our own registration."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedApples": {
+        "tagline": "Rings, dried and nothing else",
+        "intro": "Apples are cored, cut into rings and dried. It is the simplest product we make and the one with the widest use — compote, muesli, baking, and straight snacking.",
+        "benefits": [
+          {
+            "title": "Fibre, mostly pectin",
+            "text": "Apples are unusually high in soluble fibre. Drying concentrates it, and the pectin is what makes them thicken a compote."
+          },
+          {
+            "title": "Light to ship",
+            "text": "At a fraction of the fresh weight, apple rings move a lot of servings per pallet, which keeps freight cost per portion low."
+          },
+          {
+            "title": "Works in four categories",
+            "text": "Compote, breakfast cereal, bakery inclusion and retail snack — one product, four kinds of buyer."
+          }
+        ],
+        "varieties": {}
       }
     }
   }

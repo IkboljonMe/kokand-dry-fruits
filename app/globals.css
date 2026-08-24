@@ -521,6 +521,19 @@ h1, h2, h3, .logo__type, .btn, .eyebrow, .step__num, .card__meta {
 .pindex .cards .card{text-decoration:none}
 .pindex .card__link{margin-top:auto}
 
+/* ---------- Sertifikat ---------- */
+.cert{padding:clamp(70px,9vw,130px) 0;background:var(--paper-2)}
+.cert__inner{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);
+  gap:clamp(28px,4vw,56px);align-items:start}
+.cert__badge{background:var(--ink);color:#fff;padding:clamp(28px,3.4vw,44px);border-radius:3px}
+.cert__mark{display:inline-block;font-family:var(--font-poppins),var(--font-fallback);
+  font-weight:800;font-size:12px;letter-spacing:.2em;color:var(--orange);margin-bottom:20px}
+.cert__title{font-size:clamp(20px,2.4vw,27px);text-transform:uppercase;margin-bottom:14px}
+.cert__body{margin:0;color:rgba(255,255,255,.62);font-size:15.5px}
+.cert .spectable{grid-template-columns:1fr}
+.cert__note{margin:26px 0 0;font-size:14px;color:var(--grey);max-width:80ch}
+@media(max-width:860px){.cert__inner{grid-template-columns:1fr}}
+
 /* ---------- RTL ---------- */
 [dir='rtl'] .pben__list li{padding-left:0;padding-right:26px;
   border-left:0;border-right:2px solid var(--orange)}

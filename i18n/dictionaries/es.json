@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Kokand Frutas Secas — Frutas secas y frutos secos premium de Uzbekistán",
-    "description": "Frutas secas, frutos secos y productos naturales de calidad premium del corazón de Kokand, Uzbekistán. Exportación a más de 20 países."
+    "title": "Kokand Dry Fruits — frutos secos, nueces y legumbres de Uzbekistán",
+    "description": "Frutos secos, nueces y legumbres de Kokand, Uzbekistán. Productor registrado en la GACC que exporta a China, Turquía y Rusia, con 250 toneladas de capacidad anual y fabricación para marca propia."
   },
   "nav": {
     "home": "Inicio",
@@ -11,131 +11,120 @@
   },
   "hero": {
     "tagline": "Del corazón de Kokand",
-    "title": "Frutas secas y frutos secos premium",
-    "subtitle": "De origen natural, cuidadosamente seleccionados y entregados en todo el mundo — el sabor auténtico de la mejor cosecha de Uzbekistán en su mesa.",
-    "slides": [
-      {
-        "title": "Enviamos a su país",
-        "subtitle": "Envíos a más de 20 países con embalaje apto para alimentos — desde nuestro almacén en Kokand hasta su puerta."
-      },
-      {
-        "title": "Precios honestos, directos del origen",
-        "subtitle": "Compramos directamente a las fincas del valle de Fergana, así obtiene calidad premium sin el margen del intermediario."
-      },
-      {
-        "title": "Frutos secos recogidos en su punto",
-        "subtitle": "Almendras, nueces y pistachos seleccionados a mano, bien conservados y nunca tratados con conservantes."
-      }
-    ],
+    "title": "Frutos secos, nueces y legumbres",
+    "subtitle": "Secados en el valle de Ferganá, seleccionados y envasados en nuestra propia planta de Kokand, y enviados a compradores de China, Turquía y Rusia.",
     "cta": "Explorar productos",
     "ctaSecondary": "Nuestra historia"
   },
   "strengths": {
     "sectionTitle": "Por qué elegirnos",
-    "sectionSubtitle": "Combinamos tradiciones centenarias con estándares de calidad modernos",
+    "sectionSubtitle": "Una empresa familiar del valle de Ferganá que produce 250 toneladas al año",
     "quality": {
       "title": "Calidad premium",
-      "description": "Cada producto pasa por rigurosas pruebas de calidad."
+      "description": "Cada lote se selecciona y clasifica antes de envasarse. Sin colorantes artificiales y sin conservantes."
     },
     "fresh": {
       "title": "Siempre fresco",
-      "description": "Nuestros productos se renuevan continuamente y se almacenan en condiciones óptimas."
+      "description": "La fruta se seca en temporada y se guarda en almacén con temperatura controlada, para que la textura y el aroma resistan el viaje."
     },
     "delivery": {
-      "title": "Envío mundial",
-      "description": "Envío rápido y confiable a más de 20 países."
+      "title": "Mercados de exportación",
+      "description": "China, Turquía y Rusia — el registro en la GACC confirma el acceso al mercado chino."
     },
-    "selection": {
-      "title": "Amplia selección",
-      "description": "De pasas doradas a pistachos premium — más de 100 variedades."
+    "privateLabel": {
+      "title": "Marca propia",
+      "description": "Producimos bajo su propia marca — su envase y su especificación, elaborados en nuestra planta de Kokand."
     }
   },
   "products": {
     "sectionTitle": "Nuestros productos",
-    "sectionSubtitle": "Explore nuestra diversa selección de frutas secas y frutos secos premium",
+    "sectionSubtitle": "Seis líneas de producción, más los artículos de temporada que más piden nuestros compradores",
     "priceNote": "Precio a convenir",
-    "prunes": {
-      "name": "Ciruelas pasas",
-      "description": "Dulces y sabrosas, se toman con el té y se usan en platos y postres. Se conservan mucho tiempo."
-    },
-    "peanuts": {
-      "name": "Cacahuetes",
-      "description": "Ricos en proteína, ácidos grasos saludables, potasio, magnesio y vitaminas del grupo B. Aportan energía y refuerzan las defensas."
-    },
-    "walnuts": {
-      "name": "Nueces secas",
-      "description": "Aportan proteína, ácidos grasos nutritivos, potasio, magnesio, hierro y vitamina E. Favorecen la memoria y la inmunidad."
-    },
     "driedApricots": {
-      "name": "Orejones sin hueso",
+      "name": "Orejones de albaricoque",
       "description": "Ricos en vitamina A y C, hierro y potasio, buenos para el corazón y los vasos sanguíneos. También ayudan a la digestión."
     },
     "raisins": {
       "name": "Pasas",
       "description": "Uva secada de forma natural. Apreciada por su dulzor, sus propiedades y su larga conservación."
     },
+    "prunes": {
+      "name": "Ciruelas pasas",
+      "description": "Dulces y sabrosas, se toman con el té y se usan en platos y postres. Se conservan mucho tiempo."
+    },
+    "walnuts": {
+      "name": "Nueces",
+      "description": "Aportan proteína, ácidos grasos nutritivos, potasio, magnesio, hierro y vitamina E. Favorecen la memoria y la inmunidad."
+    },
+    "peanuts": {
+      "name": "Cacahuetes",
+      "description": "Ricos en proteína, ácidos grasos saludables, potasio, magnesio y vitaminas del grupo B. Aportan energía y refuerzan las defensas."
+    },
     "mungBeans": {
       "name": "Frijol mungo",
       "description": "Rico en proteína, fibra, hierro, magnesio y vitaminas del grupo B. Ayuda a la digestión, da energía y encaja en una cocina ligera."
+    },
+    "beans": {
+      "name": "Alubias",
+      "description": "Alubia común secada y limpiada. Una legumbre básica: rica en proteína vegetal, fibra y hierro, y estable en almacén durante años."
+    },
+    "apricotKernels": {
+      "name": "Almendra de albaricoque",
+      "description": "La almendra del interior del hueso del albaricoque. Rica en grasas saludables y proteína; se usa en confitería y repostería, y se prensa para obtener aceite."
+    },
+    "driedPeppers": {
+      "name": "Pimientos secos",
+      "description": "Pimiento secado entero al sol. Para mezclas de especias, salsas y encurtidos: el secado concentra el picante y el color."
+    },
+    "driedMelon": {
+      "name": "Melón seco",
+      "description": "Melón de Ferganá cortado en tiras y secado al sol. Intensamente dulce y aromático: una especialidad centroasiática que se sirve con té."
+    },
+    "compoteMix": {
+      "name": "Mezcla para compota",
+      "description": "Mezcla lista de manzana, albaricoque, ciruela, cereza y bayas secas para compota. Se vende como una sola referencia, no hay nada que combinar."
+    },
+    "sourCherries": {
+      "name": "Guindas",
+      "description": "Cerezas ácidas secadas enteras. Ricas en antocianinas, y su acidez aguanta en horneado, confitería y compota."
+    },
+    "driedApples": {
+      "name": "Manzana seca",
+      "description": "Manzana cortada en aros y secada. Ligera, rica en fibra y fácil de almacenar: para compota, muesli y picoteo."
     },
     "viewAll": "Ver todos los productos"
   },
   "stats": {
     "products": "Productos",
-    "clients": "Clientes",
-    "countries": "Países",
-    "certifications": "Certificaciones",
-    "productsValue": "100+",
-    "clientsValue": "500+",
-    "countriesValue": "20+",
-    "certificationsValue": "14"
+    "capacity": "Toneladas al año",
+    "countries": "Mercados de export.",
+    "experience": "Años en el sector",
+    "productsValue": "13",
+    "capacityValue": "250",
+    "countriesValue": "3",
+    "experienceValue": "6"
   },
-  "testimonials": {
-    "sectionTitle": "Lo que dicen nuestros clientes",
-    "sectionSubtitle": "Confianza de empresas y familias de todo el mundo",
-    "items": [
-      {
-        "name": "Mikhail Petrov",
-        "role": "Gerente de importación, Moscú",
-        "text": "Kokand Frutas Secas ha sido nuestro proveedor de confianza durante 5 años."
-      },
-      {
-        "name": "Fatima Al-Rashid",
-        "role": "Compradora mayorista, Dubái",
-        "text": "Los mejores albaricoques secos y pistachos que hemos obtenido."
-      },
-      {
-        "name": "Chen Wei",
-        "role": "Dueño de tienda natural, Shanghái",
-        "text": "Productos naturales sin conservantes que nuestros clientes conscientes de la salud adoran."
-      },
-      {
-        "name": "Anna Schmidt",
-        "role": "Chef de restaurante, Berlín",
-        "text": "Estas nueces y almendras elevaron nuestro menú de repostería."
-      }
-    ]
+  "certification": {
+    "sectionTitle": "Certificación",
+    "sectionSubtitle": "Inscritos en la Administración General de Aduanas de China",
+    "gaccTitle": "Registro GACC",
+    "gaccBody": "«KOKAND DRY FRUITS» LLC figura en el registro de la GACC de productores extranjeros de alimentos autorizados. Es ese registro el que permite que nuestra mercancía pase la aduana china con nuestro propio número y no con el de un intermediario.",
+    "chinaRegLabel": "N.º de registro en China",
+    "foreignRegLabel": "N.º de registro extranjero",
+    "coveredLabel": "Códigos SA cubiertos",
+    "coveredNote": "El registro GACC cubre los orejones de albaricoque (SA 0813 10) y las ciruelas y cerezas secas (SA 0813 20). Nuestras demás líneas se envían a mercados donde no se exige este registro."
   },
   "cta": {
     "title": "Sea nuestro socio",
-    "subtitle": "Minorista, mayorista o fabricante de alimentos — construyamos una asociación fructífera juntos.",
+    "subtitle": "Tanto si es importador, mayorista o fabricante de alimentos —también bajo su propia marca—, construyamos juntos una relación duradera.",
     "button": "Contáctenos"
   },
   "about": {
     "heroTitle": "Sobre nosotros",
-    "heroSubtitle": "Le entregamos frutos secos naturales y de calidad, con rapidez",
-    "stats": {
-      "deliveredValue": "5000+",
-      "deliveredLabel": "Productos entregados",
-      "customersValue": "1000+",
-      "customersLabel": "Clientes",
-      "certificatesValue": "14",
-      "certificatesLabel": "Certificados"
-    },
     "story": {
       "title": "En este sector desde 2020",
-      "p1": "Somos una fuente de confianza de frutos secos de calidad para todas las personas que valoran la alimentación saludable.",
-      "p2": "Nuestros productos se recogen directamente del campo, se secan de forma natural y llegan a usted sin ningún colorante ni conservante artificial."
+      "p1": "un productor y exportador familiar de frutos secos, nueces y legumbres en el valle de Ferganá.",
+      "p2": "«KOKAND DRY FRUITS» LLC opera desde Kichik Oqmasjid, en el distrito de Kokand, región de Ferganá, con una capacidad de producción de 250 toneladas al año. Las ciruelas pasas, la judía mungo y los orejones concentran la mayor parte de ese volumen; las pasas, las nueces y los cacahuetes se producen en cantidades menores."
     },
     "principles": {
       "title": "Nuestros principios",
@@ -161,10 +150,6 @@
           "description": "Honestidad y calidad garantizada."
         }
       ]
-    },
-    "partners": {
-      "title": "Nuestros socios de confianza",
-      "subtitle": "Trabajamos junto a nuestros socios de confianza para ofrecer productos y servicios de calidad. Gracias a su experiencia, su fiabilidad y su alto sentido de la responsabilidad, logramos los mejores resultados para nuestros clientes."
     }
   },
   "contact": {
@@ -187,7 +172,7 @@
     },
     "info": {
       "title": "Contáctenos",
-      "address": "Kokand, Región de Fergana, Uzbekistán",
+      "address": "Calle Mustaqillik 36, MFY Kichik Oqmasjid, distrito de Kokand, región de Ferganá, Uzbekistán",
       "addressLabel": "Dirección",
       "phone": "+998 73 253 00 00",
       "phoneLabel": "Teléfono",
@@ -199,7 +184,7 @@
     }
   },
   "footer": {
-    "description": "Frutas secas y frutos secos premium de Kokand, Uzbekistán — exportación mundial desde 2020.",
+    "description": "Frutos secos, nueces y legumbres de Kokand, Uzbekistán — exportando a China, Turquía y Rusia desde 2020.",
     "quickLinks": "Enlaces rápidos",
     "ourProducts": "Productos",
     "contactUs": "Contacto",
@@ -236,145 +221,277 @@
     "items": {
       "driedApricots": {
         "tagline": "Secados al sol en el valle de Fergana",
-        "intro": "Los albaricoques se tienden a secar pocas horas después de la recolección, de modo que los azúcares se concentran sin que la fruta llegue a cocerse. Clasificamos por color y calibre, del extraclaro al ámbar oscuro, y no usamos colorantes. Hay lotes sulfitados y sin sulfitar.",
+        "intro": "Los albaricoques se tienden a secar en las horas siguientes a la recolección, de modo que los azúcares se concentran sin que la fruta llegue a cocerse. Clasificamos por color y calibre en seis grados —rojo, amarillo, Shakarli, Limonka, natural y cortado— y no usamos colorante.",
         "benefits": [
           {
             "title": "Vitamina A y potasio",
-            "text": "El pigmento naranja es betacaroteno, que el organismo convierte en vitamina A. El albaricoque aporta además potasio y hierro, de ahí su fama de alimento para el corazón y la circulación."
+            "text": "El pigmento naranja es betacaroteno, que el cuerpo convierte en vitamina A. El albaricoque aporta además potasio y hierro, de ahí su fama como alimento para el corazón y la circulación."
           },
           {
-            "title": "Clasificación de color fiable",
-            "text": "Los lotes pasan por seleccionadora óptica, así que el extraclaro sigue siendo extraclaro. Caja tras caja recibe el tono que compró."
+            "title": "Una clasificación por color fiable",
+            "text": "Los lotes se separan por tono y calibre antes de envasar, así la mercancía clara sigue siendo clara. Recibe el grado que compró, caja tras caja."
           },
           {
-            "title": "Estable hasta la siguiente cosecha",
-            "text": "Secado por debajo del 20 % de humedad y guardado en almacén con temperatura controlada, el fruto mantiene textura y sabor todo un año."
+            "title": "Incluido en nuestro registro GACC",
+            "text": "Los orejones se clasifican en la partida SA 0813 10, uno de los dos códigos que cubre nuestro registro GACC, así que esta línea entra en China con nuestro propio número."
           }
         ],
         "varieties": {
-          "natural": "Natural",
+          "red": "Rojo",
           "yellow": "Amarillo",
-          "cut": "Cortado",
-          "amber": "Ámbar"
+          "sugar": "Shakarli (azucarado)",
+          "lemon": "Limonka",
+          "natural": "Natural",
+          "cut": "Cortado"
         }
       },
       "raisins": {
         "tagline": "Uva secada como se ha hecho siempre",
-        "intro": "Nuestras pasas proceden de viñedos del valle de Fergana y se secan al sol o a la sombra según la calidad. El secado a la sombra es más lento y más caro, pero deja el fruto blando y claro, que es justo lo que pide el segmento premium.",
+        "intro": "Nuestras pasas proceden de viñedos del valle de Ferganá y se secan al sol de forma tradicional. Trabajamos cinco grados —Malayar, Sultana, natural, Crimson y Jumbo Golden— que se diferencian en tamaño, color y precio, no en el proceso.",
         "benefits": [
           {
-            "title": "Azúcar natural, sin aditivos",
-            "text": "No se añade nada ni se recubre. El dulzor es de la propia uva, concentrado por el secado y no por almíbar."
+            "title": "Azúcares naturales, sin aditivos",
+            "text": "No se añade nada ni se recubre nada. El dulzor es el de la propia uva, concentrado por el secado y no por almíbar."
           },
           {
-            "title": "Cuatro calidades distintas",
-            "text": "Sultana dorada, Jumbo extragrande, Crimson sin pepita y el secado tradicional a la sombra: cada una con su color, su calibre y su precio."
+            "title": "Cinco grados diferenciados",
+            "text": "Malayar, Sultana, natural, Crimson y Jumbo Golden: cada uno con su tamaño, su color y su nivel de precio."
           },
           {
             "title": "Se conserva y viaja bien",
-            "text": "Con un 17 % de humedad o menos, la pasa viaja sin frío y aguanta blanda un año en caja cerrada."
+            "text": "Con un 17 % de humedad como máximo, la pasa viaja sin refrigeración y mantiene su ternura un año en cajas selladas."
           }
         ],
         "varieties": {
-          "sultana": "Sultana dorada",
-          "jumbo": "Jumbo Golden",
-          "crimson": "Crimson sin pepita",
-          "shade": "Secada a la sombra"
+          "malayar": "Malayar",
+          "sultana": "Sultana",
+          "natural": "Natural",
+          "crimson": "Crimson",
+          "jumboGolden": "Jumbo Golden"
         }
       },
       "prunes": {
         "tagline": "Ciruela secada despacio",
-        "intro": "La ciruela se seca entera y despacio, y de ahí vienen el color oscuro y la profundidad de la ciruela pasa. La servimos con hueso o deshuesada, calibrada por piezas por kilo, para que sepa exactamente qué llega.",
+        "intro": "Las ciruelas se secan enteras y despacio, y de ahí vienen el color oscuro y la profundidad de sabor de la pasa. Las suministramos con hueso o deshuesadas, calibradas por número de piezas por kilo, para que sepa exactamente qué llega.",
         "benefits": [
           {
             "title": "Fibra y sorbitol",
-            "text": "La ciruela pasa es uno de los alimentos digestivos más conocidos, y el motivo es real: fibra soluble más sorbitol natural."
+            "text": "La ciruela pasa es uno de los alimentos digestivos más conocidos, y el motivo es real: fibra soluble más sorbitol presente de forma natural."
           },
           {
             "title": "Contado, no estimado",
-            "text": "El calibrado va por piezas por kilo —70/80, 80/90, 90/100—, de modo que el porcionado y el envasado posterior siguen siendo previsibles."
+            "text": "El calibrado se hace por piezas por kilo —70/80, 80/90, 90/100—, de modo que el porcionado y el envasado posteriores siguen siendo predecibles."
           },
           {
-            "title": "Sirve en cocina y en lineal",
-            "text": "Igual de cómoda en confitería, en cocina de carnes y en formatos de aperitivo, por lo que es una referencia que rota sin esfuerzo."
+            "title": "Nuestra mayor línea, y cubierta por la GACC",
+            "text": "La ciruela pasa representa la mayor parte de nuestras 250 toneladas anuales, y la partida SA 0813 20 está cubierta por nuestro registro GACC para China."
           }
         ],
         "varieties": {
-          "pitted": "Deshuesada",
           "unpitted": "Con hueso",
-          "softened": "Lista para comer"
+          "pitted": "Deshuesada"
         }
       },
       "walnuts": {
-        "tagline": "Grano seleccionado a máquina y a mano",
-        "intro": "La nuez se parte y se clasifica en mitades claras, cuartos y trozos, o se sirve con cáscara. En este comercio el color marca el precio, así que el grano pasa por seleccionadora óptica y después por revisión manual.",
+        "tagline": "Grano clasificado por calibre y color",
+        "intro": "Las nueces se parten y se clasifican en mitades, cuartos, trozo grande, trozo pequeño y granulado. En este comercio el precio lo marca el color, así que el grano se separa por tono y se revisa a mano antes de envasarse.",
         "benefits": [
           {
             "title": "Omega-3 y vitamina E",
-            "text": "La nuez contiene más ácido alfa-linolénico que cualquier otro fruto seco habitual, además de vitamina E, magnesio y proteína."
+            "text": "La nuez contiene más ácido alfa-linolénico que cualquier otro fruto seco común, además de vitamina E, magnesio y proteína."
           },
           {
-            "title": "Mitades claras bien clasificadas",
-            "text": "La prima la da el grano claro. El nuestro se separa ópticamente y luego se revisa a mano, así la calidad se mantiene en todo el lote."
+            "title": "Mitades claras, bien clasificadas",
+            "text": "Las mitades claras son las que llevan prima. Las nuestras se separan por color y se comprueban a mano, así el grado se mantiene en todo el lote."
           },
           {
-            "title": "Envasado al vacío si lo pide",
-            "text": "El grano se oxida antes que la fruta seca. El vacío o la atmósfera protectora mantienen la frescura en una travesía larga."
+            "title": "Envasado al vacío bajo pedido",
+            "text": "El grano se oxida más rápido que la fruta seca. El vacío o la atmósfera protectora lo mantienen fresco en una travesía larga."
           }
         ],
         "varieties": {
-          "halves": "Mitades claras",
-          "quarters": "Cuartos",
-          "pieces": "Trozos",
-          "inShell": "Con cáscara"
+          "halves": "Mitades (1/2)",
+          "quarters": "Cuartos (1/4)",
+          "largePieces": "Trozo grande",
+          "smallPieces": "Trozo pequeño",
+          "granules": "Granulado"
         }
       },
       "peanuts": {
-        "tagline": "Crudo, pelado o tostado",
-        "intro": "Servimos cacahuete con cáscara, en grano crudo, pelado sin piel o tostado según su perfil. El calibrado sigue los grados habituales y cada lote se analiza en aflatoxina antes de salir.",
+        "tagline": "Con cáscara o pelado",
+        "intro": "Suministramos cacahuete con cáscara y como grano limpio. El calibrado sigue los grados habituales de piezas por onza, y los lotes salen con los certificados que exige su mercado de destino.",
         "benefits": [
           {
             "title": "Proteína a precio de trabajo",
-            "text": "Alrededor de una cuarta parte de proteína en peso, con potasio, magnesio y vitaminas del grupo B: por eso el cacahuete sostiene tantas líneas de aperitivo y confitería."
+            "text": "Alrededor de una cuarta parte de proteína en peso, con potasio, magnesio y vitaminas del grupo B: por eso el cacahuete sostiene tantas líneas de snack y confitería."
           },
           {
-            "title": "Analizado en aflatoxina",
-            "text": "Cada lote pasa por laboratorio antes del envío. En este cultivo ése es el principal riesgo de importación, así que el análisis no es opcional."
+            "title": "Analizado según su protocolo",
+            "text": "Los límites de aflatoxina varían según el mercado. Díganos qué protocolo y qué límite exige su importación y enviamos contra ese certificado."
           },
           {
             "title": "Procesado a su medida",
-            "text": "El pelado y el tostado se hacen bajo pedido, de modo que toma el grano en la fase que encaje con su línea."
+            "text": "El pelado y el procesado posterior se hacen bajo pedido, de modo que puede tomar el grano en la fase que convenga a su línea."
           }
         ],
         "varieties": {
-          "blanched": "Pelado",
-          "raw": "Grano crudo",
-          "roasted": "Tostado",
-          "inShell": "Con cáscara"
+          "inShell": "Con cáscara",
+          "shelled": "Pelado"
         }
       },
       "mungBeans": {
         "tagline": "Una legumbre que se mueve en volumen",
-        "intro": "La judía mungo se limpia, se calibra y se clasifica para cocina o para germinación. Es un básico en el sur y el este de Asia, y la calidad de germinación responde a una exigencia más estricta de poder germinativo.",
+        "intro": "La judía mungo se limpia, se calibra y se envasa en un único grado estándar. Es un alimento básico en el sur y el este de Asia, y una de las tres líneas que soportan la mayor parte de nuestro volumen anual.",
         "benefits": [
           {
             "title": "Proteína y fibra",
-            "text": "Rica en proteína vegetal, fibra, hierro y magnesio, y lo bastante ligera para cocina dietética y hospitalaria."
+            "text": "Rica en proteína vegetal, fibra, hierro y magnesio, y lo bastante ligera para la cocina dietética y hospitalaria."
           },
           {
-            "title": "Calidad de germinación disponible",
-            "text": "A quien compra germinados le importa el poder germinativo, no sólo el calibre. Esa calidad se selecciona y se analiza aparte."
+            "title": "Uno de nuestros volúmenes principales",
+            "text": "Junto con la ciruela pasa y el orejón, la judía mungo representa la mayor parte de las 250 toneladas que producimos cada año, así que la cantidad rara vez es la limitación."
           },
           {
             "title": "Dos años de vida útil",
-            "text": "La legumbre seca aguanta bastante más que la fruta seca. Bien almacenada, la judía mungo se conserva veinticuatro meses."
+            "text": "Las legumbres secas duran bastante más que la fruta seca. Bien almacenada, la judía mungo aguanta veinticuatro meses."
           }
         ],
         "varieties": {
-          "standard": "Estándar",
-          "large": "Grande",
-          "sprouting": "Calidad germinación"
+          "standard": "Estándar"
         }
+      },
+      "beans": {
+        "tagline": "Una legumbre que se guarda y viaja",
+        "intro": "Alubia común, secada y limpiada a calidad alimentaria. Es una de nuestras líneas más estables: sin cadena de frío, sin una ventana estacional estrecha en la compra y con una vida útil que se mide en años y no en meses.",
+        "benefits": [
+          {
+            "title": "Proteína y fibra",
+            "text": "Cerca de una quinta parte de proteína en peso, con fibra, hierro, folato y potasio. Por eso las legumbres sostienen buena parte de la cocina diaria del mundo."
+          },
+          {
+            "title": "Limpia y calibrada",
+            "text": "Piedras, partidos y granos descoloridos se retiran antes de envasar, así lo que llega se cocina sin volver a seleccionarlo."
+          },
+          {
+            "title": "Almacenamiento largo y poco exigente",
+            "text": "Las legumbres secas solo necesitan un almacén fresco y seco. Sin refrigeración, sin atmósfera controlada y sin prisa por dar salida al stock."
+          }
+        ],
+        "varieties": {}
+      },
+      "apricotKernels": {
+        "tagline": "La almendra dentro del hueso",
+        "intro": "Cuando los albaricoques se deshuesan para secarlos, los huesos se parten y se recuperan las almendras. No se desperdicia nada, y la almendra es un producto por derecho propio: confitería, repostería y prensado para aceite.",
+        "benefits": [
+          {
+            "title": "Grasas saludables y proteína",
+            "text": "Sobre todo grasa insaturada, con proteína, magnesio y vitamina E. Cercana a la almendra dulce en composición y con usos muy parecidos."
+          },
+          {
+            "title": "El suministro sigue a nuestra línea de albaricoque",
+            "text": "Las almendras salen de nuestro propio procesado de albaricoque, así que la disponibilidad depende de la cosecha de albaricoque y no de un cultivo aparte."
+          },
+          {
+            "title": "Confitería y prensado",
+            "text": "Las almendras enteras van a dulces y repostería; el resto se prensa para obtener aceite de hueso de albaricoque, con su propio mercado cosmético."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedPeppers": {
+        "tagline": "Secado entero al sol, con el picante intacto",
+        "intro": "El pimiento se seca entero al aire libre, lo que concentra el color y el picante sin el sabor plano que deja un secado en horno demasiado fuerte. Lo servimos entero y no molido: el molido lo decide el comprador.",
+        "benefits": [
+          {
+            "title": "Color y picante concentrados",
+            "text": "El secado quita agua, no capsaicina ni pigmento carotenoide. Queda el mismo pimiento, varias veces más intenso."
+          },
+          {
+            "title": "Entero, no molido",
+            "text": "El pimiento molido pierde aroma en el estante. La vaina entera lo retiene hasta la molienda, y por eso los formuladores de especias lo compran así."
+          },
+          {
+            "title": "Vitamina C y carotenoides",
+            "text": "A igual peso, el pimiento tiene más vitamina C que los cítricos, además de los carotenoides que le dan color."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedMelon": {
+        "tagline": "Una especialidad de Ferganá",
+        "intro": "El melón se corta en tiras largas y se seca al sol, y después suele trenzarse. Es dulce y floral como no lo es ninguna otra fruta seca; en Uzbekistán se sirve con el té donde en otros sitios se sirven galletas.",
+        "benefits": [
+          {
+            "title": "Dulzor sin nada añadido",
+            "text": "El secado concentra el azúcar propio del melón. No se añade nada: esa intensidad es sencillamente lo que queda cuando se va el agua."
+          },
+          {
+            "title": "Potasio y betacaroteno",
+            "text": "El melón conserva su potasio y sus carotenoides durante el secado, y la fibra se concentra junto con los azúcares."
+          },
+          {
+            "title": "Una especialidad, no una materia prima",
+            "text": "Pocos orígenes lo producen con calidad de exportación. Para un comprador que busca algo que el lineal aún no tiene, ahí está la clave."
+          }
+        ],
+        "varieties": {}
+      },
+      "compoteMix": {
+        "tagline": "Una referencia, nada que combinar",
+        "intro": "Una mezcla lista de manzana, albaricoque, ciruela, cereza y bayas secas, en las proporciones en las que realmente se prepara la compota centroasiática. Una referencia en lugar de cinco significa un SKU, un precio y una entrega.",
+        "benefits": [
+          {
+            "title": "Mezclado con receta fija",
+            "text": "La proporción se mantiene de lote en lote, así que la compota que su cliente haga en marzo sabrá como la de octubre."
+          },
+          {
+            "title": "Hecho con nuestras propias líneas",
+            "text": "Manzana, albaricoque, ciruela y cereza salen todas de nuestras propias eras de secado, y eso es lo que mantiene constante la mezcla."
+          },
+          {
+            "title": "Un SKU en lugar de cinco",
+            "text": "Menos pedidos, menos palés incompletos y ningún paso de mezclado en casa del comprador."
+          }
+        ],
+        "varieties": {}
+      },
+      "sourCherries": {
+        "tagline": "Ácida, oscura y secada entera",
+        "intro": "Las guindas se secan enteras y despacio, lo que mantiene la piel intacta y la acidez alta. En la cocina se comportan de forma distinta a la cereza dulce: la acidez sobrevive al horno, y justo por eso las compran los panaderos.",
+        "benefits": [
+          {
+            "title": "Antocianinas y acidez",
+            "text": "El color intenso son antocianinas, la clase de pigmentos estudiada por su actividad antioxidante. La acidez viene con ellas."
+          },
+          {
+            "title": "Aguanta el horneado",
+            "text": "La cereza dulce se deshace con el calor y el azúcar. La guinda no, y por eso sostiene strudels, tartas y rellenos de confitería."
+          },
+          {
+            "title": "Incluida en nuestro registro GACC",
+            "text": "Las cerezas se clasifican en la partida SA 0813 20, uno de los dos códigos que cubre nuestro registro GACC, así que esta línea entra en China con nuestro propio número."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedApples": {
+        "tagline": "Aros, secados y nada más",
+        "intro": "Las manzanas se descorazonan, se cortan en aros y se secan. Es el producto más sencillo que hacemos y el de uso más amplio: compota, muesli, repostería y picoteo directo.",
+        "benefits": [
+          {
+            "title": "Fibra, sobre todo pectina",
+            "text": "La manzana es especialmente rica en fibra soluble. El secado la concentra, y la pectina es lo que espesa una compota."
+          },
+          {
+            "title": "Ligera de transportar",
+            "text": "Con una fracción del peso en fresco, los aros de manzana dan muchas raciones por palé, y el coste de flete por ración se mantiene bajo."
+          },
+          {
+            "title": "Sirve en cuatro categorías",
+            "text": "Compota, cereales de desayuno, inclusión en panadería y snack de retail: un producto, cuatro tipos de comprador."
+          }
+        ],
+        "varieties": {}
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Kokand Fruits Secs — Fruits secs et noix premium d'Ouzbékistan",
-    "description": "Fruits secs, noix et produits naturels de qualité premium du cœur de Kokand, Ouzbékistan. Exportation vers plus de 20 pays."
+    "title": "Kokand Dry Fruits — fruits secs, noix et légumineuses d'Ouzbékistan",
+    "description": "Fruits secs, noix et légumineuses de Kokand, Ouzbékistan. Producteur enregistré GACC exportant vers la Chine, la Turquie et la Russie, 250 tonnes de capacité annuelle et fabrication en marque de distributeur."
   },
   "nav": {
     "home": "Accueil",
@@ -11,131 +11,120 @@
   },
   "hero": {
     "tagline": "Du cœur de Kokand",
-    "title": "Fruits secs et noix premium",
-    "subtitle": "Naturellement sourcés, soigneusement sélectionnés et livrés dans le monde entier — le goût authentique de la meilleure récolte d'Ouzbékistan sur votre table.",
-    "slides": [
-      {
-        "title": "Livré dans votre pays",
-        "subtitle": "Expédition vers plus de 20 pays dans un emballage alimentaire soigné — de notre entrepôt de Kokand jusqu’à votre porte."
-      },
-      {
-        "title": "Des prix justes, directement à la source",
-        "subtitle": "Nous achetons directement aux fermes de la vallée de Ferghana : une qualité premium sans marge d’intermédiaire."
-      },
-      {
-        "title": "Des fruits secs cueillis à maturité",
-        "subtitle": "Amandes, noix et pistaches triées à la main, stockées comme il faut et jamais traitées aux conservateurs."
-      }
-    ],
+    "title": "Fruits secs, noix et légumineuses",
+    "subtitle": "Séchés dans la vallée de Ferghana, triés et conditionnés dans notre propre atelier à Kokand, puis expédiés à des acheteurs en Chine, en Turquie et en Russie.",
     "cta": "Découvrir nos produits",
     "ctaSecondary": "Notre histoire"
   },
   "strengths": {
     "sectionTitle": "Pourquoi nous choisir",
-    "sectionSubtitle": "Nous combinons des traditions séculaires avec des standards de qualité modernes",
+    "sectionSubtitle": "Une entreprise familiale de la vallée de Ferghana, 250 tonnes par an",
     "quality": {
       "title": "Qualité premium",
-      "description": "Chaque produit subit des tests de qualité rigoureux. Seuls les meilleurs fruits secs et noix sans conservateurs."
+      "description": "Chaque lot est trié et calibré avant conditionnement. Sans colorant artificiel ni conservateur."
     },
     "fresh": {
       "title": "Toujours frais",
-      "description": "Nos produits sont continuellement renouvelés et stockés dans des conditions optimales."
+      "description": "Les fruits sont séchés en saison et conservés en entrepôt régulé, afin que la texture et l'arôme résistent au transport."
     },
     "delivery": {
-      "title": "Livraison mondiale",
-      "description": "Expédition rapide et fiable vers plus de 20 pays."
+      "title": "Marchés d'exportation",
+      "description": "Chine, Turquie et Russie — l'enregistrement GACC confirme l'accès au marché chinois."
     },
-    "selection": {
-      "title": "Large sélection",
-      "description": "Des raisins dorés aux pistaches premium — plus de 100 variétés de fruits secs et noix."
+    "privateLabel": {
+      "title": "Marque de distributeur",
+      "description": "Nous produisons sous votre propre marque — votre emballage et votre cahier des charges, fabriqués dans notre atelier de Kokand."
     }
   },
   "products": {
     "sectionTitle": "Nos produits",
-    "sectionSubtitle": "Explorez notre sélection diversifiée de fruits secs et noix premium",
+    "sectionSubtitle": "Six lignes de production, plus les articles de saison que nos acheteurs commandent le plus",
     "priceNote": "Prix sur demande",
-    "prunes": {
-      "name": "Pruneaux séchés",
-      "description": "Doux et parfumés, ils accompagnent le thé et entrent dans les plats comme dans les desserts. Ils se conservent longtemps."
-    },
-    "peanuts": {
-      "name": "Cacahuètes",
-      "description": "Riches en protéines, en bons acides gras, en potassium, en magnésium et en vitamines B. Elles apportent de l'énergie et soutiennent l'immunité."
-    },
-    "walnuts": {
-      "name": "Noix séchées",
-      "description": "Elles apportent protéines, acides gras nourrissants, potassium, magnésium, fer et vitamine E. Bonnes pour la mémoire et l'immunité."
-    },
     "driedApricots": {
-      "name": "Abricots secs dénoyautés",
+      "name": "Abricots secs",
       "description": "Riches en vitamines A et C, en fer et en potassium, utiles au cœur et aux vaisseaux. Ils facilitent aussi la digestion."
     },
     "raisins": {
       "name": "Raisins secs",
       "description": "Du raisin séché naturellement. Apprécié pour sa douceur, ses bienfaits et sa longue conservation."
     },
+    "prunes": {
+      "name": "Pruneaux",
+      "description": "Doux et parfumés, ils accompagnent le thé et entrent dans les plats comme dans les desserts. Ils se conservent longtemps."
+    },
+    "walnuts": {
+      "name": "Noix",
+      "description": "Elles apportent protéines, acides gras nourrissants, potassium, magnésium, fer et vitamine E. Bonnes pour la mémoire et l'immunité."
+    },
+    "peanuts": {
+      "name": "Cacahuètes",
+      "description": "Riches en protéines, en bons acides gras, en potassium, en magnésium et en vitamines B. Elles apportent de l'énergie et soutiennent l'immunité."
+    },
     "mungBeans": {
       "name": "Haricots mungo",
       "description": "Riches en protéines, fibres, fer, magnésium et vitamines B. Ils facilitent la digestion, donnent de l'énergie et conviennent à une cuisine légère."
+    },
+    "beans": {
+      "name": "Haricots secs",
+      "description": "Haricots communs séchés et nettoyés. Une légumineuse de base — riche en protéines végétales, en fibres et en fer, et stable au stockage pendant des années."
+    },
+    "apricotKernels": {
+      "name": "Amandons d'abricot",
+      "description": "L'amandon contenu dans le noyau d'abricot. Riche en bonnes graisses et en protéines, utilisé en confiserie et en pâtisserie, et pressé pour l'huile."
+    },
+    "driedPeppers": {
+      "name": "Piments séchés",
+      "description": "Piments séchés entiers au soleil. Pour les mélanges d'épices, les sauces et les conserves — le séchage concentre le piquant et la couleur."
+    },
+    "driedMelon": {
+      "name": "Melon séché",
+      "description": "Melon de Ferghana coupé en lanières et séché au soleil. Intensément sucré et parfumé — une spécialité d'Asie centrale servie avec le thé."
+    },
+    "compoteMix": {
+      "name": "Mélange à compote",
+      "description": "Un mélange prêt à l'emploi de pommes, abricots, prunes, cerises et baies séchés pour la compote. Vendu comme une seule référence, rien à assembler."
+    },
+    "sourCherries": {
+      "name": "Griottes",
+      "description": "Cerises acides séchées entières. Riches en anthocyanes, et leur acidité tient à la cuisson, en confiserie comme en compote."
+    },
+    "driedApples": {
+      "name": "Pommes séchées",
+      "description": "Pommes coupées en anneaux et séchées. Légères, riches en fibres et faciles à stocker — pour la compote, le muesli et le grignotage."
     },
     "viewAll": "Voir tous les produits"
   },
   "stats": {
     "products": "Produits",
-    "clients": "Clients",
-    "countries": "Pays",
-    "certifications": "Certifications",
-    "productsValue": "100+",
-    "clientsValue": "500+",
-    "countriesValue": "20+",
-    "certificationsValue": "14"
+    "capacity": "Tonnes par an",
+    "countries": "Marchés d'export",
+    "experience": "Ans d'activité",
+    "productsValue": "13",
+    "capacityValue": "250",
+    "countriesValue": "3",
+    "experienceValue": "6"
   },
-  "testimonials": {
-    "sectionTitle": "Ce que disent nos clients",
-    "sectionSubtitle": "La confiance des entreprises et familles du monde entier",
-    "items": [
-      {
-        "name": "Mikhail Petrov",
-        "role": "Responsable import, Moscou",
-        "text": "Kokand Fruits Secs est notre fournisseur de confiance depuis 5 ans. La qualité est toujours excellente."
-      },
-      {
-        "name": "Fatima Al-Rashid",
-        "role": "Acheteuse en gros, Dubaï",
-        "text": "Les meilleurs abricots secs et pistaches que nous ayons sourcés."
-      },
-      {
-        "name": "Chen Wei",
-        "role": "Propriétaire de magasin bio, Shanghai",
-        "text": "Des produits naturels sans conservateurs que nos clients soucieux de leur santé adorent."
-      },
-      {
-        "name": "Anna Schmidt",
-        "role": "Chef de restaurant, Berlin",
-        "text": "Ces noix et amandes ont élevé notre menu de pâtisserie."
-      }
-    ]
+  "certification": {
+    "sectionTitle": "Certification",
+    "sectionSubtitle": "Enregistré auprès de l'administration générale des douanes de Chine",
+    "gaccTitle": "Enregistrement GACC",
+    "gaccBody": "« KOKAND DRY FRUITS » LLC figure au registre GACC des producteurs alimentaires étrangers agréés. C'est cet enregistrement qui permet à nos marchandises de passer la douane chinoise sous notre propre numéro plutôt que sous celui d'un négociant.",
+    "chinaRegLabel": "N° d'enregistrement Chine",
+    "foreignRegLabel": "N° d'enregistrement étranger",
+    "coveredLabel": "Codes SH couverts",
+    "coveredNote": "L'enregistrement GACC couvre les abricots secs (SH 0813 10) ainsi que les prunes et cerises séchées (SH 0813 20). Nos autres lignes sont expédiées vers des marchés où cet enregistrement n'est pas exigé."
   },
   "cta": {
     "title": "Devenez notre partenaire",
-    "subtitle": "Détaillant, grossiste ou fabricant alimentaire — construisons un partenariat fructueux ensemble.",
+    "subtitle": "Importateur, grossiste ou industriel de l'agroalimentaire — y compris sous votre propre marque : construisons ensemble un partenariat durable.",
     "button": "Nous contacter"
   },
   "about": {
     "heroTitle": "À propos de nous",
-    "heroSubtitle": "Nous vous livrons rapidement des fruits secs naturels et de qualité",
-    "stats": {
-      "deliveredValue": "5000+",
-      "deliveredLabel": "Produits livrés",
-      "customersValue": "1000+",
-      "customersLabel": "Clients",
-      "certificatesValue": "14",
-      "certificatesLabel": "Certificats"
-    },
     "story": {
       "title": "Dans ce domaine depuis 2020",
-      "p1": "Nous sommes une source fiable de fruits secs de qualité pour tous ceux qui accordent de l’importance à une alimentation saine.",
-      "p2": "Nos produits sont cueillis directement dans les champs, séchés naturellement et vous parviennent sans aucun colorant ni conservateur artificiel."
+      "p1": "un producteur et exportateur familial de fruits secs, de noix et de légumineuses dans la vallée de Ferghana.",
+      "p2": "« KOKAND DRY FRUITS » LLC opère depuis Kichik Oqmasjid, dans le district de Kokand, région de Ferghana, avec une capacité de production de 250 tonnes par an. Les pruneaux, les haricots mungo et les abricots secs représentent l'essentiel de ce volume ; les raisins secs, les noix et les arachides sont produits en plus petites quantités."
     },
     "principles": {
       "title": "Nos principes",
@@ -161,10 +150,6 @@
           "description": "Honnêteté et qualité garantie."
         }
       ]
-    },
-    "partners": {
-      "title": "Nos partenaires de confiance",
-      "subtitle": "Nous travaillons aux côtés de nos partenaires de confiance pour offrir des produits et des services de qualité. Grâce à leur expérience, leur fiabilité et leur grand sens des responsabilités, nous obtenons les meilleurs résultats pour nos clients."
     }
   },
   "contact": {
@@ -187,7 +172,7 @@
     },
     "info": {
       "title": "Nous contacter",
-      "address": "Kokand, Région de Fergana, Ouzbékistan",
+      "address": "Rue Mustaqillik 36, MFY Kichik Oqmasjid, district de Kokand, région de Ferghana, Ouzbékistan",
       "addressLabel": "Adresse",
       "phone": "+998 73 253 00 00",
       "phoneLabel": "Téléphone",
@@ -199,7 +184,7 @@
     }
   },
   "footer": {
-    "description": "Fruits secs et noix premium de Kokand, Ouzbékistan — exportation mondiale depuis 2020.",
+    "description": "Fruits secs, noix et légumineuses de Kokand, Ouzbékistan — exportation vers la Chine, la Turquie et la Russie depuis 2020.",
     "quickLinks": "Liens rapides",
     "ourProducts": "Nos produits",
     "contactUs": "Contact",
@@ -236,134 +221,135 @@
     "items": {
       "driedApricots": {
         "tagline": "Séchés au soleil dans la vallée de Ferghana",
-        "intro": "Les abricots sont mis à sécher dans les heures qui suivent la cueillette : les sucres se concentrent sans que le fruit ne cuise. Nous trions par couleur et par taille, de l'extra-clair à l'ambre foncé, sans colorant. Lots soufrés et non soufrés disponibles.",
+        "intro": "Les abricots sont mis à sécher dans les heures qui suivent la récolte : les sucres se concentrent sans que le fruit soit jamais compoté. Nous trions par couleur et par calibre en six qualités — rouge, jaune, Shakarli, Limonka, nature et coupé — et nous n'utilisons pas de colorant.",
         "benefits": [
           {
             "title": "Vitamine A et potassium",
-            "text": "Le pigment orange est le bêta-carotène, que l'organisme convertit en vitamine A. L'abricot apporte aussi du potassium et du fer, d'où sa réputation d'aliment du cœur et de la circulation."
+            "text": "Le pigment orange est le bêta-carotène, que l'organisme transforme en vitamine A. L'abricot apporte aussi du potassium et du fer, d'où sa réputation d'aliment pour le cœur et la circulation."
           },
           {
-            "title": "Un classement couleur fiable",
-            "text": "Les lots passent sur trieuse optique : l'extra-clair reste extra-clair. Carton après carton, vous recevez la teinte achetée."
+            "title": "Un tri couleur sur lequel compter",
+            "text": "Les lots sont séparés par teinte et par calibre avant conditionnement : une marchandise claire reste claire. Vous recevez la qualité achetée, caisse après caisse."
           },
           {
-            "title": "Stable jusqu'à la récolte suivante",
-            "text": "Séché sous 20 % d'humidité et conservé en entrepôt à température contrôlée, le fruit garde texture et goût une année entière."
+            "title": "Couvert par notre enregistrement GACC",
+            "text": "Les abricots secs relèvent du SH 0813 10, l'un des deux codes couverts par notre enregistrement GACC : cette ligne entre donc en Chine sous notre propre numéro."
           }
         ],
         "varieties": {
-          "natural": "Naturel",
+          "red": "Rouge",
           "yellow": "Jaune",
-          "cut": "Coupé",
-          "amber": "Ambré"
+          "sugar": "Shakarli (sucré)",
+          "lemon": "Limonka",
+          "natural": "Nature",
+          "cut": "Coupé"
         }
       },
       "raisins": {
         "tagline": "Du raisin séché comme il l'a toujours été",
-        "intro": "Nos raisins secs viennent des vignes de la vallée de Ferghana et sèchent au soleil ou à l'ombre selon la qualité. Le séchage à l'ombre est plus long et plus coûteux, mais il garde le fruit souple et clair — exactement ce que demande le haut de gamme.",
+        "intro": "Nos raisins secs viennent des vignobles de la vallée de Ferghana et sont séchés au soleil de façon traditionnelle. Nous travaillons cinq qualités — Malayar, Sultana, nature, Crimson et Jumbo Golden — qui diffèrent par la taille, la couleur et le prix, non par le procédé.",
         "benefits": [
           {
-            "title": "Sucre naturel, sans additif",
-            "text": "Rien n'est ajouté, rien n'est enrobé. La douceur vient du raisin lui-même, concentrée par le séchage et non par un sirop."
+            "title": "Sucres naturels, sans additif",
+            "text": "Rien n'est ajouté, rien n'est enrobé. La douceur est celle du raisin, concentrée par le séchage et non par un sirop."
           },
           {
-            "title": "Quatre qualités distinctes",
-            "text": "Sultana dorée, Jumbo extra-large, Crimson sans pépins et séchage traditionnel à l'ombre — chacune avec sa couleur, son calibre et son prix."
+            "title": "Cinq qualités distinctes",
+            "text": "Malayar, Sultana, nature, Crimson et Jumbo Golden — chacune avec sa taille, sa couleur et son niveau de prix."
           },
           {
             "title": "Se conserve et voyage bien",
-            "text": "À 17 % d'humidité ou moins, le raisin sec voyage sans froid et reste souple un an en carton fermé."
+            "text": "À 17 % d'humidité au maximum, le raisin sec voyage sans froid et garde son moelleux un an en cartons scellés."
           }
         ],
         "varieties": {
-          "sultana": "Sultana dorée",
-          "jumbo": "Jumbo Golden",
-          "crimson": "Crimson sans pépins",
-          "shade": "Séché à l'ombre"
+          "malayar": "Malayar",
+          "sultana": "Sultana",
+          "natural": "Nature",
+          "crimson": "Crimson",
+          "jumboGolden": "Jumbo Golden"
         }
       },
       "prunes": {
         "tagline": "Prunes séchées lentement",
-        "intro": "Les prunes sèchent entières et lentement : c'est ce qui donne au pruneau sa couleur sombre et sa profondeur. Nous livrons dénoyauté ou avec noyau, calibré au nombre de pièces par kilo, pour que vous sachiez exactement ce qui arrive.",
+        "intro": "Les prunes sont séchées entières et lentement : c'est ce qui donne au pruneau sa couleur sombre et sa profondeur. Nous les fournissons avec noyau ou dénoyautées, calibrées au nombre de pièces par kilo, pour que vous sachiez exactement ce qui arrive.",
         "benefits": [
           {
             "title": "Fibres et sorbitol",
-            "text": "Le pruneau est l'un des aliments digestifs les plus connus, et la raison est réelle : fibres solubles et sorbitol naturel."
+            "text": "Le pruneau est l'un des aliments digestifs les plus connus, et la raison est réelle : fibres solubles et sorbitol naturellement présent."
           },
           {
             "title": "Compté, pas estimé",
-            "text": "Le calibrage se fait en pièces par kilo — 70/80, 80/90, 90/100 — ce qui rend le portionnement et l'emballage en aval prévisibles."
+            "text": "Le calibrage se fait au nombre de pièces par kilo — 70/80, 80/90, 90/100 — de sorte que le portionnement et l'emballage en aval restent prévisibles."
           },
           {
-            "title": "En cuisine comme en rayon",
-            "text": "Aussi à sa place en confiserie, en cuisine carnée et en sachets de snacking, ce qui en fait une référence facile à écouler."
+            "title": "Notre plus grosse ligne, et couverte GACC",
+            "text": "Le pruneau représente la part la plus importante de nos 250 tonnes annuelles, et le SH 0813 20 est couvert par notre enregistrement GACC pour la Chine."
           }
         ],
         "varieties": {
-          "pitted": "Dénoyauté",
           "unpitted": "Avec noyau",
-          "softened": "Prêt à consommer"
+          "pitted": "Dénoyauté"
         }
       },
       "walnuts": {
-        "tagline": "Cerneaux triés à la machine et à la main",
-        "intro": "Les noix sont cassées puis classées en cerneaux clairs, quarts et brisures, ou livrées en coque. Dans ce commerce, c'est la couleur qui fait le prix : les cerneaux passent sur trieuse optique puis en contrôle manuel.",
+        "tagline": "Cerneaux triés par calibre et par couleur",
+        "intro": "Les noix sont cassées puis classées en moitiés, quarts, gros et petits morceaux et granulés. Dans ce commerce, c'est la couleur qui fait le prix : les cerneaux sont séparés par teinte puis contrôlés à la main avant conditionnement.",
         "benefits": [
           {
             "title": "Oméga-3 et vitamine E",
             "text": "La noix contient plus d'acide alpha-linolénique que tout autre fruit à coque courant, avec de la vitamine E, du magnésium et des protéines."
           },
           {
-            "title": "Cerneaux clairs, bien triés",
-            "text": "La prime va au cerneau clair. Les nôtres sont séparés optiquement puis vérifiés à la main : la qualité tient sur tout le lot."
+            "title": "Moitiés claires, correctement triées",
+            "text": "Les moitiés claires se paient plus cher. Les nôtres sont séparées par couleur puis vérifiées à la main, si bien que la qualité tient sur tout le lot."
           },
           {
-            "title": "Sous vide sur demande",
-            "text": "Le cerneau s'oxyde plus vite que le fruit sec. Le vide ou l'atmosphère protectrice préserve la fraîcheur sur une longue traversée."
+            "title": "Emballage sous vide sur demande",
+            "text": "Les cerneaux s'oxydent plus vite que les fruits secs. Le vide ou l'atmosphère protectrice les garde frais sur une longue traversée."
           }
         ],
         "varieties": {
-          "halves": "Cerneaux clairs",
-          "quarters": "Quarts",
-          "pieces": "Brisures",
-          "inShell": "En coque"
+          "halves": "Moitiés (1/2)",
+          "quarters": "Quarts (1/4)",
+          "largePieces": "Gros morceaux",
+          "smallPieces": "Petits morceaux",
+          "granules": "Granulés"
         }
       },
       "peanuts": {
-        "tagline": "Crue, blanchie ou grillée",
-        "intro": "Nous fournissons l'arachide en coque, en graine crue, blanchie sans peau ou grillée selon votre profil. Le calibrage suit les grades habituels et chaque lot est contrôlé en aflatoxine avant expédition.",
+        "tagline": "En coque ou décortiquée",
+        "intro": "Nous fournissons l'arachide en coque et en graines nettoyées. Le calibrage suit les qualités habituelles en nombre de pièces par once, et les lots partent avec les certificats qu'exige votre marché de destination.",
         "benefits": [
           {
-            "title": "De la protéine au prix de travail",
-            "text": "Environ un quart de protéines en poids, avec potassium, magnésium et vitamines du groupe B — d'où le rôle central de l'arachide dans tant de lignes de snacking et de confiserie."
+            "title": "Des protéines au bon prix",
+            "text": "Environ un quart de protéines en poids, avec potassium, magnésium et vitamines du groupe B — c'est pourquoi l'arachide est à la base de tant de gammes de snacks et de confiserie."
           },
           {
-            "title": "Testée en aflatoxine",
-            "text": "Chaque lot passe au laboratoire avant départ. Sur cette culture, c'est le principal risque à l'import : le test n'est pas facultatif."
+            "title": "Analysé selon votre protocole",
+            "text": "Les limites en aflatoxine varient selon le marché. Indiquez-nous le protocole et le seuil exigés à l'import, et nous expédions sur ce certificat."
           },
           {
-            "title": "Transformée selon votre brief",
-            "text": "Blanchiment et torréfaction se font à la commande : vous prenez la graine au stade qui convient à votre ligne."
+            "title": "Transformé selon votre demande",
+            "text": "Le décorticage et la transformation ultérieure se font à la commande : vous prenez la graine au stade qui convient à votre ligne."
           }
         ],
         "varieties": {
-          "blanched": "Blanchie",
-          "raw": "Graines crues",
-          "roasted": "Grillée",
-          "inShell": "En coque"
+          "inShell": "En coque",
+          "shelled": "Décortiquée"
         }
       },
       "mungBeans": {
         "tagline": "Une légumineuse qui part en volume",
-        "intro": "Le haricot mungo est nettoyé, calibré et classé pour la cuisine ou pour la germination. C'est un aliment de base en Asie du Sud et de l'Est, et la qualité germination répond à une exigence de taux de germination plus stricte.",
+        "intro": "Les haricots mungo sont nettoyés, calibrés et conditionnés en une seule qualité standard. C'est un aliment de base en Asie du Sud et de l'Est, et l'une des trois lignes qui portent l'essentiel de notre volume annuel.",
         "benefits": [
           {
             "title": "Protéines et fibres",
             "text": "Riche en protéines végétales, en fibres, en fer et en magnésium, et assez léger pour la cuisine diététique et hospitalière."
           },
           {
-            "title": "Qualité germination disponible",
-            "text": "L'acheteur de germes regarde le taux de germination, pas seulement le calibre. Cette qualité est sélectionnée et testée séparément."
+            "title": "L'un de nos volumes principaux",
+            "text": "Avec les pruneaux et les abricots secs, le haricot mungo représente la majeure partie des 250 tonnes que nous produisons chaque année : la quantité est rarement le facteur limitant."
           },
           {
             "title": "Deux ans de conservation",
@@ -371,10 +357,141 @@
           }
         ],
         "varieties": {
-          "standard": "Standard",
-          "large": "Gros",
-          "sprouting": "Qualité germination"
+          "standard": "Standard"
         }
+      },
+      "beans": {
+        "tagline": "Une légumineuse qui se stocke et qui voyage",
+        "intro": "Des haricots communs, séchés et nettoyés à la qualité alimentaire. C'est l'une de nos lignes les plus régulières : pas de chaîne du froid, pas de fenêtre saisonnière étroite à l'achat, et une conservation qui se compte en années plutôt qu'en mois.",
+        "benefits": [
+          {
+            "title": "Protéines et fibres",
+            "text": "Environ un cinquième de protéines en poids, avec fibres, fer, folates et potassium. C'est pour cela que les légumineuses tiennent une si grande place dans la cuisine quotidienne du monde entier."
+          },
+          {
+            "title": "Nettoyés et calibrés",
+            "text": "Pierres, brisures et grains décolorés sont retirés avant conditionnement : la marchandise reçue se cuisine sans nouveau tri."
+          },
+          {
+            "title": "Un stockage long et peu exigeant",
+            "text": "Les légumineuses sèches ne demandent qu'un local frais et sec. Pas de froid, pas d'atmosphère contrôlée, pas d'urgence à écouler le stock."
+          }
+        ],
+        "varieties": {}
+      },
+      "apricotKernels": {
+        "tagline": "L'amandon dans le noyau",
+        "intro": "Quand les abricots sont dénoyautés pour le séchage, les noyaux sont cassés et les amandons récupérés. Rien ne se perd, et l'amandon est un produit à part entière — confiserie, pâtisserie, et pressage pour l'huile.",
+        "benefits": [
+          {
+            "title": "Bonnes graisses et protéines",
+            "text": "Majoritairement des graisses insaturées, avec protéines, magnésium et vitamine E. Proche de l'amande par sa composition, et employé de la même façon."
+          },
+          {
+            "title": "L'offre suit notre ligne abricot",
+            "text": "Les amandons viennent de notre propre transformation d'abricot : la disponibilité dépend de la récolte d'abricots, non d'une culture séparée."
+          },
+          {
+            "title": "Confiserie et pressage",
+            "text": "Les amandons entiers vont en confiserie et en pâtisserie ; le reste est pressé en huile d'amandon d'abricot, qui a son propre marché cosmétique."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedPeppers": {
+        "tagline": "Séché entier au soleil, piquant intact",
+        "intro": "Le piment sèche entier à l'air libre, ce qui concentre à la fois la couleur et le piquant sans le goût plat que laisse un séchage en four trop vif. Nous livrons les gousses entières plutôt que moulues : la mouture reste au choix de l'acheteur.",
+        "benefits": [
+          {
+            "title": "Couleur et piquant concentrés",
+            "text": "Le séchage retire l'eau, pas la capsaïcine ni le pigment caroténoïde. Il reste le même piment, plusieurs fois plus intense."
+          },
+          {
+            "title": "Entier, pas moulu",
+            "text": "Le piment moulu perd son arôme en rayon. La gousse entière le garde jusqu'à la mouture — c'est pour cela que les assembleurs d'épices l'achètent ainsi."
+          },
+          {
+            "title": "Vitamine C et caroténoïdes",
+            "text": "À poids égal, le piment contient plus de vitamine C que les agrumes, avec les caroténoïdes qui lui donnent sa couleur."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedMelon": {
+        "tagline": "Une spécialité de Ferghana",
+        "intro": "Le melon est coupé en longues lanières et séché au soleil, souvent tressé ensuite. Il est sucré et floral comme aucun autre fruit sec ; en Ouzbékistan, on le sert avec le thé là où ailleurs on sert des biscuits.",
+        "benefits": [
+          {
+            "title": "Une douceur sans rien d'ajouté",
+            "text": "Le séchage concentre le sucre propre du melon. Rien n'est ajouté : cette intensité est simplement ce qui reste une fois l'eau partie."
+          },
+          {
+            "title": "Potassium et bêta-carotène",
+            "text": "Le melon conserve son potassium et ses caroténoïdes au séchage, et les fibres se concentrent en même temps que les sucres."
+          },
+          {
+            "title": "Une spécialité, pas une commodité",
+            "text": "Peu d'origines en produisent à la qualité export. Pour un acheteur qui cherche ce que le rayon n'a pas encore, tout est là."
+          }
+        ],
+        "varieties": {}
+      },
+      "compoteMix": {
+        "tagline": "Une référence, rien à assembler",
+        "intro": "Un mélange prêt de pommes, abricots, prunes, cerises et baies séchés, dans les proportions où la compote d'Asie centrale se prépare réellement. Une référence au lieu de cinq : un SKU, un prix, une livraison.",
+        "benefits": [
+          {
+            "title": "Mélangé selon une recette fixe",
+            "text": "Le ratio est tenu d'un lot à l'autre : la compote que votre client prépare en mars a le goût de celle d'octobre."
+          },
+          {
+            "title": "Issu de nos propres lignes",
+            "text": "Pommes, abricots, prunes et cerises viennent tous de nos aires de séchage : c'est ce qui rend le mélange régulier."
+          },
+          {
+            "title": "Un SKU au lieu de cinq",
+            "text": "Moins de commandes, moins de palettes entamées, et aucune étape de mélange chez l'acheteur."
+          }
+        ],
+        "varieties": {}
+      },
+      "sourCherries": {
+        "tagline": "Acide, sombre et séchée entière",
+        "intro": "Les griottes sont séchées entières et lentement, ce qui garde la peau intacte et l'acidité élevée. En cuisine, elles ne se comportent pas comme les cerises douces : l'acidité résiste à la cuisson, et c'est exactement pour cela que les boulangers les achètent.",
+        "benefits": [
+          {
+            "title": "Anthocyanes et acidité",
+            "text": "La couleur profonde vient des anthocyanes, la classe de pigments étudiée pour son activité antioxydante. L'acidité vient avec."
+          },
+          {
+            "title": "Tient à la cuisson",
+            "text": "La cerise douce s'affaisse sous la chaleur et le sucre. La griotte non — d'où sa place dans les strudels, les tartes et les fourrages de confiserie."
+          },
+          {
+            "title": "Couverte par notre enregistrement GACC",
+            "text": "Les cerises relèvent du SH 0813 20, l'un des deux codes couverts par notre enregistrement GACC : cette ligne entre donc en Chine sous notre propre numéro."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedApples": {
+        "tagline": "Des anneaux, séchés, rien d'autre",
+        "intro": "Les pommes sont épépinées, coupées en anneaux et séchées. C'est le produit le plus simple que nous fabriquions et le plus polyvalent — compote, muesli, pâtisserie et grignotage.",
+        "benefits": [
+          {
+            "title": "Des fibres, surtout de la pectine",
+            "text": "La pomme est exceptionnellement riche en fibres solubles. Le séchage les concentre, et c'est la pectine qui épaissit la compote."
+          },
+          {
+            "title": "Léger à transporter",
+            "text": "À une fraction du poids frais, les anneaux de pomme offrent beaucoup de portions par palette, ce qui maintient un coût de fret par portion très bas."
+          },
+          {
+            "title": "Utile dans quatre catégories",
+            "text": "Compote, céréales du petit-déjeuner, inclusion en boulangerie et snack de détail — un produit, quatre types d'acheteurs."
+          }
+        ],
+        "varieties": {}
       }
     }
   }

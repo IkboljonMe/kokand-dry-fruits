@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Kokand Trockenfrüchte — Premium Trockenfrüchte & Nüsse aus Usbekistan",
-    "description": "Premium Trockenfrüchte, Nüsse und Naturprodukte aus dem Herzen von Kokand, Usbekistan. Export in über 20 Länder weltweit."
+    "title": "Kokand Dry Fruits — Trockenfrüchte, Nüsse & Hülsenfrüchte aus Usbekistan",
+    "description": "Trockenfrüchte, Nüsse und Hülsenfrüchte aus Kokand, Usbekistan. GACC-registrierter Produzent mit Export nach China, in die Türkei und nach Russland, 250 Tonnen Jahreskapazität und Private-Label-Fertigung."
   },
   "nav": {
     "home": "Startseite",
@@ -11,131 +11,120 @@
   },
   "hero": {
     "tagline": "Aus dem Herzen von Kokand",
-    "title": "Premium Trockenfrüchte & Nüsse",
-    "subtitle": "Natürlich gewonnen, sorgfältig ausgewählt und weltweit geliefert — der authentische Geschmack der besten Ernte Usbekistans.",
-    "slides": [
-      {
-        "title": "Lieferung in Ihr Heimatland",
-        "subtitle": "Versand in über 20 Länder in lebensmittelechter Verpackung — von unserem Lager in Kokand direkt vor Ihre Tür."
-      },
-      {
-        "title": "Faire Preise, direkt vom Erzeuger",
-        "subtitle": "Wir kaufen direkt bei den Höfen im Ferghanatal — Premiumqualität ohne Zwischenhändleraufschlag."
-      },
-      {
-        "title": "Nüsse, im besten Moment geerntet",
-        "subtitle": "Mandeln, Walnüsse und Pistazien werden von Hand verlesen, richtig gelagert und nie mit Konservierungsstoffen behandelt."
-      }
-    ],
+    "title": "Trockenfrüchte, Nüsse & Hülsenfrüchte",
+    "subtitle": "Getrocknet im Ferghanatal, sortiert und verpackt im eigenen Betrieb in Kokand, verschifft an Abnehmer in China, der Türkei und Russland.",
     "cta": "Produkte entdecken",
     "ctaSecondary": "Unsere Geschichte"
   },
   "strengths": {
     "sectionTitle": "Warum wir",
-    "sectionSubtitle": "Wir verbinden jahrhundertealte Traditionen mit modernen Qualitätsstandards",
+    "sectionSubtitle": "Ein Familienbetrieb im Ferghanatal mit 250 Tonnen Jahresproduktion",
     "quality": {
       "title": "Premium Qualität",
-      "description": "Jedes Produkt durchläuft strenge Qualitätstests."
+      "description": "Jede Partie wird vor dem Verpacken sortiert und klassiert. Keine künstlichen Farbstoffe, keine Konservierungsmittel."
     },
     "fresh": {
       "title": "Immer frisch",
-      "description": "Unsere Produkte werden kontinuierlich erneuert und unter optimalen Bedingungen gelagert."
+      "description": "Die Früchte werden in der Saison getrocknet und temperaturgeführt gelagert, damit Textur und Aroma den Transport überstehen."
     },
     "delivery": {
-      "title": "Weltweite Lieferung",
-      "description": "Schneller, zuverlässiger Versand in über 20 Länder."
+      "title": "Exportmärkte",
+      "description": "China, Türkei und Russland — die GACC-Registrierung bestätigt den Zugang zum chinesischen Markt."
     },
-    "selection": {
-      "title": "Große Auswahl",
-      "description": "Von goldenen Rosinen bis zu Premium-Pistazien — über 100 Sorten."
+    "privateLabel": {
+      "title": "Private Label",
+      "description": "Wir produzieren unter Ihrer eigenen Marke — Ihre Verpackung, Ihre Spezifikation, gefertigt in unserem Betrieb in Kokand."
     }
   },
   "products": {
     "sectionTitle": "Unsere Produkte",
-    "sectionSubtitle": "Entdecken Sie unsere vielfältige Auswahl an Premium Trockenfrüchten und Nüssen",
+    "sectionSubtitle": "Sechs Produktionslinien und dazu die Saisonartikel, die unsere Kunden am häufigsten bestellen",
     "priceNote": "Preis auf Anfrage",
-    "prunes": {
-      "name": "Getrocknete Pflaumen",
-      "description": "Süß und aromatisch — zum Tee, in Gerichten und in Süßspeisen. Sie halten lange und lassen sich gut bevorraten."
-    },
-    "peanuts": {
-      "name": "Erdnüsse",
-      "description": "Reich an Eiweiß, guten Fettsäuren, Kalium, Magnesium und B-Vitaminen. Sie geben Energie und stärken die Abwehrkräfte."
-    },
-    "walnuts": {
-      "name": "Getrocknete Walnüsse",
-      "description": "Enthalten Eiweiß, nahrhafte Fettsäuren, Kalium, Magnesium, Eisen und Vitamin E. Gut für Gedächtnis und Immunsystem."
-    },
     "driedApricots": {
-      "name": "Entsteinte Trockenaprikosen",
+      "name": "Trockenaprikosen",
       "description": "Reich an Vitamin A und C, Eisen und Kalium — gut für Herz und Gefäße. Sie unterstützen auch die Verdauung."
     },
     "raisins": {
       "name": "Rosinen",
       "description": "Auf natürliche Weise getrocknete Trauben. Geschätzt für Süße, Nährwert und lange Haltbarkeit."
     },
+    "prunes": {
+      "name": "Backpflaumen",
+      "description": "Süß und aromatisch — zum Tee, in Gerichten und in Süßspeisen. Sie halten lange und lassen sich gut bevorraten."
+    },
+    "walnuts": {
+      "name": "Walnüsse",
+      "description": "Enthalten Eiweiß, nahrhafte Fettsäuren, Kalium, Magnesium, Eisen und Vitamin E. Gut für Gedächtnis und Immunsystem."
+    },
+    "peanuts": {
+      "name": "Erdnüsse",
+      "description": "Reich an Eiweiß, guten Fettsäuren, Kalium, Magnesium und B-Vitaminen. Sie geben Energie und stärken die Abwehrkräfte."
+    },
     "mungBeans": {
       "name": "Mungbohnen",
       "description": "Reich an Eiweiß, Ballaststoffen, Eisen, Magnesium und B-Vitaminen. Sie fördern die Verdauung, geben Energie und passen zu leichter Küche."
+    },
+    "beans": {
+      "name": "Bohnen",
+      "description": "Getrocknete und gereinigte Gartenbohnen. Eine Basis-Hülsenfrucht — reich an pflanzlichem Eiweiß, Ballaststoffen und Eisen, jahrelang lagerfähig."
+    },
+    "apricotKernels": {
+      "name": "Aprikosenkerne",
+      "description": "Der Kern aus dem Aprikosenstein. Reich an gesunden Fetten und Eiweiß, verwendet in Süßwaren und Backwaren sowie zur Ölgewinnung."
+    },
+    "driedPeppers": {
+      "name": "Getrocknete Chilischoten",
+      "description": "Ganz in der Sonne getrocknete Paprikaschoten. Für Gewürzmischungen, Saucen und zum Einlegen — Schärfe und Farbe werden durch das Trocknen konzentriert."
+    },
+    "driedMelon": {
+      "name": "Getrocknete Melone",
+      "description": "In Streifen geschnittene, sonnengetrocknete Ferghana-Melone. Intensiv süß und aromatisch — eine zentralasiatische Spezialität zum Tee."
+    },
+    "compoteMix": {
+      "name": "Kompott-Mischung",
+      "description": "Eine fertige Mischung aus getrockneten Äpfeln, Aprikosen, Pflaumen, Kirschen und Beeren für Kompott. Wird als eine Position verkauft, es muss nichts zusammengestellt werden."
+    },
+    "sourCherries": {
+      "name": "Sauerkirschen",
+      "description": "Ganz getrocknete Sauerkirschen. Reich an Anthocyanen, und die Säure hält sich beim Backen, in Süßwaren und im Kompott."
+    },
+    "driedApples": {
+      "name": "Apfelringe",
+      "description": "In Ringe geschnittene, getrocknete Äpfel. Leicht, ballaststoffreich und einfach zu lagern — für Kompott, Müsli und als Snack."
     },
     "viewAll": "Alle Produkte ansehen"
   },
   "stats": {
     "products": "Produkte",
-    "clients": "Kunden",
-    "countries": "Länder",
-    "certifications": "Zertifikate",
-    "productsValue": "100+",
-    "clientsValue": "500+",
-    "countriesValue": "20+",
-    "certificationsValue": "14"
+    "capacity": "Tonnen pro Jahr",
+    "countries": "Exportmärkte",
+    "experience": "Jahre im Geschäft",
+    "productsValue": "13",
+    "capacityValue": "250",
+    "countriesValue": "3",
+    "experienceValue": "6"
   },
-  "testimonials": {
-    "sectionTitle": "Was unsere Kunden sagen",
-    "sectionSubtitle": "Vertraut von Unternehmen und Familien weltweit",
-    "items": [
-      {
-        "name": "Mikhail Petrov",
-        "role": "Importmanager, Moskau",
-        "text": "Kokand Trockenfrüchte ist seit 5 Jahren unser vertrauenswürdiger Lieferant."
-      },
-      {
-        "name": "Fatima Al-Rashid",
-        "role": "Großhändlerin, Dubai",
-        "text": "Die besten getrockneten Aprikosen und Pistazien, die wir beschafft haben."
-      },
-      {
-        "name": "Chen Wei",
-        "role": "Bioladen-Besitzer, Shanghai",
-        "text": "Natürliche, konservierungsstofffreie Produkte, die unsere gesundheitsbewussten Kunden lieben."
-      },
-      {
-        "name": "Anna Schmidt",
-        "role": "Restaurantköchin, Berlin",
-        "text": "Diese Walnüsse und Mandeln haben unser Gebäckmenü auf ein neues Niveau gehoben."
-      }
-    ]
+  "certification": {
+    "sectionTitle": "Zertifizierung",
+    "sectionSubtitle": "Registriert bei der chinesischen Zollverwaltung",
+    "gaccTitle": "GACC-registriert",
+    "gaccBody": "Die „KOKAND DRY FRUITS“ LLC ist im GACC-Register zugelassener ausländischer Lebensmittelhersteller geführt. Diese Registrierung ist es, die unsere Ware unter eigener Registriernummer durch den chinesischen Zoll bringt — und nicht über die eines Händlers.",
+    "chinaRegLabel": "Registriernr. China",
+    "foreignRegLabel": "Ausländische Registriernr.",
+    "coveredLabel": "Abgedeckte HS-Codes",
+    "coveredNote": "Die GACC-Registrierung umfasst Trockenaprikosen (HS 0813 10) sowie getrocknete Pflaumen und Kirschen (HS 0813 20). Unsere übrigen Linien gehen in Märkte, in denen diese Registrierung nicht verlangt wird."
   },
   "cta": {
     "title": "Werden Sie unser Partner",
-    "subtitle": "Ob Einzelhändler, Großhändler oder Lebensmittelhersteller — lassen Sie uns eine fruchtbare Partnerschaft aufbauen.",
+    "subtitle": "Ob Importeur, Großhändler oder Lebensmittelhersteller — auch unter Ihrer eigenen Marke: Lassen Sie uns eine tragfähige Partnerschaft aufbauen.",
     "button": "Kontaktieren"
   },
   "about": {
     "heroTitle": "Über uns",
-    "heroSubtitle": "Wir liefern Ihnen natürliche, hochwertige Trockenfrüchte – schnell",
-    "stats": {
-      "deliveredValue": "5000+",
-      "deliveredLabel": "Gelieferte Produkte",
-      "customersValue": "1000+",
-      "customersLabel": "Kunden",
-      "certificatesValue": "14",
-      "certificatesLabel": "Zertifikate"
-    },
     "story": {
       "title": "Seit 2020 in dieser Branche",
-      "p1": "Wir sind eine vertrauenswürdige Quelle für hochwertige Trockenfrüchte – für alle, die gesunde Ernährung schätzen.",
-      "p2": "Unsere Produkte werden direkt auf den Feldern geerntet, auf natürliche Weise getrocknet und erreichen Sie ohne künstliche Farb- oder Konservierungsstoffe."
+      "p1": "ein familiengeführter Produzent und Exporteur von Trockenfrüchten, Nüssen und Hülsenfrüchten im Ferghanatal.",
+      "p2": "Die „KOKAND DRY FRUITS“ LLC arbeitet in Kichik Oqmasjid im Bezirk Kokand, Region Ferghana, mit einer Produktionskapazität von 250 Tonnen im Jahr. Den größten Teil dieser Menge machen Backpflaumen, Mungbohnen und Trockenaprikosen aus; Rosinen, Walnüsse und Erdnüsse werden in kleineren Mengen produziert."
     },
     "principles": {
       "title": "Wofür wir stehen",
@@ -161,10 +150,6 @@
           "description": "Ehrlichkeit und garantierte Qualität."
         }
       ]
-    },
-    "partners": {
-      "title": "Unsere vertrauensvollen Partner",
-      "subtitle": "Wir arbeiten gemeinsam mit unseren vertrauensvollen Partnern daran, hochwertige Produkte und Dienstleistungen zu liefern. Dank ihrer Erfahrung, Zuverlässigkeit und hohen Verantwortung erzielen wir für unsere Kunden die besten Ergebnisse."
     }
   },
   "contact": {
@@ -187,7 +172,7 @@
     },
     "info": {
       "title": "Kontakt",
-      "address": "Kokand, Region Fergana, Usbekistan",
+      "address": "Mustaqillik-Str. 36, MFY Kichik Oqmasjid, Bezirk Kokand, Region Ferghana, Usbekistan",
       "addressLabel": "Adresse",
       "phone": "+998 73 253 00 00",
       "phoneLabel": "Telefon",
@@ -199,7 +184,7 @@
     }
   },
   "footer": {
-    "description": "Premium Trockenfrüchte & Nüsse aus Kokand, Usbekistan — weltweiter Export seit 2020.",
+    "description": "Trockenfrüchte, Nüsse und Hülsenfrüchte aus Kokand, Usbekistan — Export nach China, in die Türkei und nach Russland seit 2020.",
     "quickLinks": "Schnelllinks",
     "ourProducts": "Produkte",
     "contactUs": "Kontakt",
@@ -236,78 +221,80 @@
     "items": {
       "driedApricots": {
         "tagline": "Sonnengetrocknet im Ferghanatal",
-        "intro": "Die Aprikosen kommen innerhalb weniger Stunden nach der Ernte zum Trocknen, so konzentriert sich der Zucker, ohne dass die Frucht verkocht. Wir sortieren nach Farbe und Größe, von extrahell bis tiefbernstein, und verwenden keine Farbstoffe. Geschwefelte und ungeschwefelte Partien sind verfügbar.",
+        "intro": "Die Aprikosen kommen innerhalb weniger Stunden nach der Ernte auf die Trockenfläche, sodass sich der Zucker konzentriert, ohne dass die Frucht je gedünstet wird. Wir sortieren nach Farbe und Größe in sechs Güten — rot, gelb, Shakarli, Limonka, natur und geschnitten — und färben nicht.",
         "benefits": [
           {
             "title": "Vitamin A und Kalium",
-            "text": "Das orange Pigment ist Beta-Carotin, das der Körper in Vitamin A umwandelt. Aprikosen liefern zudem Kalium und Eisen und gelten deshalb als Lebensmittel für Herz und Kreislauf."
+            "text": "Das orange Pigment ist Beta-Carotin, das der Körper in Vitamin A umwandelt. Aprikosen liefern zudem Kalium und Eisen — deshalb gelten sie als Lebensmittel für Herz und Kreislauf."
           },
           {
-            "title": "Verlässliche Farbsortierung",
-            "text": "Die Partien laufen über einen optischen Sortierer, extrahell bleibt also extrahell. Sie erhalten Karton für Karton den Farbton, den Sie gekauft haben."
+            "title": "Farbsortierung, auf die Verlass ist",
+            "text": "Die Partien werden vor dem Verpacken nach Farbton und Größe getrennt, sodass helle Ware hell bleibt. Sie bekommen die Güte, die Sie gekauft haben — Kiste für Kiste."
           },
           {
-            "title": "Stabil bis zur nächsten Ernte",
-            "text": "Auf unter 20 % Feuchte getrocknet und temperaturgeführt gelagert, behält die Frucht ein Jahr lang Textur und Aroma."
+            "title": "Von unserer GACC-Registrierung abgedeckt",
+            "text": "Trockenaprikosen fallen unter HS 0813 10, einen der beiden von unserer GACC-Registrierung abgedeckten Codes — diese Linie geht also unter eigener Registrierung nach China."
           }
         ],
         "varieties": {
-          "natural": "Natur",
+          "red": "Rot",
           "yellow": "Gelb",
-          "cut": "Geschnitten",
-          "amber": "Bernstein"
+          "sugar": "Shakarli (gezuckert)",
+          "lemon": "Limonka",
+          "natural": "Natur",
+          "cut": "Geschnitten"
         }
       },
       "raisins": {
         "tagline": "Trauben, getrocknet wie eh und je",
-        "intro": "Unsere Rosinen stammen aus Weingärten im Ferghanatal und trocknen je nach Qualität in der Sonne oder im Schatten. Die Schattentrocknung dauert länger und kostet mehr, hält die Frucht aber weich und hell — genau das verlangt der Premiumhandel.",
+        "intro": "Unsere Rosinen stammen aus Weingärten im Ferghanatal und werden traditionell in der Sonne getrocknet. Wir führen fünf Güten — Malayar, Sultana, Natur, Crimson und Jumbo Golden — die sich in Größe, Farbe und Preis unterscheiden, nicht in der Verarbeitung.",
         "benefits": [
           {
             "title": "Natürlicher Zucker, ohne Zusätze",
-            "text": "Nichts wird zugesetzt, nichts überzogen. Die Süße stammt aus der Traube selbst und wird durch Trocknen konzentriert, nicht durch Sirup."
+            "text": "Es wird nichts zugesetzt und nichts überzogen. Die Süße ist die der Traube, konzentriert durch das Trocknen und nicht durch Sirup."
           },
           {
-            "title": "Vier klar getrennte Qualitäten",
-            "text": "Goldene Sultana, besonders große Jumbo, kernlose Crimson und traditionell schattengetrocknete — jede mit eigener Farbe, Größe und Preislage."
+            "title": "Fünf klar getrennte Güten",
+            "text": "Malayar, Sultana, Natur, Crimson und Jumbo Golden — jede mit eigener Größe, Farbe und Preislage."
           },
           {
-            "title": "Lagert und reist gut",
-            "text": "Bei höchstens 17 % Feuchte reisen Rosinen ohne Kühlung und bleiben im verschlossenen Karton ein Jahr weich."
+            "title": "Lagerfähig und transportfest",
+            "text": "Bei höchstens 17 % Feuchte reisen Rosinen ohne Kühlung und bleiben im verschlossenen Karton ein Jahr lang weich."
           }
         ],
         "varieties": {
-          "sultana": "Goldene Sultana",
-          "jumbo": "Jumbo Golden",
-          "crimson": "Crimson kernlos",
-          "shade": "Schattengetrocknet"
+          "malayar": "Malayar",
+          "sultana": "Sultana",
+          "natural": "Natur",
+          "crimson": "Crimson",
+          "jumboGolden": "Jumbo Golden"
         }
       },
       "prunes": {
         "tagline": "Langsam getrocknete Pflaumen",
-        "intro": "Die Pflaumen trocknen ganz und langsam — daher die dunkle Farbe und die Tiefe im Geschmack. Wir liefern mit oder ohne Stein, kalibriert nach Stück je Kilogramm, damit Sie genau wissen, was ankommt.",
+        "intro": "Pflaumen werden ganz und langsam getrocknet — daher die dunkle Farbe und die Tiefe im Geschmack. Wir liefern mit Stein oder entsteint, kalibriert nach Stück je Kilogramm, sodass Sie genau wissen, was ankommt.",
         "benefits": [
           {
             "title": "Ballaststoffe und Sorbit",
-            "text": "Trockenpflaumen sind eines der bekanntesten Verdauungslebensmittel, und der Grund ist real: lösliche Ballaststoffe plus natürliches Sorbit."
+            "text": "Backpflaumen sind eines der bekanntesten Verdauungslebensmittel, und der Grund ist real: lösliche Ballaststoffe plus natürlich enthaltenes Sorbit."
           },
           {
             "title": "Gezählt, nicht geschätzt",
-            "text": "Kalibriert wird nach Stück je Kilogramm — 70/80, 80/90, 90/100 — so bleibt das Portionieren und Abpacken in Ihrer Linie planbar."
+            "text": "Kalibriert wird nach Stück je Kilogramm — 70/80, 80/90, 90/100 — damit Portionierung und Verpackung nachgelagert planbar bleiben."
           },
           {
-            "title": "Für Küche und Regal",
-            "text": "In Konditorei, Fleischküche und Snackpackungen gleichermaßen zu Hause; deshalb dreht die Position leicht."
+            "title": "Unsere größte Linie, und GACC-abgedeckt",
+            "text": "Auf Backpflaumen entfällt der größte Anteil unserer 250 Tonnen im Jahr, und HS 0813 20 ist von unserer GACC-Registrierung für China abgedeckt."
           }
         ],
         "varieties": {
-          "pitted": "Ohne Stein",
           "unpitted": "Mit Stein",
-          "softened": "Genussfertig"
+          "pitted": "Entsteint"
         }
       },
       "walnuts": {
-        "tagline": "Kerne, maschinell und von Hand sortiert",
-        "intro": "Walnüsse werden geknackt und zu hellen Hälften, Vierteln und Bruch sortiert oder in der Schale geliefert. In diesem Handel bestimmt die Farbe den Preis, deshalb laufen die Kerne über einen optischen Sortierer und danach durch eine Handkontrolle.",
+        "tagline": "Kerne nach Größe und Farbe sortiert",
+        "intro": "Walnüsse werden geknackt und zu Hälften, Vierteln, groben und feinen Bruchstücken sowie Granulat sortiert. In diesem Handel bestimmt die Farbe den Preis, deshalb werden die Kerne nach Farbton getrennt und vor dem Verpacken von Hand kontrolliert.",
         "benefits": [
           {
             "title": "Omega-3 und Vitamin E",
@@ -315,66 +302,196 @@
           },
           {
             "title": "Helle Hälften, sauber sortiert",
-            "text": "Den Aufpreis bringen helle Hälften. Unsere werden optisch getrennt und anschließend von Hand geprüft, so hält die Qualität über die ganze Partie."
+            "text": "Helle Hälften erzielen den Aufschlag. Unsere werden nach Farbe getrennt und von Hand nachkontrolliert, sodass die Güte über die ganze Partie hält."
           },
           {
-            "title": "Vakuum auf Wunsch",
-            "text": "Kerne oxidieren schneller als Trockenfrüchte. Vakuum oder Schutzatmosphäre halten sie auf langer Seereise frisch."
+            "title": "Vakuumverpackung auf Wunsch",
+            "text": "Kerne oxidieren schneller als Trockenfrüchte. Vakuum oder Schutzatmosphäre hält sie auch auf langer Seereise frisch."
           }
         ],
         "varieties": {
-          "halves": "Helle Hälften",
-          "quarters": "Viertel",
-          "pieces": "Bruch",
-          "inShell": "In der Schale"
+          "halves": "Hälften (1/2)",
+          "quarters": "Viertel (1/4)",
+          "largePieces": "Grobbruch",
+          "smallPieces": "Feinbruch",
+          "granules": "Granulat"
         }
       },
       "peanuts": {
-        "tagline": "Roh, blanchiert oder geröstet",
-        "intro": "Wir liefern Erdnüsse in der Schale, als rohe Kerne, blanchiert ohne Haut oder nach Ihrem Profil geröstet. Kalibriert wird nach den üblichen Zählgraden, und jede Partie wird vor dem Versand auf Aflatoxin geprüft.",
+        "tagline": "In der Schale oder geschält",
+        "intro": "Wir liefern Erdnüsse in der Schale und als gereinigte Kerne. Kalibriert wird nach den üblichen Stück-je-Unze-Güten, und die Partien gehen mit den Zertifikaten hinaus, die Ihr Zielmarkt verlangt.",
         "benefits": [
           {
             "title": "Eiweiß zum Arbeitspreis",
-            "text": "Rund ein Viertel Eiweiß im Gewicht, dazu Kalium, Magnesium und B-Vitamine — deshalb tragen Erdnüsse so viele Snack- und Süßwarenlinien."
+            "text": "Rund ein Viertel Eiweiß nach Gewicht, dazu Kalium, Magnesium und B-Vitamine — deshalb bilden Erdnüsse die Basis so vieler Snack- und Süßwarenlinien."
           },
           {
-            "title": "Auf Aflatoxin geprüft",
-            "text": "Jede Partie wird vor dem Versand im Labor kontrolliert. Bei dieser Frucht ist das das zentrale Importrisiko, die Prüfung also keine Option."
+            "title": "Geprüft nach Ihrem Protokoll",
+            "text": "Aflatoxin-Grenzwerte unterscheiden sich je Zielmarkt. Nennen Sie uns Protokoll und Grenzwert Ihrer Einfuhr, und wir liefern gegen dieses Zertifikat."
           },
           {
-            "title": "Verarbeitung nach Vorgabe",
-            "text": "Blanchieren und Rösten erfolgen auf Bestellung, Sie übernehmen den Kern also in der Stufe, die zu Ihrer Linie passt."
+            "title": "Verarbeitung nach Ihrer Vorgabe",
+            "text": "Schälen und Weiterverarbeitung erfolgen auftragsbezogen, sodass Sie den Kern auf der Stufe übernehmen, die zu Ihrer Linie passt."
           }
         ],
         "varieties": {
-          "blanched": "Blanchiert",
-          "raw": "Rohe Kerne",
-          "roasted": "Geröstet",
-          "inShell": "In der Schale"
+          "inShell": "In der Schale",
+          "shelled": "Geschält"
         }
       },
       "mungBeans": {
         "tagline": "Eine Hülsenfrucht, die in Menge läuft",
-        "intro": "Mungbohnen werden gereinigt, kalibriert und nach Koch- oder Keimqualität getrennt. In Süd- und Ostasien sind sie ein Grundnahrungsmittel; die Keimqualität unterliegt einem strengeren Maßstab bei der Keimrate.",
+        "intro": "Mungbohnen werden gereinigt, kalibriert und in einer einzigen Standardgüte verpackt. Sie sind ein Grundnahrungsmittel in Süd- und Ostasien und eine der drei Linien, die den Großteil unseres Jahresvolumens tragen.",
         "benefits": [
           {
             "title": "Eiweiß und Ballaststoffe",
-            "text": "Reich an pflanzlichem Eiweiß, Ballaststoffen, Eisen und Magnesium und zugleich leicht genug für Diät- und Klinikküche."
+            "text": "Reich an pflanzlichem Eiweiß, Ballaststoffen, Eisen und Magnesium — und leicht genug für Diät- und Klinikküche."
           },
           {
-            "title": "Keimqualität verfügbar",
-            "text": "Für Sprossenkäufer zählt die Keimrate, nicht nur die Größe. Diese Qualität wird gesondert ausgewählt und geprüft."
+            "title": "Eines unserer Hauptvolumen",
+            "text": "Zusammen mit Backpflaumen und Trockenaprikosen machen Mungbohnen den größten Teil der 250 Tonnen aus, die wir jährlich produzieren — an der Menge scheitert es selten."
           },
           {
-            "title": "Zwei Jahre haltbar",
+            "title": "Zwei Jahre Haltbarkeit",
             "text": "Trockene Hülsenfrüchte überdauern Trockenobst deutlich. Richtig gelagert halten Mungbohnen vierundzwanzig Monate."
           }
         ],
         "varieties": {
-          "standard": "Standard",
-          "large": "Groß",
-          "sprouting": "Keimqualität"
+          "standard": "Standard"
         }
+      },
+      "beans": {
+        "tagline": "Eine Hülsenfrucht, die lagert und reist",
+        "intro": "Gartenbohnen, getrocknet und auf Lebensmittelqualität gereinigt. Eine der ruhigsten Linien in unserem Programm: keine Kühlkette, kein enges Saisonfenster im Einkauf und eine Haltbarkeit, die in Jahren statt in Monaten gerechnet wird.",
+        "benefits": [
+          {
+            "title": "Eiweiß und Ballaststoffe",
+            "text": "Rund ein Fünftel Eiweiß nach Gewicht, dazu Ballaststoffe, Eisen, Folat und Kalium. Deshalb tragen Hülsenfrüchte einen so großen Teil der alltäglichen Küche weltweit."
+          },
+          {
+            "title": "Gereinigt und kalibriert",
+            "text": "Steine, Bruch und verfärbte Körner werden vor dem Verpacken entfernt, sodass die Ware ohne Nachlesen in den Topf kann."
+          },
+          {
+            "title": "Lange und anspruchslose Lagerung",
+            "text": "Trockene Hülsenfrüchte brauchen nichts als ein kühles, trockenes Lager. Keine Kühlung, keine Schutzatmosphäre und keine Eile, den Bestand loszuwerden."
+          }
+        ],
+        "varieties": {}
+      },
+      "apricotKernels": {
+        "tagline": "Der Kern im Stein",
+        "intro": "Wenn Aprikosen zum Trocknen entsteint werden, knackt man die Steine und gewinnt die Kerne. Nichts geht verloren, und der Kern ist ein eigenes Produkt — für Süß- und Backwaren und zur Ölgewinnung.",
+        "benefits": [
+          {
+            "title": "Gesunde Fette und Eiweiß",
+            "text": "Überwiegend ungesättigtes Fett, dazu Eiweiß, Magnesium und Vitamin E. In der Zusammensetzung nahe an Mandeln und weitgehend genauso einsetzbar."
+          },
+          {
+            "title": "Die Verfügbarkeit folgt der Aprikosenlinie",
+            "text": "Die Kerne stammen aus unserer eigenen Aprikosenverarbeitung, die Menge hängt also an der Aprikosenernte und nicht an einer separaten Kultur."
+          },
+          {
+            "title": "Süßwaren und Ölpressung",
+            "text": "Ganze Kerne gehen in Süßwaren und Backwaren; der Rest wird zu Aprikosenkernöl gepresst, das seinen eigenen Kosmetikmarkt hat."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedPeppers": {
+        "tagline": "Ganz sonnengetrocknet, Schärfe intakt",
+        "intro": "Die Schoten trocknen ganz an der Luft, was Farbe und Schärfe konzentriert, ohne den flachen Ton, den scharfes Ofentrocknen hinterlässt. Wir liefern ganze Schoten statt Pulver — den Mahlgrad bestimmt der Käufer.",
+        "benefits": [
+          {
+            "title": "Farbe und Schärfe konzentriert",
+            "text": "Das Trocknen entzieht Wasser, nicht Capsaicin und nicht das Carotinoid-Pigment. Zurück bleibt dieselbe Schote, nur um ein Vielfaches intensiver."
+          },
+          {
+            "title": "Ganz, nicht gemahlen",
+            "text": "Gemahlener Pfeffer verliert im Regal sein Aroma. Ganze Schoten halten es bis zum Mahlen — deshalb kaufen Gewürzmischer sie so."
+          },
+          {
+            "title": "Vitamin C und Carotinoide",
+            "text": "Paprikaschoten enthalten je Gewicht mehr Vitamin C als Zitrusfrüchte, dazu die Carotinoide, die ihnen die Farbe geben."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedMelon": {
+        "tagline": "Eine Spezialität aus Ferghana",
+        "intro": "Die Melone wird in lange Streifen geschnitten, in der Sonne getrocknet und danach oft geflochten. Sie ist süß und blumig wie keine andere Trockenfrucht; in Usbekistan reicht man sie zum Tee, wo anderswo Gebäck steht.",
+        "benefits": [
+          {
+            "title": "Süße ohne jeden Zusatz",
+            "text": "Das Trocknen konzentriert den eigenen Zucker der Melone. Es wird nichts zugesetzt — diese Intensität ist schlicht das, was bleibt, wenn das Wasser weg ist."
+          },
+          {
+            "title": "Kalium und Beta-Carotin",
+            "text": "Melone behält Kalium und Carotinoide über das Trocknen hinweg, und die Ballaststoffe konzentrieren sich mit dem Zucker."
+          },
+          {
+            "title": "Spezialität, keine Massenware",
+            "text": "Nur wenige Herkünfte bringen sie in Exportqualität. Für einen Käufer, der etwas sucht, das im Regal noch fehlt, liegt genau darin der Punkt."
+          }
+        ],
+        "varieties": {}
+      },
+      "compoteMix": {
+        "tagline": "Eine Position, nichts zusammenzustellen",
+        "intro": "Eine fertige Mischung aus getrockneten Äpfeln, Aprikosen, Pflaumen, Kirschen und Beeren, im Verhältnis, in dem zentralasiatisches Kompott tatsächlich gekocht wird. Eine Position statt fünf heißt: eine SKU, ein Preis, eine Lieferung.",
+        "benefits": [
+          {
+            "title": "Nach fester Rezeptur gemischt",
+            "text": "Das Verhältnis bleibt von Charge zu Charge gleich, sodass das Kompott Ihres Kunden im März schmeckt wie das im Oktober."
+          },
+          {
+            "title": "Aus unseren eigenen Linien",
+            "text": "Äpfel, Aprikosen, Pflaumen und Kirschen kommen alle von unseren eigenen Trockenflächen — daher die Gleichmäßigkeit der Mischung."
+          },
+          {
+            "title": "Eine SKU statt fünf",
+            "text": "Weniger Bestellungen, weniger Anbruchpaletten und kein Mischschritt beim Käufer."
+          }
+        ],
+        "varieties": {}
+      },
+      "sourCherries": {
+        "tagline": "Sauer, dunkel und ganz getrocknet",
+        "intro": "Sauerkirschen werden ganz und langsam getrocknet, wodurch die Haut heil und die Säure hoch bleibt. In der Küche verhalten sie sich anders als Süßkirschen — die Säure übersteht das Backen, und genau deshalb kaufen Bäcker sie.",
+        "benefits": [
+          {
+            "title": "Anthocyane und Säure",
+            "text": "Die dunkle Farbe stammt von Anthocyanen, jener Pigmentklasse, die für ihre antioxidative Wirkung untersucht wird. Die Säure kommt mit."
+          },
+          {
+            "title": "Hält im Ofen",
+            "text": "Süßkirschen zerfallen unter Hitze und Zucker. Sauerkirschen nicht — deshalb tragen sie Strudel, Kuchen und Füllungen in der Süßwarenherstellung."
+          },
+          {
+            "title": "Von unserer GACC-Registrierung abgedeckt",
+            "text": "Kirschen fallen unter HS 0813 20, einen der beiden von unserer GACC-Registrierung abgedeckten Codes — diese Linie geht also unter eigener Registrierung nach China."
+          }
+        ],
+        "varieties": {}
+      },
+      "driedApples": {
+        "tagline": "Ringe, getrocknet, sonst nichts",
+        "intro": "Äpfel werden entkernt, in Ringe geschnitten und getrocknet. Es ist das einfachste Produkt, das wir herstellen, und das mit der breitesten Verwendung — Kompott, Müsli, Backwaren und einfach zum Naschen.",
+        "benefits": [
+          {
+            "title": "Ballaststoffe, überwiegend Pektin",
+            "text": "Äpfel sind ungewöhnlich reich an löslichen Ballaststoffen. Das Trocknen konzentriert sie, und das Pektin ist es, was ein Kompott binden lässt."
+          },
+          {
+            "title": "Leicht im Transport",
+            "text": "Bei einem Bruchteil des Frischgewichts bringen Apfelringe sehr viele Portionen auf die Palette, was die Frachtkosten je Portion niedrig hält."
+          },
+          {
+            "title": "Funktioniert in vier Kategorien",
+            "text": "Kompott, Frühstückscerealien, Backzutat und Snack im Handel — ein Produkt, vier Arten von Abnehmern."
+          }
+        ],
+        "varieties": {}
       }
     }
   }

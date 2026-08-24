@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import type { Locale } from '@/i18n/config';
 import type { Dictionary } from '@/i18n/types';
@@ -18,10 +19,14 @@ export default function ProductHero({
   return (
     <section className="phero" id="top">
       <div className="phero__media">
-        <video autoPlay muted loop playsInline poster={product.poster}>
-          <source src={`${product.video}.webm`} type="video/webm" />
-          <source src={`${product.video}.mp4`} type="video/mp4" />
-        </video>
+        {product.video ? (
+          <video autoPlay muted loop playsInline poster={product.poster}>
+            <source src={`${product.video}.webm`} type="video/webm" />
+            <source src={`${product.video}.mp4`} type="video/mp4" />
+          </video>
+        ) : (
+          <Image src={product.image} alt="" fill priority sizes="100vw" />
+        )}
         <div className="phero__scrim" />
       </div>
 

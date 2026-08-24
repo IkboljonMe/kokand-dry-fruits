@@ -1,7 +1,7 @@
 import Counter from './Counter';
 import type { Dictionary } from '@/i18n/types';
 
-/** "100+", "20+", "14" kabi qiymatlarni son va qo'shimchaga ajratadi. */
+/** "250", "13", "3" kabi qiymatlarni son va qo'shimchaga ajratadi. */
 function splitStat(value: string): { count: number; suffix: string } | null {
   const m = value.match(/^(\d+)(\D*)$/);
   return m ? { count: Number(m[1]), suffix: m[2] } : null;
@@ -10,9 +10,9 @@ function splitStat(value: string): { count: number; suffix: string } | null {
 export default function Intro({ dict }: { dict: Dictionary }) {
   const stats = [
     { value: dict.stats.productsValue, label: dict.stats.products },
-    { value: dict.stats.clientsValue, label: dict.stats.clients },
+    { value: dict.stats.capacityValue, label: dict.stats.capacity },
     { value: dict.stats.countriesValue, label: dict.stats.countries },
-    { value: dict.stats.certificationsValue, label: dict.stats.certifications },
+    { value: dict.stats.experienceValue, label: dict.stats.experience },
   ];
 
   return (

@@ -1,7 +1,7 @@
 import type { Dictionary } from '@/i18n/types';
 
 export default function Production({ dict }: { dict: Dictionary }) {
-  const { quality, fresh, delivery, selection } = dict.strengths;
+  const { quality, fresh, delivery, privateLabel } = dict.strengths;
 
   return (
     <section className="production">
@@ -15,7 +15,7 @@ export default function Production({ dict }: { dict: Dictionary }) {
           <span className="eyebrow reveal-up">{dict.strengths.sectionTitle}</span>
           <h2 className="h2 reveal-up">{dict.strengths.sectionSubtitle}</h2>
           <ul className="ticks">
-            {[quality, fresh, delivery, selection].map((item) => (
+            {[quality, fresh, delivery, privateLabel].map((item) => (
               <li className="reveal-up" key={item.title}>
                 <b>{item.title}</b> — {item.description}
               </li>

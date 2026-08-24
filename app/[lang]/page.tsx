@@ -8,6 +8,7 @@ import Production from '@/components/Production';
 import Process from '@/components/Process';
 import Products from '@/components/Products';
 import Geo from '@/components/Geo';
+import Certification from '@/components/Certification';
 import Cta from '@/components/Cta';
 import Footer from '@/components/Footer';
 import { getDictionary } from '@/i18n/get-dictionary';
@@ -43,6 +44,7 @@ export default async function Page({
       <Process dict={dict} />
       <Products dict={dict} lang={lang} />
       <Geo dict={dict} lang={lang} />
+      <Certification dict={dict} />
       <Cta dict={dict} lang={lang} />
       <Footer dict={dict} />
     </>
