@@ -1,0 +1,61 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Video kandidatlari</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; padding:32px; background:#12100e; color:#e8e2d8;
+         font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  h2 { font-size:15px; text-transform:uppercase; letter-spacing:.08em;
+       color:#c9a227; margin:40px 0 14px; border-bottom:1px solid #2c2723; padding-bottom:8px; }
+  p.note { color:#9a9186; margin:0 0 8px; max-width:60ch; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:18px; }
+  figure { margin:0; background:#1b1815; border:1px solid #2c2723; border-radius:8px; overflow:hidden; }
+  video { width:100%; display:block; aspect-ratio:16/9; object-fit:cover; background:#000; }
+  figcaption { padding:9px 12px; font-size:13px; display:flex; justify-content:space-between; gap:10px; }
+  figcaption b { font-weight:600; }
+  figcaption span { color:#9a9186; }
+</style>
+<h1>Video kandidatlari</h1>
+<p class="note">Hammasi 4 soniya, ovozsiz, loop. Hech biri saytga ulanmagan.
+Manbalar va litsenziya — <code>README.md</code>.</p>
+
+<h2>Hero (1920×1080)</h2>
+<div class="grid" id="hero"></div>
+
+<h2>Mahsulotlar (1280×720)</h2>
+<div class="grid" id="products"></div>
+
+<script>
+const HERO = [
+  ['heroA','O‘rikzor — daraxt to‘la meva'],
+  ['heroB','O‘rik shoxi, yaqindan'],
+  ['heroC','Dron — bog‘ qatorlari'],
+];
+const PROD = [
+  ['apricot-kernels','O‘rik mag‘zi (aslida bodom)'],
+  ['beans','Loviya — to‘liq kadr'],
+  ['beans-assorted','Dukkaklilar, yog‘och stol'],
+  ['compote-mix','Kompot aralashmasi — bozor'],
+  ['dried-apples','Quritilgan olma — bankalar'],
+  ['dried-apples-market','Quritilgan meva rastasi'],
+  ['dried-fruit-bazaar','Anjir/quruq meva bozori'],
+  ['dried-peppers','Quritilgan qalampir — makro'],
+  ['peppers-plate','Qalampir likopchada'],
+  ['sour-cherries','Olcha — quritish to‘ri'],
+  ['sour-cherries-alt','Olcha — shoxda'],
+  ['melon-cantaloupe','Qovun (yangi, quritilgan emas)'],
+];
+function render(id, dir, list) {
+  document.getElementById(id).innerHTML = list.map(([f, label]) => `
+    <figure>
+      <video autoplay muted loop playsinline poster="${dir}/${f}.jpg">
+        <source src="${dir}/${f}.webm" type="video/webm">
+        <source src="${dir}/${f}.mp4" type="video/mp4">
+      </video>
+      <figcaption><b>${label}</b><span>${f}</span></figcaption>
+    </figure>`).join('');
+}
+render('hero','hero',HERO);
+render('products','products',PROD);
+</script>
