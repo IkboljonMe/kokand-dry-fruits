@@ -124,18 +124,18 @@ async function handle(update: TgUpdate) {
       '<b>Chat ID</b>',
       `<code>${chatId}</code>`,
       '',
-      'Tap the number above to copy it.',
+      'Nusxa olish uchun yuqoridagi raqamni bosing.',
       '',
-      'Put it in <code>TELEGRAM_CHAT_ID</code> and enquiries will arrive here.',
+      'Uni <code>TELEGRAM_CHAT_ID</code> ga qo’ying — arizalar shu chatga tushadi.',
     ];
     if (isGroup && typeof userId === 'number' && userId !== chatId) {
       lines.splice(
         2,
         0,
         '',
-        '<b>Your personal ID</b>',
+        '<b>Shaxsiy ID’ingiz</b>',
         `<code>${userId}</code>`,
-        `(this chat is a ${escapeHtml(msg?.chat?.type ?? 'group')})`,
+        `(bu chat — ${escapeHtml(msg?.chat?.type ?? 'guruh')})`,
       );
     }
     await send(chatId, lines.join('\n'));
@@ -147,11 +147,11 @@ async function handle(update: TgUpdate) {
       await send(
         chatId,
         [
-          '<b>Owner chat</b>',
+          '<b>Egasi chati</b>',
           '',
-          'Enquiries from the website and from people messaging this bot arrive here.',
+          'Saytdan kelgan arizalar va botga yozganlarning xabarlari shu yerga tushadi.',
           '',
-          'To answer someone, <b>reply</b> to their message and your text goes straight back to them.',
+          'Javob berish uchun o’sha xabarga <b>reply</b> qiling — matningiz to’g’ridan-to’g’ri mijozga boradi.',
         ].join('\n'),
       );
     } else {
@@ -159,9 +159,9 @@ async function handle(update: TgUpdate) {
         chatId,
         [
           '<b>Kokand Dry Fruits</b>',
-          'Dried fruits, nuts and pulses from the Fergana Valley, Uzbekistan.',
+          'Farg’ona vodiysidan quruq meva, yong’oq va dukkakli mahsulotlar.',
           '',
-          'Write your question here — the product you need, the volume and the destination — and our team will reply in this chat.',
+          'Savolingizni shu yerga yozing: qaysi mahsulot, qancha hajm va qaysi davlatga kerak. Jamoamiz shu chatda javob beradi.',
         ].join('\n'),
       );
     }
@@ -178,7 +178,7 @@ async function handle(update: TgUpdate) {
     if (!target) {
       await send(
         chatId,
-        'Could not tell who that reply is for. Reply directly to the forwarded message that carries the <code>#u…</code> tag.',
+        'Bu javob kimga ekanini aniqlab bo’lmadi. <code>#u…</code> belgisi bor xabarga reply qiling.',
       );
       return;
     }
@@ -191,7 +191,9 @@ async function handle(update: TgUpdate) {
 
     await send(
       chatId,
-      res?.ok ? '✅ Sent.' : '⚠️ Could not deliver — they may have blocked the bot.',
+      res?.ok
+        ? '✅ Yuborildi.'
+        : '⚠️ Yetkazib bo’lmadi — mijoz botni bloklagan bo’lishi mumkin.',
     );
     return;
   }
@@ -203,26 +205,29 @@ async function handle(update: TgUpdate) {
         from: msg?.from?.id,
         text: body.slice(0, 200),
       });
-      await send(chatId, 'Thank you — your message has been received.');
+      await send(chatId, 'Rahmat — xabaringiz qabul qilindi.');
       return;
     }
 
     const from = msg?.from;
     const header = [
-      '📩 <b>New message via the bot</b>',
-      `<b>From:</b> ${escapeHtml(displayName(from))}` +
+      '📩 <b>Bot orqali yangi xabar</b>',
+      `<b>Kimdan:</b> ${escapeHtml(displayName(from))}` +
         (from?.username ? ` (@${escapeHtml(from.username)})` : ''),
       `<b>ID:</b> <code>${chatId}</code>`,
       '',
-      body ? escapeHtml(body) : '<i>(attachment below)</i>',
+      body ? escapeHtml(body) : '<i>(quyida biriktirma)</i>',
       '',
-      `<i>Reply to this message to answer them.</i> #u${chatId}`,
+      `<i>Javob berish uchun shu xabarga reply qiling.</i> #u${chatId}`,
     ].join('\n');
 
     await send(owner, header);
     // Matnsiz xabar bo'lsa — asl faylni ham yuboramiz.
     if (!msg?.text && msg?.message_id) await copy(owner, chatId, msg.message_id);
 
-    await send(chatId, '✅ Thank you — your message has reached our team. We will reply here.');
+    await send(
+      chatId,
+      '✅ Rahmat — xabaringiz jamoamizga yetib bordi. Shu chatda javob beramiz.',
+    );
   }
 }
