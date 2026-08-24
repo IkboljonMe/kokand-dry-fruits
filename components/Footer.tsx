@@ -49,7 +49,13 @@ export default function Footer({
           <span>© {new Date().getFullYear()} Kokand Dry Fruits. {dict.footer.rights}</span>
           <div className="socials" aria-label={dict.footer.followUs}>
             {SOCIALS.map((social) => (
-              <a key={social.label} href={social.href} aria-label={social.label}>
+              <a
+                key={social.label}
+                href={social.href}
+                aria-label={social.label}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {social.label}
               </a>
             ))}

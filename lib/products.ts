@@ -244,3 +244,21 @@ export const PRODUCTS: Product[] = [
 
 export const getProduct = (slug: string): Product | undefined =>
   PRODUCTS.find((p) => p.slug === slug);
+
+/**
+ * Bosh sahifada ko'rsatiladigan mahsulotlar — eng ko'p sotiladiganlari.
+ * Tartib mijoz bergan ro'yxat bo'yicha: Mayiz, Mosh, Lo'ya, Bargak, Sliva,
+ * O'rik mag'izi. Qolganlari /products sahifasida.
+ */
+export const FEATURED_KEYS: ProductKey[] = [
+  'raisins',
+  'mungBeans',
+  'beans',
+  'driedApricots',
+  'prunes',
+  'apricotKernels',
+];
+
+export const FEATURED_PRODUCTS: Product[] = FEATURED_KEYS.map(
+  (key) => PRODUCTS.find((p) => p.key === key)!,
+);

@@ -6,10 +6,13 @@ export const CONTACTS = {
     'https://www.google.com/maps/search/?api=1&query=Mustaqillik+36%2C+Kichik+Oqmasjid+MFY%2C+Qo%27qon%2C+Farg%27ona%2C+Uzbekistan',
 };
 
+/** WhatsApp uchun alohida raqam — saytdagi statsionar telefondan boshqa. */
+export const WHATSAPP = '998910590011';
+
 export const SOCIALS = [
-  { label: 'Telegram', href: '#' },
-  { label: 'Instagram', href: '#' },
-  { label: 'WhatsApp', href: '#' },
+  { label: 'Telegram', href: 'https://t.me/Kokand_Dry_Fruits_Bot' },
+  { label: 'Instagram', href: 'https://www.instagram.com/kokand_dry_fruits/' },
+  { label: 'WhatsApp', href: `https://wa.me/${WHATSAPP}` },
 ];
 
 /**

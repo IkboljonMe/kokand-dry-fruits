@@ -1,10 +1,9 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import Image from 'next/image';
-import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Cta from '@/components/Cta';
+import ProductCatalog from '@/components/ProductCatalog';
 import { getDictionary } from '@/i18n/get-dictionary';
 import { isLocale, locales } from '@/i18n/config';
 import { PRODUCTS } from '@/lib/products';
@@ -41,6 +40,14 @@ export default async function ProductsIndex({
   if (!isLocale(lang)) notFound();
   const dict = await getDictionary(lang);
 
+  // Qidiruv klientda ishlaydi, shuning uchun ro'yxat tayyor holda uzatiladi.
+  const items = PRODUCTS.map(({ key, slug, image }) => ({
+    slug,
+    image,
+    name: dict.products[key].name,
+    description: dict.products[key].description,
+  }));
+
   return (
     <>
       <Header
@@ -61,45 +68,20 @@ export default async function ProductsIndex({
         <div className="container">
           <div className="section-head section-head--center">
             <span className="eyebrow reveal-up">{dict.products.sectionTitle}</span>
-            <h1 className="h2 reveal-up">{dict.products.sectionSubtitle}</h1>
+            <h1 className="h2 reveal-up">{dict.products.allSubtitle}</h1>
           </div>
 
-          <div className="cards">
-            {PRODUCTS.map(({ key, slug, image }) => {
-              const product = dict.products[key];
-              return (
-                <Link
-                  href={`/${lang}/products/${slug}`}
-                  className="card reveal-up"
-                  key={slug}
-                >
-                  <div className="card__img">
-                    <Image
-                      src={image}
-                      alt={product.name}
-                      width={600}
-                      height={600}
-                      sizes="(max-width: 720px) 90vw, 380px"
-                    />
-                  </div>
-                  <h2 className="card__title">{product.name}</h2>
-                  <p className="card__desc">{product.description}</p>
-                  <span className="card__meta">{dict.products.priceNote}</span>
-                  <span className="card__link">
-                    {dict.products.viewAll}
-                    <svg viewBox="0 0 20 10" aria-hidden="true">
-                      <path
-                        d="M0 5h18M14 1l4 4-4 4"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="1.4"
-                      />
-                    </svg>
-                  </span>
-                </Link>
-              );
-            })}
-          </div>
+          <ProductCatalog
+            items={items}
+            lang={lang}
+            t={{
+              searchLabel: dict.products.searchLabel,
+              searchPlaceholder: dict.products.searchPlaceholder,
+              noResults: dict.products.noResults,
+              learnMore: dict.products.learnMore,
+              clear: dict.products.searchClear,
+            }}
+          />
         </div>
       </section>
 

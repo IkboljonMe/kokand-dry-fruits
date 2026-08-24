@@ -38,8 +38,8 @@
   },
   "products": {
     "sectionTitle": "Nuestros productos",
-    "sectionSubtitle": "Seis líneas de producción, más los artículos de temporada que más piden nuestros compradores",
-    "priceNote": "Precio a convenir",
+    "sectionSubtitle": "Los seis productos que más piden nuestros compradores",
+    "priceNote": "Los precios se cotizan por pedido. Díganos el producto, el volumen y el destino, y le respondemos con un precio.",
     "driedApricots": {
       "name": "Orejones de albaricoque",
       "description": "Ricos en vitamina A y C, hierro y potasio, buenos para el corazón y los vasos sanguíneos. También ayudan a la digestión."
@@ -92,7 +92,13 @@
       "name": "Manzana seca",
       "description": "Manzana cortada en aros y secada. Ligera, rica en fibra y fácil de almacenar: para compota, muesli y picoteo."
     },
-    "viewAll": "Ver todos los productos"
+    "viewAll": "Ver todos los productos",
+    "allSubtitle": "El catálogo completo",
+    "learnMore": "Saber más",
+    "searchLabel": "Buscar en el catálogo",
+    "searchPlaceholder": "Buscar por nombre, p. ej. orejones",
+    "searchClear": "Borrar búsqueda",
+    "noResults": "No hay resultados para esa búsqueda. Pruebe con otra palabra o vacíe el campo para verlo todo."
   },
   "stats": {
     "products": "Productos",
@@ -168,7 +174,10 @@
       "message": "Su mensaje",
       "send": "Enviar",
       "optional": "opcional",
-      "emailRequired": "Indique un correo electrónico o un número de teléfono completo con su prefijo de país."
+      "emailRequired": "Indique un correo electrónico o un número de teléfono completo con su prefijo de país.",
+      "product": "Producto que le interesa",
+      "productAny": "Consulta general",
+      "sent": "Gracias — hemos recibido su consulta y nos pondremos en contacto."
     },
     "info": {
       "title": "Contáctenos",

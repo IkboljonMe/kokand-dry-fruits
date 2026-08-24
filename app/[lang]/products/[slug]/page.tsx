@@ -78,7 +78,7 @@ export default async function ProductPage({
       <ProductVarieties product={product} dict={dict} />
       <ProductSpecs product={product} dict={dict} />
       <OtherProducts currentSlug={slug} dict={dict} lang={lang} />
-      <Cta dict={dict} lang={lang} />
+      <Cta dict={dict} lang={lang} defaultProduct={slug} />
       <Footer dict={dict} homeHref={`/${lang}`} />
     </>
   );

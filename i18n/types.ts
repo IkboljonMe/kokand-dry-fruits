@@ -43,9 +43,17 @@ export type Dictionary = {
   };
   products: {
     sectionTitle: string;
+    /** Bosh sahifadagi tanlangan mahsulotlar sarlavhasi */
     sectionSubtitle: string;
+    /** /products — to'liq katalog sarlavhasi */
+    allSubtitle: string;
     priceNote: string;
     viewAll: string;
+    learnMore: string;
+    searchLabel: string;
+    searchPlaceholder: string;
+    searchClear: string;
+    noResults: string;
   } & Record<ProductKey, NamedItem>;
   stats: {
     products: string;
@@ -90,6 +98,9 @@ export type Dictionary = {
       send: string;
       optional: string;
       emailRequired: string;
+      product: string;
+      productAny: string;
+      sent: string;
     };
     info: {
       title: string;

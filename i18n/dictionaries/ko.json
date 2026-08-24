@@ -38,8 +38,8 @@
   },
   "products": {
     "sectionTitle": "제품",
-    "sectionSubtitle": "여섯 개 생산 라인과, 바이어가 가장 많이 주문하는 제철 품목",
-    "priceNote": "가격 협의",
+    "sectionSubtitle": "바이어가 가장 많이 주문하는 여섯 품목",
+    "priceNote": "가격은 주문 건별로 산정합니다. 품목과 수량, 도착지를 알려주시면 견적을 드리겠습니다.",
     "driedApricots": {
       "name": "건살구",
       "description": "비타민 A와 C, 철분, 칼륨이 풍부해 심혈관 건강에 좋습니다. 소화에도 도움이 됩니다."
@@ -92,7 +92,13 @@
       "name": "건사과",
       "description": "사과를 링 모양으로 썰어 말린 제품. 가볍고 섬유질이 많으며 보관이 쉬워 콤포트, 뮤즐리, 간식으로 씁니다."
     },
-    "viewAll": "전체 제품 보기"
+    "viewAll": "전체 제품 보기",
+    "allSubtitle": "전체 카탈로그",
+    "learnMore": "자세히 보기",
+    "searchLabel": "카탈로그 검색",
+    "searchPlaceholder": "이름으로 검색, 예: 건살구",
+    "searchClear": "검색어 지우기",
+    "noResults": "검색 결과가 없습니다. 다른 단어로 검색하시거나, 입력란을 비우면 전체가 표시됩니다."
   },
   "stats": {
     "products": "품목",
@@ -168,7 +174,10 @@
       "message": "메시지",
       "send": "보내기",
       "optional": "선택",
-      "emailRequired": "이메일 또는 국가번호를 포함한 전체 전화번호를 입력해 주세요."
+      "emailRequired": "이메일 또는 국가번호를 포함한 전체 전화번호를 입력해 주세요.",
+      "product": "관심 있는 제품",
+      "productAny": "일반 문의",
+      "sent": "감사합니다 — 문의가 접수되었으며 곧 연락드리겠습니다."
     },
     "info": {
       "title": "연락처",

@@ -38,8 +38,8 @@
   },
   "products": {
     "sectionTitle": "Unsere Produkte",
-    "sectionSubtitle": "Sechs Produktionslinien und dazu die Saisonartikel, die unsere Kunden am häufigsten bestellen",
-    "priceNote": "Preis auf Anfrage",
+    "sectionSubtitle": "Die sechs Linien, die unsere Kunden am häufigsten bestellen",
+    "priceNote": "Preise werden je Auftrag kalkuliert. Nennen Sie uns Produkt, Menge und Zielland — wir melden uns mit einem Preis.",
     "driedApricots": {
       "name": "Trockenaprikosen",
       "description": "Reich an Vitamin A und C, Eisen und Kalium — gut für Herz und Gefäße. Sie unterstützen auch die Verdauung."
@@ -92,7 +92,13 @@
       "name": "Apfelringe",
       "description": "In Ringe geschnittene, getrocknete Äpfel. Leicht, ballaststoffreich und einfach zu lagern — für Kompott, Müsli und als Snack."
     },
-    "viewAll": "Alle Produkte ansehen"
+    "viewAll": "Alle Produkte ansehen",
+    "allSubtitle": "Das vollständige Sortiment",
+    "learnMore": "Mehr erfahren",
+    "searchLabel": "Sortiment durchsuchen",
+    "searchPlaceholder": "Nach Namen suchen, z. B. Aprikosen",
+    "searchClear": "Suche zurücksetzen",
+    "noResults": "Zu dieser Suche gab es keinen Treffer. Versuchen Sie ein anderes Wort, oder leeren Sie das Feld, um alles zu sehen."
   },
   "stats": {
     "products": "Produkte",
@@ -168,7 +174,10 @@
       "message": "Ihre Nachricht",
       "send": "Senden",
       "optional": "optional",
-      "emailRequired": "Bitte geben Sie eine E-Mail oder eine vollständige Telefonnummer mit Ländervorwahl an."
+      "emailRequired": "Bitte geben Sie eine E-Mail oder eine vollständige Telefonnummer mit Ländervorwahl an.",
+      "product": "Produkt, das Sie interessiert",
+      "productAny": "Allgemeine Anfrage",
+      "sent": "Vielen Dank — Ihre Anfrage ist bei uns eingegangen, wir melden uns."
     },
     "info": {
       "title": "Kontakt",

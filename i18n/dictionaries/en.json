@@ -38,8 +38,8 @@
   },
   "products": {
     "sectionTitle": "Our Products",
-    "sectionSubtitle": "Six production lines, plus the seasonal items our buyers order most",
-    "priceNote": "Price on request",
+    "sectionSubtitle": "The six lines our buyers order most",
+    "priceNote": "Prices are quoted per order. Tell us the product, the volume and the destination, and we will come back with a price.",
     "driedApricots": {
       "name": "Dried Apricots",
       "description": "High in vitamin A, vitamin C, iron and potassium, which support the heart and blood vessels. They also aid digestion."
@@ -92,7 +92,13 @@
       "name": "Dried Apples",
       "description": "Apples cut into rings and dried. Light, fibrous and easy to store — used for compote, muesli and snacking."
     },
-    "viewAll": "View All Products"
+    "viewAll": "See all products",
+    "allSubtitle": "The full catalogue",
+    "learnMore": "Learn more",
+    "searchLabel": "Search the catalogue",
+    "searchPlaceholder": "Search by name, e.g. apricots",
+    "searchClear": "Clear search",
+    "noResults": "Nothing matched that search. Try a different word, or clear the box to see everything."
   },
   "stats": {
     "products": "Products",
@@ -168,7 +174,10 @@
       "message": "Your Message",
       "send": "Send Message",
       "optional": "optional",
-      "emailRequired": "Please enter your email or a complete phone number with its country code."
+      "emailRequired": "Please enter your email or a complete phone number with its country code.",
+      "product": "Product you're interested in",
+      "productAny": "General enquiry",
+      "sent": "Thank you — we have your enquiry and will be in touch."
     },
     "info": {
       "title": "Get In Touch",

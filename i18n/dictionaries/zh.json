@@ -38,8 +38,8 @@
   },
   "products": {
     "sectionTitle": "我们的产品",
-    "sectionSubtitle": "六条生产线，外加采购商下单最多的时令产品",
-    "priceNote": "价格面议",
+    "sectionSubtitle": "采购商下单最多的六款产品",
+    "priceNote": "价格按订单核算。告诉我们产品、数量和目的地，我们会尽快报价。",
     "driedApricots": {
       "name": "杏干",
       "description": "富含维生素A、C、铁和钾，有益于心血管健康，同时帮助消化。"
@@ -92,7 +92,13 @@
       "name": "苹果干",
       "description": "苹果切圈晾干。轻便、富含纤维、易于储存——用于果茶、麦片与直接食用。"
     },
-    "viewAll": "查看全部产品"
+    "viewAll": "查看全部产品",
+    "allSubtitle": "完整目录",
+    "learnMore": "了解详情",
+    "searchLabel": "搜索产品目录",
+    "searchPlaceholder": "按名称搜索，例如杏干",
+    "searchClear": "清除搜索",
+    "noResults": "没有找到匹配的产品。换个关键词，或清空搜索框查看全部。"
   },
   "stats": {
     "products": "产品",
@@ -168,7 +174,10 @@
       "message": "留言",
       "send": "发送",
       "optional": "选填",
-      "emailRequired": "请填写邮箱，或填写带国家/地区区号的完整电话号码。"
+      "emailRequired": "请填写邮箱，或填写带国家/地区区号的完整电话号码。",
+      "product": "您感兴趣的产品",
+      "productAny": "一般咨询",
+      "sent": "感谢您的咨询，我们已收到并会尽快与您联系。"
     },
     "info": {
       "title": "联系方式",

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { PRODUCTS } from '@/lib/products';
+import { FEATURED_PRODUCTS } from '@/lib/products';
 import type { Locale } from '@/i18n/config';
 import type { Dictionary } from '@/i18n/types';
 
@@ -12,6 +12,7 @@ function Arrow() {
   );
 }
 
+/** Bosh sahifada faqat eng ko'p sotiladigan 6 ta mahsulot — qolgani /products da. */
 export default function Products({ dict, lang }: { dict: Dictionary; lang: Locale }) {
   return (
     <section className="products" id="catalog">
@@ -22,10 +23,14 @@ export default function Products({ dict, lang }: { dict: Dictionary; lang: Local
         </div>
 
         <div className="cards">
-          {PRODUCTS.map(({ key, slug, image }) => {
+          {FEATURED_PRODUCTS.map(({ key, slug, image }) => {
             const product = dict.products[key];
             return (
-              <article className="card reveal-up" key={key}>
+              <Link
+                href={`/${lang}/products/${slug}`}
+                className="card reveal-up"
+                key={key}
+              >
                 <div className="card__img">
                   <Image
                     src={image}
@@ -37,19 +42,18 @@ export default function Products({ dict, lang }: { dict: Dictionary; lang: Local
                 </div>
                 <h3 className="card__title">{product.name}</h3>
                 <p className="card__desc">{product.description}</p>
-                <span className="card__meta">{dict.products.priceNote}</span>
-                <Link href={`/${lang}/products/${slug}`} className="card__link">
-                  {dict.products.viewAll} <Arrow />
-                </Link>
-              </article>
+                <span className="card__link">
+                  {dict.products.learnMore} <Arrow />
+                </span>
+              </Link>
             );
           })}
+        </div>
 
-          <article className="card card--cta reveal-up">
-            <h3 className="card__title">{dict.cta.title}</h3>
-            <p className="card__desc">{dict.cta.subtitle}</p>
-            <a href="#contacts" className="btn btn--primary">{dict.cta.button}</a>
-          </article>
+        <div className="products__more reveal-up">
+          <Link href={`/${lang}/products`} className="btn btn--primary">
+            {dict.products.viewAll}
+          </Link>
         </div>
       </div>
     </section>

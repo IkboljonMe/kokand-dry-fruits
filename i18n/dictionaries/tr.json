@@ -38,8 +38,8 @@
   },
   "products": {
     "sectionTitle": "Ürünlerimiz",
-    "sectionSubtitle": "Altı üretim hattı ve alıcılarımızın en çok sipariş ettiği mevsimlik ürünler",
-    "priceNote": "Fiyat görüşülür",
+    "sectionSubtitle": "Alıcılarımızın en çok sipariş ettiği altı ürün",
+    "priceNote": "Fiyatlar siparişe göre verilir. Ürünü, miktarı ve varış ülkesini yazın, fiyatla birlikte size dönelim.",
     "driedApricots": {
       "name": "Kuru kayısı",
       "description": "A ve C vitamini, demir ve potasyum açısından zengindir; kalp ve damar sağlığına iyi gelir. Sindirimi de kolaylaştırır."
@@ -92,7 +92,13 @@
       "name": "Kuru elma",
       "description": "Halka hâlinde kesilip kurutulmuş elma. Hafif, lifli ve saklaması kolay — komposto, müsli ve atıştırmalık için."
     },
-    "viewAll": "Tüm Ürünleri Gör"
+    "viewAll": "Tüm ürünler",
+    "allSubtitle": "Tüm katalog",
+    "learnMore": "Ayrıntılar",
+    "searchLabel": "Katalogda ara",
+    "searchPlaceholder": "İsme göre arayın, örn. kayısı",
+    "searchClear": "Aramayı temizle",
+    "noResults": "Bu aramayla eşleşen bir şey bulunamadı. Başka bir kelime deneyin ya da alanı temizleyip tümünü görün."
   },
   "stats": {
     "products": "Ürün",
@@ -168,7 +174,10 @@
       "message": "Mesajınız",
       "send": "Gönder",
       "optional": "isteğe bağlı",
-      "emailRequired": "Lütfen e-posta veya ülke koduyla birlikte eksiksiz bir telefon numarası girin."
+      "emailRequired": "Lütfen e-posta veya ülke koduyla birlikte eksiksiz bir telefon numarası girin.",
+      "product": "İlgilendiğiniz ürün",
+      "productAny": "Genel soru",
+      "sent": "Teşekkürler — talebiniz bize ulaştı, en kısa sürede döneceğiz."
     },
     "info": {
       "title": "İletişime Geçin",

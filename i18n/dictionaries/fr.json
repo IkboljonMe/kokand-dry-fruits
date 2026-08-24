@@ -38,8 +38,8 @@
   },
   "products": {
     "sectionTitle": "Nos produits",
-    "sectionSubtitle": "Six lignes de production, plus les articles de saison que nos acheteurs commandent le plus",
-    "priceNote": "Prix sur demande",
+    "sectionSubtitle": "Les six produits que nos acheteurs commandent le plus",
+    "priceNote": "Les prix sont établis par commande. Indiquez-nous le produit, le volume et la destination, et nous revenons vers vous avec un prix.",
     "driedApricots": {
       "name": "Abricots secs",
       "description": "Riches en vitamines A et C, en fer et en potassium, utiles au cœur et aux vaisseaux. Ils facilitent aussi la digestion."
@@ -92,7 +92,13 @@
       "name": "Pommes séchées",
       "description": "Pommes coupées en anneaux et séchées. Légères, riches en fibres et faciles à stocker — pour la compote, le muesli et le grignotage."
     },
-    "viewAll": "Voir tous les produits"
+    "viewAll": "Voir tous les produits",
+    "allSubtitle": "Le catalogue complet",
+    "learnMore": "En savoir plus",
+    "searchLabel": "Rechercher dans le catalogue",
+    "searchPlaceholder": "Rechercher par nom, ex. abricots",
+    "searchClear": "Effacer la recherche",
+    "noResults": "Aucun résultat pour cette recherche. Essayez un autre mot, ou videz le champ pour tout afficher."
   },
   "stats": {
     "products": "Produits",
@@ -168,7 +174,10 @@
       "message": "Votre message",
       "send": "Envoyer",
       "optional": "facultatif",
-      "emailRequired": "Veuillez indiquer un e-mail ou un numéro de téléphone complet avec son indicatif pays."
+      "emailRequired": "Veuillez indiquer un e-mail ou un numéro de téléphone complet avec son indicatif pays.",
+      "product": "Produit qui vous intéresse",
+      "productAny": "Demande générale",
+      "sent": "Merci — votre demande nous est bien parvenue, nous vous recontactons."
     },
     "info": {
       "title": "Nous contacter",

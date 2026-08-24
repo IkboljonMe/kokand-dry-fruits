@@ -293,14 +293,23 @@ p{margin:0 0 1em}
 .cta__contacts a:hover{color:var(--orange)}
 
 .form{display:grid;gap:14px}
-.form input,.form textarea{
+.form input,.form textarea,.form select{
   width:100%;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.16);
   border-radius:2px;padding:16px 18px;color:#fff;font-family:var(--font-roboto),'Roboto',sans-serif;
   font-size:15px;transition:border-color .3s var(--ease),background .3s var(--ease);
   resize:vertical;
 }
 .form input::placeholder,.form textarea::placeholder{color:rgba(255,255,255,.42)}
-.form input:focus,.form textarea:focus{outline:0;border-color:var(--orange);
+.form select{appearance:none;cursor:pointer;
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%23ffffff' stroke-opacity='.55' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 18px center;background-size:12px;
+  padding-right:44px}
+.form select option{background:var(--ink);color:#fff}
+.form__label{display:block;font-family:var(--font-poppins),var(--font-fallback);
+  font-weight:600;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(255,255,255,.5);margin-bottom:8px}
+[dir='rtl'] .form select{background-position:left 18px center;padding-right:18px;padding-left:44px}
+.form input:focus,.form textarea:focus,.form select:focus{outline:0;border-color:var(--orange);
   background:rgba(255,255,255,.09)}
 .form__note{font-size:12.5px;color:rgba(255,255,255,.4);margin:2px 0 0}
 @media(max-width:900px){.cta__inner{grid-template-columns:1fr}}
@@ -439,6 +448,8 @@ h1, h2, h3, .logo__type, .btn, .eyebrow, .step__num, .card__meta {
 .header .logo__img,
 .footer .logo__img{filter:brightness(0) invert(1)}
 .form__note--error{color:#ff8a75}
+.form__note--ok{color:#7ddba4}
+.cta__price{margin:18px 0 0;font-size:14.5px;color:rgba(255,255,255,.55);max-width:46ch}
 
 /* ============================================================
    MAHSULOT SAHIFALARI
@@ -515,6 +526,30 @@ h1, h2, h3, .logo__type, .btn, .eyebrow, .step__num, .card__meta {
 .pother__card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(0,0,0,.1)}
 .pother__img img{width:110px;height:110px;object-fit:cover;border-radius:50%}
 .pother__name{font-family:var(--font-poppins),var(--font-fallback);font-weight:600;font-size:14.5px}
+
+.products__more{margin-top:clamp(30px,4vw,48px);display:flex;justify-content:center}
+
+/* ---------- Katalog qidiruvi ---------- */
+.psearch{max-width:520px;margin:0 auto clamp(26px,3.4vw,40px)}
+.psearch__label{display:block;font-family:var(--font-poppins),var(--font-fallback);
+  font-weight:600;font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--grey);margin-bottom:10px;text-align:center}
+.psearch__field{position:relative;display:flex;align-items:center}
+.psearch__icon{position:absolute;left:18px;width:19px;height:19px;color:var(--grey);
+  pointer-events:none}
+.psearch__field input{width:100%;padding:15px 46px;border:1px solid var(--grey-lt);
+  border-radius:100px;background:var(--paper);color:var(--ink);font-size:15.5px;
+  font-family:var(--font-roboto),'Roboto',sans-serif;transition:border-color .3s var(--ease)}
+.psearch__field input:focus{outline:0;border-color:var(--orange)}
+.psearch__field input::-webkit-search-cancel-button{display:none}
+.psearch__clear{position:absolute;right:12px;width:30px;height:30px;border:0;
+  border-radius:50%;background:transparent;color:var(--grey);font-size:22px;line-height:1;
+  cursor:pointer;transition:background .25s var(--ease),color .25s var(--ease)}
+.psearch__clear:hover{background:var(--grey-lt);color:var(--ink)}
+.psearch__status{text-align:center;color:var(--grey);margin:0 auto;max-width:52ch}
+.psearch__status:empty{margin:0}
+[dir='rtl'] .psearch__icon{left:auto;right:18px}
+[dir='rtl'] .psearch__clear{right:auto;left:12px}
 
 /* ---------- Katalog sahifasi ---------- */
 .pindex{padding:calc(var(--head-h) + clamp(50px,7vw,90px)) 0 clamp(60px,8vw,100px);

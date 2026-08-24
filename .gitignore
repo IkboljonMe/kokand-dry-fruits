@@ -15,3 +15,7 @@ tsconfig.tsbuildinfo
 # Manba materiallar — lokal referens, repoga tushmaydi
 product photos/
 *.pdf
+
+# Maxfiy kalitlar
+.env
+.env.local

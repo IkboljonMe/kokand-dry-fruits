@@ -38,8 +38,8 @@
   },
   "products": {
     "sectionTitle": "Mahsulotlarimiz",
-    "sectionSubtitle": "Oltita ishlab chiqarish yo'nalishi va xaridorlarimiz eng ko'p buyuradigan mavsumiy mahsulotlar",
-    "priceNote": "Narxi kelishiladi",
+    "sectionSubtitle": "Xaridorlarimiz eng ko'p buyuradigan oltita mahsulot",
+    "priceNote": "Narx har bir buyurtma uchun alohida hisoblanadi. Mahsulot, hajm va yetkazib berish davlatini yozing — narxni qaytarib aytamiz.",
     "driedApricots": {
       "name": "Kuraga",
       "description": "Tarkibida vitamin A, C, temir va kaliy ko‘p bo‘lib, yurak va qon tomirlari salomatligi uchun foydali. Ovqat hazm qilishni ham yaxshilaydi."
@@ -92,7 +92,13 @@
       "name": "Olma qoqi",
       "description": "Halqa qilib kesilib quritilgan olma. Yengil, tolaga boy va oson saqlanadi — kampot, muesli va gazak uchun."
     },
-    "viewAll": "Barcha mahsulotlarni ko'rish"
+    "viewAll": "Barcha mahsulotlar",
+    "allSubtitle": "To'liq katalog",
+    "learnMore": "Batafsil",
+    "searchLabel": "Katalogdan qidirish",
+    "searchPlaceholder": "Nomi bo'yicha qidiring, masalan kuraga",
+    "searchClear": "Qidiruvni tozalash",
+    "noResults": "Bu so'rov bo'yicha hech narsa topilmadi. Boshqa so'z bilan urinib ko'ring yoki maydonni tozalab, hammasini ko'ring."
   },
   "stats": {
     "products": "Mahsulot",
@@ -168,7 +174,10 @@
       "message": "Xabaringiz",
       "send": "Yuborish",
       "optional": "ixtiyoriy",
-      "emailRequired": "Email yoki davlat kodi bilan to‘liq telefon raqamini kiriting."
+      "emailRequired": "Email yoki davlat kodi bilan to‘liq telefon raqamini kiriting.",
+      "product": "Qiziqtirgan mahsulot",
+      "productAny": "Umumiy savol",
+      "sent": "Rahmat — arizangiz qabul qilindi, tez orada bog'lanamiz."
     },
     "info": {
       "title": "Bog'lanish",

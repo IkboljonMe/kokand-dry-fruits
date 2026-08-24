@@ -16,14 +16,24 @@ export type ContactFormText = {
   optional: string;
   error: string;
   loading: string;
+  product: string;
+  productAny: string;
+  sent: string;
 };
+
+export type ProductOption = { slug: string; name: string };
 
 export default function ContactForm({
   t,
   lang,
+  products,
+  defaultProduct,
 }: {
   t: ContactFormText;
   lang: Locale;
+  products: ProductOption[];
+  /** Mahsulot sahifasida forma o'sha mahsulotni oldindan tanlab turadi. */
+  defaultProduct?: string;
 }) {
   const [status, setStatus] = useState<Status>('idle');
 
@@ -48,7 +58,7 @@ export default function ContactForm({
     } catch {
       setStatus('error');
     } finally {
-      setTimeout(() => setStatus('idle'), 3000);
+      setTimeout(() => setStatus('idle'), 4000);
     }
   }
 
@@ -70,6 +80,24 @@ export default function ContactForm({
         <input type="email" name="email" placeholder={`${t.email} (${t.optional})`} />
       </div>
       <div className="form__row">
+        <label className="form__label" htmlFor="product">
+          {t.product}
+        </label>
+        <select
+          id="product"
+          name="product"
+          className="form__select"
+          defaultValue={defaultProduct ?? ''}
+        >
+          <option value="">{t.productAny}</option>
+          {products.map((p) => (
+            <option key={p.slug} value={p.slug}>
+              {p.name}
+            </option>
+          ))}
+        </select>
+      </div>
+      <div className="form__row">
         <textarea name="msg" rows={3} placeholder={t.message} />
       </div>
       <button
@@ -79,6 +107,11 @@ export default function ContactForm({
       >
         {label}
       </button>
+      {status === 'sent' ? (
+        <p className="form__note form__note--ok" role="status">
+          {t.sent}
+        </p>
+      ) : null}
       {status === 'error' ? (
         <p className="form__note form__note--error" role="alert">
           {t.error}
