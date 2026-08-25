@@ -8,8 +8,21 @@ import {
   localeDir,
   locales,
 } from '@/i18n/config';
+import Preloader from '@/components/Preloader';
 import ScrollEffects from '@/components/ScrollEffects';
 import '../globals.css';
+
+/**
+ * Bo'yashdan oldin ishlaydi: bu sessiyada preloader ko'rsatilganmi, shuni hal qiladi.
+ * Shu tufayli takroriy sahifalarda preloader umuman ko'rinmaydi (miltillamaydi).
+ * Oxiridagi timeout — React yuklanmay qolsa ham sayt ochilishi uchun himoya.
+ */
+const PRELOADER_BOOT = `(function(){var d=document.documentElement;try{
+if(sessionStorage.getItem('kdf:preloaded')==='1'){d.classList.add('kdf-ready');return}
+}catch(e){}
+d.classList.add('kdf-loading');
+setTimeout(function(){d.classList.remove('kdf-loading');d.classList.add('kdf-ready')},8000);
+})();`;
 
 const poppins = Poppins({
   subsets: ['latin', 'latin-ext'],
@@ -77,7 +90,20 @@ export default async function RootLayout({
       dir={localeDir[lang]}
       className={`${poppins.variable} ${roboto.variable}`}
     >
+      <head>
+        <link
+          rel="preload"
+          as="image"
+          href="/assets/brand/logo-emblem.png"
+          fetchPriority="high"
+        />
+      </head>
       <body>
+        <script dangerouslySetInnerHTML={{ __html: PRELOADER_BOOT }} />
+        <noscript>
+          <style>{`.preloader{display:none}`}</style>
+        </noscript>
+        <Preloader />
         {children}
         <ScrollEffects />
       </body>

@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { getProduct } from '@/lib/products';
+import { escapeHtml, ownerIds, sendToOwners } from '@/lib/telegram';
 
 export const runtime = 'nodejs';
 
@@ -37,9 +38,6 @@ function parse(body: unknown): Lead | null {
   };
 }
 
-const escapeHtml = (s: string) =>
-  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
 function formatMessage(lead: Lead): string {
   const rows: [string, string | undefined][] = [
     ['Name', lead.name],
@@ -57,28 +55,17 @@ function formatMessage(lead: Lead): string {
 }
 
 /**
- * Telegramga yuboradi. Kalitlar .env.local dan olinadi va hech qachon
- * klientga tushmaydi. Sozlanmagan bo'lsa — false qaytaradi.
+ * Telegramga yuboradi — TELEGRAM_CHAT_ID dagi hamma egaga.
+ * Kalitlar .env dan olinadi va hech qachon klientga tushmaydi.
+ * Sozlanmagan bo'lsa — false qaytaradi.
  */
 async function sendToTelegram(lead: Lead): Promise<boolean> {
-  const token = process.env.TELEGRAM_BOT_TOKEN;
-  const chatId = process.env.TELEGRAM_CHAT_ID;
-  if (!token || !chatId) return false;
+  if (!process.env.TELEGRAM_BOT_TOKEN || ownerIds().length === 0) return false;
 
-  const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      chat_id: chatId,
-      text: formatMessage(lead),
-      parse_mode: 'HTML',
-      disable_web_page_preview: true,
-    }),
-    signal: AbortSignal.timeout(8000),
-  });
-
-  if (!res.ok) {
-    throw new Error(`Telegram responded ${res.status}: ${await res.text()}`);
+  const { sent, total } = await sendToOwners(formatMessage(lead));
+  if (sent === 0) throw new Error(`Telegram delivery failed for all ${total} recipients`);
+  if (sent < total) {
+    console.warn(`[contact] delivered to ${sent}/${total} owners`);
   }
   return true;
 }

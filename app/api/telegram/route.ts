@@ -1,4 +1,12 @@
 import { NextResponse } from 'next/server';
+import {
+  copyMessage,
+  escapeHtml,
+  isOwner as isOwnerChat,
+  ownerIds,
+  send,
+  sendToOwners,
+} from '@/lib/telegram';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -37,45 +45,6 @@ type TgMessage = {
 };
 type TgUpdate = { message?: TgMessage; edited_message?: TgMessage };
 
-const escapeHtml = (s: string) =>
-  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-
-const api = (method: string) =>
-  `https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/${method}`;
-
-async function call(method: string, payload: Record<string, unknown>) {
-  if (!process.env.TELEGRAM_BOT_TOKEN) return null;
-  try {
-    const res = await fetch(api(method), {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload),
-      signal: AbortSignal.timeout(8000),
-    });
-    if (!res.ok) console.error(`[telegram] ${method} -> ${res.status}`, await res.text());
-    return res;
-  } catch (err) {
-    console.error(`[telegram] ${method} failed`, err);
-    return null;
-  }
-}
-
-const send = (chatId: number | string, text: string) =>
-  call('sendMessage', {
-    chat_id: chatId,
-    text,
-    parse_mode: 'HTML',
-    disable_web_page_preview: true,
-  });
-
-/** Matnsiz xabarlarni (rasm, fayl, ovoz) o'z holicha ko'chiradi. */
-const copy = (toChat: string, fromChat: number, messageId: number) =>
-  call('copyMessage', {
-    chat_id: toChat,
-    from_chat_id: fromChat,
-    message_id: messageId,
-  });
-
 function displayName(u?: TgUser): string {
   if (!u) return 'Unknown';
   const name = [u.first_name, u.last_name].filter(Boolean).join(' ').trim();
@@ -110,8 +79,8 @@ async function handle(update: TgUpdate) {
   const chatId = msg?.chat?.id;
   if (typeof chatId !== 'number') return;
 
-  const owner = process.env.TELEGRAM_CHAT_ID?.trim();
-  const isOwner = !!owner && String(chatId) === owner;
+  const owners = ownerIds();
+  const isOwner = isOwnerChat(chatId);
   const isPrivate = msg?.chat?.type === 'private';
   const body = (msg?.text ?? msg?.caption ?? '').trim();
   // Guruhda buyruq "/id@BotNomi" ko'rinishida keladi.
@@ -186,7 +155,7 @@ async function handle(update: TgUpdate) {
     const res = msg.text
       ? await send(target, escapeHtml(msg.text))
       : msg.message_id
-        ? await copy(target, chatId, msg.message_id)
+        ? await copyMessage(target, chatId, msg.message_id)
         : null;
 
     await send(
@@ -200,7 +169,7 @@ async function handle(update: TgUpdate) {
 
   // --- Mijozning xabari egasiga uzatiladi ---
   if (!isOwner && isPrivate) {
-    if (!owner) {
+    if (owners.length === 0) {
       console.warn('[telegram] TELEGRAM_CHAT_ID not set — message not relayed', {
         from: msg?.from?.id,
         text: body.slice(0, 200),
@@ -221,9 +190,13 @@ async function handle(update: TgUpdate) {
       `<i>Javob berish uchun shu xabarga reply qiling.</i> #u${chatId}`,
     ].join('\n');
 
-    await send(owner, header);
-    // Matnsiz xabar bo'lsa — asl faylni ham yuboramiz.
-    if (!msg?.text && msg?.message_id) await copy(owner, chatId, msg.message_id);
+    await sendToOwners(header);
+    // Matnsiz xabar bo'lsa — asl faylni ham har bir egaga yuboramiz.
+    if (!msg?.text && msg?.message_id) {
+      await Promise.allSettled(
+        owners.map((id) => copyMessage(id, chatId, msg.message_id!)),
+      );
+    }
 
     await send(
       chatId,
