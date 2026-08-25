@@ -89,12 +89,20 @@ export default async function RootLayout({
       lang={htmlLang[lang]}
       dir={localeDir[lang]}
       className={`${poppins.variable} ${roboto.variable}`}
+      /*
+       * PRELOADER_BOOT React hidratsiyasidan oldin <html> ga kdf-loading /
+       * kdf-ready sinfini qo'shadi — bu serverdagi HTML bilan farq qiladi va
+       * hidratsiya ogohlantirishini keltirib chiqaradi. Ogohlantirish faqat
+       * shu elementning o'z atributlari uchun o'chiriladi (bolalariga
+       * tarqalmaydi), shuning uchun boshqa nomuvofiqliklar baribir ko'rinadi.
+       */
+      suppressHydrationWarning
     >
       <head>
         <link
           rel="preload"
           as="image"
-          href="/assets/brand/logo-emblem.png"
+          href="/assets/brand/logo-horizontal.png"
           fetchPriority="high"
         />
       </head>

@@ -593,14 +593,14 @@ h1, h2, h3, .logo__type, .btn, .eyebrow, .step__num, .card__meta {
 .kdf-ready .preloader{display:none}
 
 /* To'lish darajasi. @property bo'lgani uchun CSS uni animatsiya qila oladi —
-   shu tufayli emblema JS yuklanguncha ham to'lib turadi. */
+   shu tufayli logotip JS yuklanguncha ham to'lib turadi. */
 @property --p{syntax:'<number>';inherits:true;initial-value:0}
 
 .preloader{
   --p:0;
   position:fixed;inset:0;z-index:200;
   display:flex;flex-direction:column;align-items:center;justify-content:center;
-  gap:clamp(22px,3.4vw,34px);
+  gap:clamp(16px,2.4vw,22px);
   background:radial-gradient(120% 92% at 50% 40%,#2b1d0e 0%,#15100b 56%,#0a0807 100%);
   transition:opacity .44s var(--ease),visibility .44s var(--ease);
 }
@@ -616,32 +616,27 @@ h1, h2, h3, .logo__type, .btn, .eyebrow, .step__num, .card__meta {
 @keyframes preloader-creep{from{--p:0}to{--p:.9}}
 @keyframes preloader-failsafe{to{opacity:0;visibility:hidden}}
 
-.preloader__stage{position:relative;width:clamp(148px,30vw,206px);aspect-ratio:1}
-
-/* Emblema atrofidagi progress halqasi */
-.preloader__ring{position:absolute;inset:0;width:100%;height:100%;
-  transform:rotate(-90deg);overflow:visible}
-.preloader__ring circle{fill:none;stroke-width:1.5;stroke-linecap:round}
-.preloader__track{stroke:rgba(255,255,255,.11)}
-/* pathLength="1" — dasharray/offset 0..1 oralig'ida ishlaydi */
-.preloader__bar{stroke:var(--orange);stroke-dasharray:1;
-  stroke-dashoffset:calc(1 - var(--p))}
-
-.preloader__mark{position:absolute;inset:8.5%}
+/* Logotip — header'dagi kabi oq qilib ko'rsatiladi (brightness+invert).
+   Chapdan o'ngga "yonib" boradi: so'nikdan yorqingacha. */
+.preloader__mark{position:relative;width:clamp(190px,44vw,248px);aspect-ratio:174/59}
 .preloader__mark img{position:absolute;inset:0;width:100%;height:100%;
-  object-fit:contain;user-select:none;-webkit-user-drag:none}
-/* Yuklanmagan qismi — rangsiz va so'nik */
-.preloader__base{filter:grayscale(1) brightness(.52) contrast(.82);opacity:.62}
-/* Yuklangan qismi — pastdan yuqoriga ochiladi */
-.preloader__fill{clip-path:inset(calc(100% - var(--p) * 100%) 0 0 0);
-  filter:saturate(1.14) contrast(1.05)}
+  object-fit:contain;user-select:none;-webkit-user-drag:none;
+  filter:brightness(0) invert(1)}
+.preloader__base{opacity:.2}
+.preloader__fill{opacity:1;clip-path:inset(0 calc(100% - var(--p) * 100%) 0 0)}
 /* To'lish chegarasidagi yorug' chiziq */
 .preloader__mark::after{
-  content:'';position:absolute;left:-5%;right:-5%;
-  top:calc(100% - var(--p) * 100%);height:2px;
-  background:linear-gradient(90deg,transparent,var(--orange) 22%,#ffd08a 50%,var(--orange) 78%,transparent);
+  content:'';position:absolute;top:-6%;bottom:-6%;
+  left:calc(var(--p) * 100%);width:2px;
+  background:linear-gradient(180deg,transparent,var(--orange) 20%,#ffd08a 50%,var(--orange) 80%,transparent);
   filter:blur(1.5px);opacity:calc(.25 + var(--p) * .6);pointer-events:none;
 }
+
+/* Ingichka progress chizig'i */
+.preloader__meter{position:relative;width:clamp(190px,44vw,248px);height:2px;
+  background:rgba(255,255,255,.12);overflow:hidden;border-radius:2px}
+.preloader__meter-bar{position:absolute;inset:0 auto 0 0;
+  width:calc(var(--p) * 100%);background:var(--orange);border-radius:2px}
 
 /* Foiz raqamini faqat JS boshqara oladi — u kelguncha ko'rsatmaymiz */
 .preloader:not([data-live]) .preloader__pct{opacity:0}

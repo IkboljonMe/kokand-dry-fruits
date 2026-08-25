@@ -35,15 +35,16 @@ const MIN_MS = 500;
 /** Sessiya kaliti — qayta ko'rsatmaslik uchun. */
 const FLAG = 'kdf:preloaded';
 
+/** Preloaderning o'zi ko'rsatadigan logotip (yozuvli, gorizontal). */
+const LOGO = '/assets/brand/logo-horizontal.png';
+
 /**
  * Kutiladigan rasmlar. Faqat sahifa aynan shu manzildan oladigan fayllar —
- * next/image orqali o'tadiganlari (masalan header logotipi) bu yerga yaramaydi,
- * chunki ular /_next/image?url=... deb boshqa manzildan yuklanadi.
+ * next/image orqali o'tadiganlari bu yerga yaramaydi, chunki ular
+ * /_next/image?url=... deb boshqa manzildan yuklanadi. (Header ham shu
+ * logotipni ishlatadi, lekin next/image orqali — bu boshqa so'rov.)
  */
-const IMAGES = [
-  '/assets/brand/logo-emblem.png',
-  '/assets/img/hero-poster.jpg',
-];
+const IMAGES = [LOGO, '/assets/img/hero-poster.jpg'];
 
 /** Videoning umumiy progressdagi ulushi (qolgani rasmlarga). */
 const VIDEO_WEIGHT = 0.6;
@@ -249,40 +250,31 @@ export default function Preloader() {
       aria-valuenow={0}
       {...(live ? { 'data-live': '' } : {})}
     >
-      <div className="preloader__stage">
-        <svg className="preloader__ring" viewBox="0 0 100 100" aria-hidden="true">
-          <circle className="preloader__track" cx="50" cy="50" r="48.2" />
-          <circle
-            className="preloader__bar"
-            cx="50"
-            cy="50"
-            r="48.2"
-            pathLength={1}
-          />
-        </svg>
+      <div className="preloader__mark">
+        {/* So'nik asos — hali yuklanmagan qismi */}
+        <img
+          className="preloader__base"
+          src={LOGO}
+          alt=""
+          width={174}
+          height={59}
+          fetchPriority="high"
+          decoding="async"
+        />
+        {/* Yorqin qatlam — chapdan o'ngga ochiladi */}
+        <img
+          className="preloader__fill"
+          src={LOGO}
+          alt=""
+          width={174}
+          height={59}
+          fetchPriority="high"
+          decoding="async"
+        />
+      </div>
 
-        <div className="preloader__mark">
-          {/* Kulrang asos — hali yuklanmagan qismi */}
-          <img
-            className="preloader__base"
-            src="/assets/brand/logo-emblem.png"
-            alt=""
-            width={500}
-            height={500}
-            fetchPriority="high"
-            decoding="async"
-          />
-          {/* Rangli qatlam — pastdan yuqoriga to'ladi */}
-          <img
-            className="preloader__fill"
-            src="/assets/brand/logo-emblem.png"
-            alt=""
-            width={500}
-            height={500}
-            fetchPriority="high"
-            decoding="async"
-          />
-        </div>
+      <div className="preloader__meter" aria-hidden="true">
+        <span className="preloader__meter-bar" />
       </div>
 
       <p className="preloader__pct">
