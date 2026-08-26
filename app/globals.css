@@ -618,7 +618,7 @@ h1, h2, h3, .logo__type, .btn, .eyebrow, .step__num, .card__meta {
 
 /* Logotip — header'dagi kabi oq qilib ko'rsatiladi (brightness+invert).
    Chapdan o'ngga "yonib" boradi: so'nikdan yorqingacha. */
-.preloader__mark{position:relative;width:clamp(190px,44vw,248px);aspect-ratio:174/59}
+.preloader__mark{position:relative;width:clamp(168px,42vw,212px);aspect-ratio:174/59}
 .preloader__mark img{position:absolute;inset:0;width:100%;height:100%;
   object-fit:contain;user-select:none;-webkit-user-drag:none;
   filter:brightness(0) invert(1)}
@@ -629,11 +629,12 @@ h1, h2, h3, .logo__type, .btn, .eyebrow, .step__num, .card__meta {
   content:'';position:absolute;top:-6%;bottom:-6%;
   left:calc(var(--p) * 100%);width:2px;
   background:linear-gradient(180deg,transparent,var(--orange) 20%,#ffd08a 50%,var(--orange) 80%,transparent);
-  filter:blur(1.5px);opacity:calc(.25 + var(--p) * .6);pointer-events:none;
+  filter:blur(1.5px);pointer-events:none;
+  opacity:calc((.3 + var(--p) * .55) * min(1, (1 - var(--p)) * 6));
 }
 
 /* Ingichka progress chizig'i */
-.preloader__meter{position:relative;width:clamp(190px,44vw,248px);height:2px;
+.preloader__meter{position:relative;width:clamp(168px,42vw,212px);height:2px;
   background:rgba(255,255,255,.12);overflow:hidden;border-radius:2px}
 .preloader__meter-bar{position:absolute;inset:0 auto 0 0;
   width:calc(var(--p) * 100%);background:var(--orange);border-radius:2px}
