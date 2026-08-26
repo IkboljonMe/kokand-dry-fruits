@@ -12,9 +12,9 @@
   "hero": {
     "tagline": "Qo'qon qalbidan",
     "title": "Quruq meva, yong'oq va dukkaklilar",
-    "subtitle": "Farg'ona vodiysida quritiladi, Qo'qondagi o'z sexomizda saralanib qadoqlanadi va Xitoy, Turkiya hamda Rossiyadagi xaridorlarga jo'natiladi.",
+    "subtitle": "Farg'ona vodiysida quritiladi, Qo'qondagi o'z seximizda saralanib qadoqlanadi va Xitoy, Turkiya hamda Rossiyadagi xaridorlarga jo'natiladi.",
     "cta": "Mahsulotlarimizni ko'ring",
-    "ctaSecondary": "Bizning tarix"
+    "ctaSecondary": "Tariximiz"
   },
   "strengths": {
     "sectionTitle": "Nega bizni tanlaysiz",
@@ -33,7 +33,7 @@
     },
     "privateLabel": {
       "title": "Private label",
-      "description": "Sizning brendingiz ostida ishlab chiqaramiz — sizning qadoqingiz va sizning talabingiz bo'yicha, Qo'qondagi sexomizda."
+      "description": "Sizning brendingiz ostida ishlab chiqaramiz — sizning qadoqingiz va sizning talabingiz bo'yicha, Qo'qondagi seximizda."
     }
   },
   "products": {
@@ -42,34 +42,34 @@
     "priceNote": "Narx har bir buyurtma uchun alohida hisoblanadi. Mahsulot, hajm va yetkazib berish davlatini yozing — narxni qaytarib aytamiz.",
     "driedApricots": {
       "name": "Kuraga",
-      "description": "Tarkibida vitamin A, C, temir va kaliy ko‘p bo‘lib, yurak va qon tomirlari salomatligi uchun foydali. Ovqat hazm qilishni ham yaxshilaydi."
+      "description": "Tarkibida vitamin A, C, temir va kaliy ko'p bo'lib, yurak va qon tomirlari salomatligi uchun foydali. Ovqat hazm qilishni ham yaxshilaydi."
     },
     "raisins": {
       "name": "Mayiz",
-      "description": "Uzumning tabiiy ravishda quritilgan ko‘rinishi. O‘zining shirin ta’mi, foydasi va uzoq muddat saqlanishi bilan qadrlanadi."
+      "description": "Uzumning tabiiy ravishda quritilgan ko'rinishi. O'zining shirin ta'mi, foydasi va uzoq muddat saqlanishi bilan qadrlanadi."
     },
     "prunes": {
       "name": "Qora olxo'ri (chernosliv)",
-      "description": "Shirin va mazali bo‘lgani uchun choy bilan, turli taom va shirinliklarda keng ishlatiladi. Uzoq muddat saqlanishi tufayli ham doimiy foydalanish uchun qulay."
+      "description": "Shirin va mazali bo'lgani uchun choy bilan, turli taom va shirinliklarda keng ishlatiladi. Uzoq muddat saqlanishi tufayli ham doimiy foydalanish uchun qulay."
     },
     "walnuts": {
       "name": "Grek yong'og'i",
-      "description": "Yong‘oq tarkibida oqsil, to‘yimli yog‘ kislotalari, kaliy, magniy, temir va E vitamini mavjud. U xotirani mustahkamlaydi va immunitetni oshiradi."
+      "description": "Yong'oq tarkibida oqsil, to'yimli yog' kislotalari, kaliy, magniy, temir va E vitamini mavjud. U xotirani mustahkamlaydi va immunitetni oshiradi."
     },
     "peanuts": {
-      "name": "Yeryong‘oq",
-      "description": "Yeryong‘oq oqsil, foydali yog‘ kislotalari, kaliy, magniy va B guruh vitaminlariga boy. U organizmga energiya beradi va immunitetni mustahkamlaydi."
+      "name": "Yeryong'oq",
+      "description": "Yeryong'oq oqsil, foydali yog' kislotalari, kaliy, magniy va B guruh vitaminlariga boy. U organizmga energiya beradi va immunitetni mustahkamlaydi."
     },
     "mungBeans": {
       "name": "Mosh",
       "description": "Mosh oqsil, tolalar, temir, magniy va B guruh vitaminlariga boy. Ovqat hazm qilishni yaxshilaydi, energiya beradi va parhez taomlari uchun mos."
     },
     "beans": {
-      "name": "Lo'ya",
-      "description": "Quritilgan va tozalangan oddiy lo'ya. Asosiy dukkakli mahsulot — o'simlik oqsili, tolalar va temirga boy, yillab saqlanadi."
+      "name": "Loviya",
+      "description": "Quritilgan va tozalangan oddiy loviya. Asosiy dukkakli mahsulot — o'simlik oqsili, tolalar va temirga boy, yillab saqlanadi."
     },
     "apricotKernels": {
-      "name": "O'rik mag'izi",
+      "name": "O'rik mag'zi",
       "description": "O'rik danagining ichidagi mag'iz. Foydali yog'lar va oqsilga boy; qandolatchilik, pazandachilik va yog' olishda ishlatiladi."
     },
     "driedPeppers": {
@@ -81,16 +81,16 @@
       "description": "Bo'lak-bo'lak kesilib quyoshda quritilgan Farg'ona qovuni. Juda shirin va xushbo'y — choy bilan tortiladigan Markaziy Osiyo noyobligi."
     },
     "compoteMix": {
-      "name": "Kampot aralashmasi",
+      "name": "Kompot aralashmasi",
       "description": "Quritilgan olma, o'rik, olxo'ri, olcha va rezavorlardan tayyor aralashma. Yagona mahsulot sifatida sotiladi — hech narsani aralashtirish shart emas."
     },
     "sourCherries": {
       "name": "Olcha",
-      "description": "Butunligicha quritilgan nordon olcha. Antotsianlarga boy, nordonligi pishirish, qandolatchilik va kampotda yo'qolmaydi."
+      "description": "Butunligicha quritilgan nordon olcha. Antotsianlarga boy, nordonligi pishirish, qandolatchilik va kompotda yo'qolmaydi."
     },
     "driedApples": {
       "name": "Olma qoqi",
-      "description": "Halqa qilib kesilib quritilgan olma. Yengil, tolaga boy va oson saqlanadi — kampot, muesli va gazak uchun."
+      "description": "Halqa qilib kesilib quritilgan olma. Yengil, tolaga boy va oson saqlanadi — kompot, muesli va gazak uchun."
     },
     "viewAll": "Barcha mahsulotlar",
     "allSubtitle": "To'liq katalog",
@@ -137,7 +137,7 @@
       "items": [
         {
           "title": "Tabiiy mahsulotlar",
-          "description": "Hech qanday sun’iy qo‘shimchalarsiz."
+          "description": "Hech qanday sun'iy qo'shimchalarsiz."
         },
         {
           "title": "Bevosita daladan",
@@ -149,7 +149,7 @@
         },
         {
           "title": "Tez va ishonchli yetkazib berish",
-          "description": "Respublika bo‘ylab."
+          "description": "Mintaqa bo'ylab."
         },
         {
           "title": "Mijozlar ishonchi",
@@ -174,7 +174,7 @@
       "message": "Xabaringiz",
       "send": "Yuborish",
       "optional": "ixtiyoriy",
-      "emailRequired": "Email yoki davlat kodi bilan to‘liq telefon raqamini kiriting.",
+      "emailRequired": "Email yoki davlat kodi bilan to'liq telefon raqamini kiriting.",
       "product": "Qiziqtirgan mahsulot",
       "productAny": "Umumiy savol",
       "sent": "Rahmat — arizangiz qabul qilindi, tez orada bog'lanamiz."
@@ -198,7 +198,8 @@
     "ourProducts": "Mahsulotlarimiz",
     "contactUs": "Bog'lanish",
     "followUs": "Bizni kuzating",
-    "rights": "Barcha huquqlar himoyalangan."
+    "rights": "Barcha huquqlar himoyalangan.",
+    "madeBy": "Saytni ishlab chiqdi"
   },
   "common": {
     "loading": "Yuklanmoqda"
@@ -214,9 +215,9 @@
       "varieties": "Navlar",
       "varietiesSub": "Biz yetkazadigan navlar va sizning talabingizga moslab tayyorlanadiganlari",
       "specifications": "Spetsifikatsiya",
-      "specificationsSub": "Ushbu mahsulot uchun odatiy eksport ko‘rsatkichlari",
+      "specificationsSub": "Ushbu mahsulot uchun odatiy eksport ko'rsatkichlari",
       "benefits": "Nega tanlashadi",
-      "requestQuote": "Narx so‘rash",
+      "requestQuote": "Narx so'rash",
       "calibre": "Kalibr",
       "moisture": "Namlik",
       "packaging": "Qadoq",
@@ -224,12 +225,12 @@
       "storage": "Saqlash sharoiti",
       "hsCode": "HS kodi",
       "origin": "Kelib chiqishi",
-      "originValue": "Farg‘ona vodiysi, O‘zbekiston",
-      "specNote": "Ko‘rsatkichlar taxminiy bo‘lib, shartnomada aniqlanadi. Kalibr, qadoq va qayta ishlash darajasini talabingizga moslaymiz."
+      "originValue": "Farg'ona vodiysi, O'zbekiston",
+      "specNote": "Ko'rsatkichlar taxminiy bo'lib, shartnomada aniqlanadi. Kalibr, qadoq va qayta ishlash darajasini talabingizga moslaymiz."
     },
     "items": {
       "driedApricots": {
-        "tagline": "Farg‘ona vodiysida quyoshda quritilgan",
+        "tagline": "Farg'ona vodiysida quyoshda quritilgan",
         "intro": "O'rik terib olingandan keyin bir necha soat ichida quritishga yoyiladi — shuning uchun shakar qaynatilmasdan jamlanadi. Rangi va o'lchami bo'yicha oltita navga ajratamiz: qizil, sariq, shakarli, limonka, natural va kesilgan. Bo'yoq ishlatmaymiz.",
         "benefits": [
           {
@@ -280,12 +281,12 @@
         }
       },
       "prunes": {
-        "tagline": "Sekin quritilgan olxo‘ri",
-        "intro": "Olxo'ri butunligicha va sekin quritiladi — chernoslivning to'q rangi va chuqur ta'mi shundan. Danakli yoki danaksiz holda yetkazamiz; kalibri bir kilogrammdagi dona soni bilan belgilanadi, shuning uchun nima kelishini aniq bilasiz.",
+        "tagline": "Sekin quritilgan olxo'ri — to'q va shirin",
+        "intro": "Olxo'ri butunligicha va sekin quritiladi — qora olxo'rining to'q rangi va chuqur ta'mi shundan. Danakli yoki danaksiz holda yetkazamiz; kalibri bir kilogrammdagi dona soni bilan belgilanadi, shuning uchun nima kelishini aniq bilasiz.",
         "benefits": [
           {
             "title": "Tolalar va sorbit",
-            "text": "Chernosliv hazm uchun eng mashhur mahsulotlardan biri, sababi esa haqiqiy: eriydigan tolalar va tabiiy sorbit."
+            "text": "Qora olxo'ri hazm uchun eng mashhur mahsulotlardan biri, sababi esa haqiqiy: eriydigan tolalar va tabiiy sorbit."
           },
           {
             "title": "Taxminan emas, sanab",
@@ -293,7 +294,7 @@
           },
           {
             "title": "Eng yirik yo'nalishimiz va GACC qamrovida",
-            "text": "Yiliga 250 tonnaning eng katta ulushi chernoslivga to'g'ri keladi, HS 0813 20 esa Xitoy uchun GACC ro'yxatimiz qamrovida."
+            "text": "Yiliga 250 tonnaning eng katta ulushi qora olxo'riga to'g'ri keladi, HS 0813 20 esa Xitoy uchun GACC ro'yxatimiz qamrovida."
           }
         ],
         "varieties": {
@@ -331,7 +332,7 @@
         "intro": "Yeryong'oqni po'stli holda va tozalangan mag'iz sifatida yetkazamiz. Kalibr odatdagi unsiyadagi dona soni bo'yicha belgilanadi, partiyalar esa yetkazib beriladigan bozor talab qiladigan sertifikatlar bilan jo'natiladi.",
         "benefits": [
           {
-            "title": "Ish narxidagi oqsil",
+            "title": "Hamyonbop narxdagi oqsil",
             "text": "Og'irligining chorak qismiga yaqini oqsil, shuningdek kaliy, magniy va B guruh vitaminlari — shuning uchun yeryong'oq ko'plab gazak va qandolat yo'nalishlarining asosi."
           },
           {
@@ -358,7 +359,7 @@
           },
           {
             "title": "Asosiy hajmlarimizdan biri",
-            "text": "Chernosliv va kuraga bilan birga mosh yiliga ishlab chiqaradigan 250 tonnaning katta qismini tashkil qiladi — shuning uchun hajm kamdan-kam cheklov bo'ladi."
+            "text": "Qora olxo'ri va kuraga bilan birga mosh yiliga ishlab chiqaradigan 250 tonnaning katta qismini tashkil qiladi — shuning uchun hajm kamdan-kam cheklov bo'ladi."
           },
           {
             "title": "Ikki yillik saqlash muddati",
@@ -371,7 +372,7 @@
       },
       "beans": {
         "tagline": "Saqlanadigan va yo'lga chidaydigan dukkakli",
-        "intro": "Oziq-ovqat darajasida quritilgan va tozalangan oddiy lo'ya. Bu — eng barqaror yo'nalishlarimizdan biri: sovuq zanjir kerak emas, xarid uchun tor mavsumiy oyna yo'q, saqlash muddati esa oylar bilan emas, yillar bilan o'lchanadi.",
+        "intro": "Oziq-ovqat darajasida quritilgan va tozalangan oddiy loviya. Bu — eng barqaror yo'nalishlarimizdan biri: sovuq zanjir kerak emas, xarid uchun tor mavsumiy muddat yo'q, saqlash muddati esa oylar bilan emas, yillar bilan o'lchanadi.",
         "benefits": [
           {
             "title": "Oqsil va tolalar",
@@ -402,14 +403,14 @@
           },
           {
             "title": "Qandolatchilik va yog' olish",
-            "text": "Butun mag'izlar shirinlik va pazandachilikka ketadi; qolgani esa o'z kosmetika bozoriga ega bo'lgan o'rik mag'izi yog'i uchun siqiladi."
+            "text": "Butun mag'izlar shirinlik va pazandachilikka ketadi; qolgani esa o'z kosmetika bozoriga ega bo'lgan o'rik mag'zi yog'i uchun siqiladi."
           }
         ],
         "varieties": {}
       },
       "driedPeppers": {
         "tagline": "Quyoshda butunligicha quritilgan, achchiqligi saqlangan",
-        "intro": "Qalampir ochiq havoda butunligicha quritiladi — bu rang va achchiqlikni jamlaydi, qattiq issiqlikda quritishdan qoladigan yassi ta'mni esa bermaydi. Qalampirni maydalanmagan holda yetkazamiz, shuning uchun maydalash darajasini xaridor o'zi belgilaydi.",
+        "intro": "Qalampir ochiq havoda butunligicha quritiladi — bu rang va achchiqlikni jamlaydi, qattiq issiqlikda quritishdan qoladigan bo'g'iq ta'mni esa bermaydi. Qalampirni maydalanmagan holda yetkazamiz, shuning uchun maydalash darajasini xaridor o'zi belgilaydi.",
         "benefits": [
           {
             "title": "Rang va achchiqlik jamlanadi",
@@ -447,11 +448,11 @@
       },
       "compoteMix": {
         "tagline": "Bitta mahsulot, aralashtirish shart emas",
-        "intro": "Quritilgan olma, o'rik, olxo'ri, olcha va rezavorlardan tayyor aralashma — Markaziy Osiyo kampoti aslida qanday tayyorlansa, shunday nisbatda. Uni bitta yo'nalish sifatida olish beshta emas, bitta SKU, bitta narx va bitta yetkazib berish degani.",
+        "intro": "Quritilgan olma, o'rik, olxo'ri, olcha va rezavorlardan tayyor aralashma — Markaziy Osiyo kompoti aslida qanday tayyorlansa, shunday nisbatda. Uni bitta yo'nalish sifatida olish beshta emas, bitta SKU, bitta narx va bitta yetkazib berish degani.",
         "benefits": [
           {
             "title": "Belgilangan retsept bo'yicha aralashma",
-            "text": "Nisbat partiyadan partiyaga saqlanadi — mijozingiz martda qaynatgan kampot oktyabrdagisi bilan bir xil ta'm beradi."
+            "text": "Nisbat partiyadan partiyaga saqlanadi — mijozingiz martda qaynatgan kompot oktyabrdagisi bilan bir xil ta'm beradi."
           },
           {
             "title": "O'z yo'nalishlarimizdan tayyorlanadi",
@@ -485,11 +486,11 @@
       },
       "driedApples": {
         "tagline": "Halqalar, quritilgan va boshqa hech narsa",
-        "intro": "Olmaning o'zagi olinadi, halqa qilib kesiladi va quritiladi. Bu — ishlab chiqaradigan eng oddiy mahsulotimiz va eng keng qo'llaniladigani: kampot, muesli, pazandachilik va shunchaki gazak.",
+        "intro": "Olmaning o'zagi olinadi, halqa qilib kesiladi va quritiladi. Bu — ishlab chiqaradigan eng oddiy mahsulotimiz va eng keng qo'llaniladigani: kompot, muesli, pazandachilik va shunchaki gazak.",
         "benefits": [
           {
             "title": "Tolalar, asosan pektin",
-            "text": "Olma eriydigan tolalarga g'ayrioddiy boy. Quritish uni jamlaydi, pektin esa kampotni quyultiradigan narsadir."
+            "text": "Olma eriydigan tolalarga g'ayrioddiy boy. Quritish uni jamlaydi, pektin esa kompotni quyultiradigan narsadir."
           },
           {
             "title": "Tashishga yengil",
@@ -497,7 +498,7 @@
           },
           {
             "title": "To'rtta yo'nalishda ishlaydi",
-            "text": "Kampot, nonushta yormasi, non mahsulotlariga qo'shimcha va chakana gazak — bitta mahsulot, to'rt xil xaridor."
+            "text": "Kompot, nonushta yormasi, non mahsulotlariga qo'shimcha va chakana gazak — bitta mahsulot, to'rt xil xaridor."
           }
         ],
         "varieties": {}

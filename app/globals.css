@@ -347,6 +347,10 @@ p{margin:0 0 1em}
   font-size:13.5px;color:rgba(255,255,255,.45);
 }
 .socials{display:flex;gap:22px;flex-wrap:wrap}
+.credit{display:inline-flex;align-items:center;min-height:40px;gap:5px}
+.credit a{color:rgba(255,255,255,.72);border-bottom:1px solid rgba(255,255,255,.25);
+  transition:color .3s var(--ease),border-color .3s var(--ease)}
+.credit a:hover{color:var(--orange);border-color:var(--orange)}
 .socials a{display:inline-flex;align-items:center;min-height:44px}
 .socials a:hover{color:var(--orange)}
 

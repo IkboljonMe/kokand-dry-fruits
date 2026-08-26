@@ -122,6 +122,8 @@ export type Dictionary = {
     contactUs: string;
     followUs: string;
     rights: string;
+    /** "Saytni ishlab chiqdi" — 1is4me havolasidan oldingi matn */
+    madeBy: string;
   };
   common: { loading: string };
   landing: { scroll: string };

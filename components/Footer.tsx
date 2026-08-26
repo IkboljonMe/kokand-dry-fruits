@@ -60,6 +60,12 @@ export default function Footer({
               </a>
             ))}
           </div>
+          <span className="credit">
+            {dict.footer.madeBy}{' '}
+            <a href="https://1is4me.com" target="_blank" rel="noopener noreferrer">
+              1is4me
+            </a>
+          </span>
         </div>
       </div>
     </footer>
