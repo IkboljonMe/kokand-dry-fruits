@@ -120,6 +120,16 @@
     "coveredLabel": "Qamrab olingan HS kodlar",
     "coveredNote": "GACC ro'yxati kuraga (HS 0813 10) hamda quritilgan olxo'ri va olchani (HS 0813 20) qamrab oladi. Qolgan mahsulotlarimiz bu ro'yxat talab qilinmaydigan bozorlarga jo'natiladi."
   },
+  "team": {
+    "eyebrow": "Jamoamiz",
+    "title": "Biznes ortidagi oila",
+    "subtitle": "Kokand Dry Fruits 2020-yildan beri bitta oila tomonidan boshqariladi — arizangizga javob beradigan, partiyalarni tekshiradigan va shartnomani imzolaydigan odamlar shular.",
+    "roles": {
+      "founder": "Asoschi",
+      "shuhratjon": "Boshqaruv",
+      "hojiakbar": "Boshqaruv"
+    }
+  },
   "cta": {
     "title": "Biz bilan hamkor bo'ling",
     "subtitle": "Importchi, ulgurji sotuvchi yoki oziq-ovqat ishlab chiqaruvchi bo'lasizmi — o'z brendingiz ostida ham — keling, birga samarali hamkorlik quraylik.",

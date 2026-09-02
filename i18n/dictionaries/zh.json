@@ -120,6 +120,16 @@
     "coveredLabel": "涵盖的 HS 编码",
     "coveredNote": "GACC 注册涵盖杏干（HS 0813 10）以及干李与干樱桃（HS 0813 20）。其余产品线发往无需该注册的市场。"
   },
+  "team": {
+    "eyebrow": "我们的团队",
+    "title": "企业背后的家族",
+    "subtitle": "自2020年起，Kokand Dry Fruits 一直由同一个家族经营——回复您询价、检验货批、签署合同的都是他们。",
+    "roles": {
+      "founder": "创始人",
+      "shuhratjon": "管理层",
+      "hojiakbar": "管理层"
+    }
+  },
   "cta": {
     "title": "与我们合作",
     "subtitle": "无论您是进口商、批发商还是食品制造商——包括以自有品牌合作——让我们建立长期共赢的合作关系。",

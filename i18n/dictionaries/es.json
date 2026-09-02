@@ -120,6 +120,16 @@
     "coveredLabel": "Códigos SA cubiertos",
     "coveredNote": "El registro GACC cubre los orejones de albaricoque (SA 0813 10) y las ciruelas y cerezas secas (SA 0813 20). Nuestras demás líneas se envían a mercados donde no se exige este registro."
   },
+  "team": {
+    "eyebrow": "Nuestro equipo",
+    "title": "La familia detrás del negocio",
+    "subtitle": "Kokand Dry Fruits está dirigida por una misma familia desde 2020: las mismas personas que responden a su consulta, revisan los lotes y firman el contrato.",
+    "roles": {
+      "founder": "Fundador",
+      "shuhratjon": "Dirección",
+      "hojiakbar": "Dirección"
+    }
+  },
   "cta": {
     "title": "Sea nuestro socio",
     "subtitle": "Tanto si es importador, mayorista o fabricante de alimentos —también bajo su propia marca—, construyamos juntos una relación duradera.",

@@ -1,11 +1,17 @@
 import { CONTACTS } from '@/lib/contacts';
 
-export default function Rails({ scrollLabel }: { scrollLabel: string }) {
+export default function Rails({
+  phone,
+  scrollLabel,
+}: {
+  phone: string;
+  scrollLabel: string;
+}) {
   return (
     <>
       <div className="rail rail--left">
-        <a href={`mailto:${CONTACTS.email}`} className="rail__text">
-          {CONTACTS.email}
+        <a href={`tel:${CONTACTS.phoneHref}`} className="rail__text" dir="ltr">
+          {phone}
         </a>
       </div>
       <div className="rail rail--right">

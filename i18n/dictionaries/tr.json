@@ -120,6 +120,16 @@
     "coveredLabel": "Kapsanan GTİP kodları",
     "coveredNote": "GACC kaydı kuru kayısıyı (HS 0813 10) ve kuru erik ile vişneyi (HS 0813 20) kapsar. Diğer ürünlerimiz bu kaydın gerekmediği pazarlara gönderilir."
   },
+  "team": {
+    "eyebrow": "Ekibimiz",
+    "title": "İşin arkasındaki aile",
+    "subtitle": "Kokand Dry Fruits 2020'den beri tek bir aile tarafından yönetiliyor — talebinizi yanıtlayan, partileri kontrol eden ve sözleşmeyi imzalayan kişiler.",
+    "roles": {
+      "founder": "Kurucu",
+      "shuhratjon": "Yönetim",
+      "hojiakbar": "Yönetim"
+    }
+  },
   "cta": {
     "title": "Ortağımız Olun",
     "subtitle": "İthalatçı, toptancı ya da gıda üreticisi olun — kendi markanız altında da olmak üzere — birlikte verimli bir iş ortaklığı kuralım.",

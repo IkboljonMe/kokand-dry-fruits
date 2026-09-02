@@ -120,6 +120,16 @@
     "coveredLabel": "Codes SH couverts",
     "coveredNote": "L'enregistrement GACC couvre les abricots secs (SH 0813 10) ainsi que les prunes et cerises séchées (SH 0813 20). Nos autres lignes sont expédiées vers des marchés où cet enregistrement n'est pas exigé."
   },
+  "team": {
+    "eyebrow": "Notre équipe",
+    "title": "La famille derrière l'entreprise",
+    "subtitle": "Kokand Dry Fruits est dirigée par une même famille depuis 2020 — ceux-là mêmes qui répondent à votre demande, contrôlent les lots et signent le contrat.",
+    "roles": {
+      "founder": "Fondateur",
+      "shuhratjon": "Direction",
+      "hojiakbar": "Direction"
+    }
+  },
   "cta": {
     "title": "Devenez notre partenaire",
     "subtitle": "Importateur, grossiste ou industriel de l'agroalimentaire — y compris sous votre propre marque : construisons ensemble un partenariat durable.",

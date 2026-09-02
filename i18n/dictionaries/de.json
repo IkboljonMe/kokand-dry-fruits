@@ -120,6 +120,16 @@
     "coveredLabel": "Abgedeckte HS-Codes",
     "coveredNote": "Die GACC-Registrierung umfasst Trockenaprikosen (HS 0813 10) sowie getrocknete Pflaumen und Kirschen (HS 0813 20). Unsere übrigen Linien gehen in Märkte, in denen diese Registrierung nicht verlangt wird."
   },
+  "team": {
+    "eyebrow": "Unser Team",
+    "title": "Die Familie hinter dem Unternehmen",
+    "subtitle": "Kokand Dry Fruits wird seit 2020 von einer Familie geführt — denselben Menschen, die Ihre Anfrage beantworten, die Partien prüfen und den Vertrag unterschreiben.",
+    "roles": {
+      "founder": "Gründer",
+      "shuhratjon": "Geschäftsleitung",
+      "hojiakbar": "Geschäftsleitung"
+    }
+  },
   "cta": {
     "title": "Werden Sie unser Partner",
     "subtitle": "Ob Importeur, Großhändler oder Lebensmittelhersteller — auch unter Ihrer eigenen Marke: Lassen Sie uns eine tragfähige Partnerschaft aufbauen.",

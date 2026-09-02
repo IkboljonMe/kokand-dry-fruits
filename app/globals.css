@@ -290,14 +290,29 @@ p{margin:0 0 1em}
 /* ---------- CTA ---------- */
 .cta{background:var(--ink);color:#fff;padding:clamp(70px,9vw,130px) 0}
 .cta__inner{display:grid;grid-template-columns:1fr 1fr;gap:clamp(34px,5vw,80px);
-  align-items:center}
+  align-items:start}
 .cta .h2{color:#fff;margin-bottom:18px}
 .cta__text p{color:rgba(255,255,255,.6);max-width:46ch}
-.cta__contacts{display:flex;flex-direction:column;gap:8px;margin-top:26px}
-.cta__contacts a{display:inline-flex;align-items:center;min-height:44px;
+.cta__contacts{display:flex;flex-direction:column;gap:4px;margin-top:26px;
+  align-items:flex-start}
+.cta__contacts a{display:inline-flex;align-items:center;gap:12px;min-height:44px;
   font-family:var(--font-poppins),'Poppins',sans-serif;font-weight:700;
-  font-size:clamp(19px,2.2vw,27px);word-break:break-word}
+  font-size:clamp(19px,2.1vw,26px);line-height:1.2;
+  transition:color .25s var(--ease)}
 .cta__contacts a:hover{color:var(--orange)}
+/* Ikonka raqamdan kichikroq va biroz so'nikroq — raqam asosiy bo'lib qolsin */
+.cta__lineicon{flex:none;width:20px;height:20px;color:var(--orange)}
+
+/* Ijtimoiy tarmoq ikonkalari */
+.cta__socials{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.cta__socials a{display:inline-flex;align-items:center;justify-content:center;
+  width:46px;height:46px;border-radius:50%;
+  color:rgba(255,255,255,.8);
+  box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.22);
+  transition:color .25s var(--ease),background .25s var(--ease),
+             box-shadow .25s var(--ease),transform .25s var(--ease)}
+.cta__socials a:hover{color:#fff;background:var(--orange);
+  box-shadow:inset 0 0 0 1.5px var(--orange);transform:translateY(-2px)}
 
 .form{display:grid;gap:14px}
 .form input,.form textarea,.form select{
@@ -324,35 +339,44 @@ p{margin:0 0 1em}
 /* ---------- FOOTER ---------- */
 .footer{background:var(--black);color:#fff;padding:clamp(50px,6vw,80px) 0 34px}
 .footer__top{display:flex;align-items:center;justify-content:space-between;gap:24px;
-  flex-wrap:wrap;padding-bottom:38px;border-bottom:1px solid rgba(255,255,255,.14)}
-.footer__nav{display:flex;gap:28px;flex-wrap:wrap}
+  flex-wrap:wrap;padding-bottom:34px}
+.footer__nav{display:flex;gap:2px 28px;flex-wrap:wrap}
 .footer__nav a{display:inline-flex;align-items:center;min-height:44px;
   font-size:15px;color:rgba(255,255,255,.72)}
 .footer__nav a:hover{color:var(--orange)}
 
-.offices{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;padding:38px 0}
-.office{display:flex;flex-direction:column;gap:6px}
-.office__city{
-  font-family:var(--font-poppins),'Poppins',sans-serif;font-weight:700;font-size:13px;
-  letter-spacing:.14em;text-transform:uppercase;color:var(--orange);margin-bottom:6px;
-}
-.office a{display:inline-flex;align-items:center;min-height:40px;
-  color:rgba(255,255,255,.78);font-size:15.5px}
-.office a:hover{color:#fff}
-@media(max-width:760px){.offices{grid-template-columns:1fr}}
-
+/* Uchta blok: chapda copyright, o'rtada ikonkalar, o'ngda mualliflik.
+   1fr auto 1fr — o'rtadagi blok chetdagilarning kengligidan qat'i nazar
+   aynan markazda turadi (space-between bunday qila olmaydi). */
 .footer__bottom{
-  display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;
-  padding-top:26px;border-top:1px solid rgba(255,255,255,.14);
+  display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:18px;
+  padding-top:28px;border-top:1px solid rgba(255,255,255,.14);
   font-size:13.5px;color:rgba(255,255,255,.45);
 }
-.socials{display:flex;gap:22px;flex-wrap:wrap}
+.footer__bottom > :first-child{justify-self:start}
+.footer__bottom > :last-child{justify-self:end}
+
+.socials{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.socials a{display:inline-flex;align-items:center;justify-content:center;
+  width:40px;height:40px;border-radius:50%;color:rgba(255,255,255,.72);
+  box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.2);
+  transition:color .25s var(--ease),background .25s var(--ease),
+             box-shadow .25s var(--ease),transform .25s var(--ease)}
+.socials a:hover{color:#fff;background:var(--orange);
+  box-shadow:inset 0 0 0 1.5px var(--orange);transform:translateY(-2px)}
+
 .credit{display:inline-flex;align-items:center;min-height:40px;gap:5px}
 .credit a{color:rgba(255,255,255,.72);border-bottom:1px solid rgba(255,255,255,.25);
   transition:color .3s var(--ease),border-color .3s var(--ease)}
 .credit a:hover{color:var(--orange);border-color:var(--orange)}
-.socials a{display:inline-flex;align-items:center;min-height:44px}
-.socials a:hover{color:var(--orange)}
+
+/* Tor ekranda ustma-ust va markazga */
+@media(max-width:760px){
+  .footer__bottom{grid-template-columns:1fr;justify-items:center;text-align:center;
+    gap:16px}
+  .footer__bottom > :first-child,
+  .footer__bottom > :last-child{justify-self:center}
+}
 
 /* ---------- SCROLL REVEAL ---------- */
 .reveal-up{opacity:0;transform:translateY(34px);
@@ -437,27 +461,10 @@ h1, h2, h3, .logo__type, .btn, .eyebrow, .step__num, .card__meta {
 .geo__list span{display:inline-flex;align-items:center;gap:9px}
 .geo__flag{width:20px;height:14px;border-radius:2px;flex:none;object-fit:cover}
 
-/* Aloqa bloki */
-.cta__info{
-  margin:26px 0 0;display:grid;grid-template-columns:auto 1fr;
-  gap:6px 18px;font-size:14.5px;color:rgba(255,255,255,.62);
-}
-.cta__info dt{font-weight:600;color:rgba(255,255,255,.9)}
-.cta__info dd{margin:0}
-.cta__info dd a{display:inline-flex;align-items:center;min-height:40px}
-.cta__info a:hover{color:var(--orange)}
-
 .form__title{
   font-family:var(--font-poppins),var(--font-fallback);font-weight:600;
   font-size:15px;color:#fff;margin:0 0 6px;
 }
-
-/* Footer brend ustuni */
-.footer__brand{max-width:340px;display:flex;flex-direction:column;gap:14px}
-.footer__desc{margin:0;font-size:14px;line-height:1.6;color:rgba(255,255,255,.5)}
-.footer__top{align-items:flex-start}
-
-[dir='rtl'] .cta__info{direction:rtl}
 
 /* Logotip qora matnli — quyuq header va footerda oq holatga o'tkaziladi. */
 .header .logo__img,
@@ -656,4 +663,44 @@ h1, h2, h3, .logo__type, .btn, .eyebrow, .step__num, .card__meta {
 
 @media(prefers-reduced-motion:reduce){
   .preloader{transition:opacity .01s}
+}
+
+/* ---------- RAHBARIYAT (oilaviy biznes) ---------- */
+.team{padding:clamp(70px,9vw,130px) 0;background:var(--ink);color:#fff}
+.team .eyebrow{color:var(--orange)}
+.team .section-head{max-width:760px}
+.team__lead{margin:18px 0 0;color:rgba(255,255,255,.62);font-size:16.5px;max-width:62ch}
+
+.team__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:clamp(16px,2.2vw,28px)}
+
+.team__card{position:relative;overflow:hidden;border-radius:3px;
+  background:#000;isolation:isolate}
+.team__photo{position:relative;aspect-ratio:3/4}
+.team__photo img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;
+  transition:transform .7s var(--ease),filter .5s var(--ease);
+  filter:saturate(.92)}
+.team__card:hover .team__photo img{transform:scale(1.04);filter:saturate(1)}
+
+/* Pastdagi qoramtir gradient — ism va lavozim shu ustida o'qiladi */
+.team__card::after{content:'';position:absolute;inset:auto 0 0;height:62%;
+  background:linear-gradient(180deg,transparent,rgba(8,7,6,.58) 42%,rgba(8,7,6,.93));
+  pointer-events:none}
+
+.team__meta{position:absolute;inset:auto 0 0;z-index:1;
+  padding:clamp(18px,2.2vw,26px)}
+.team__role{display:block;font-family:var(--font-poppins),'Poppins',sans-serif;
+  font-weight:600;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--orange);margin-bottom:7px}
+.team__name{font-size:clamp(18px,1.7vw,22px);text-transform:uppercase;
+  letter-spacing:-.005em;color:#fff}
+
+@media(max-width:860px){
+  .team__grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .team__card:first-child{grid-column:1 / -1}
+  .team__card:first-child .team__photo{aspect-ratio:4/3}
+}
+@media(max-width:560px){
+  .team__grid{grid-template-columns:1fr}
+  .team__card:first-child .team__photo{aspect-ratio:3/4}
 }

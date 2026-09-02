@@ -9,6 +9,7 @@ import Process from '@/components/Process';
 import Products from '@/components/Products';
 import Geo from '@/components/Geo';
 import Certification from '@/components/Certification';
+import Team from '@/components/Team';
 import Cta from '@/components/Cta';
 import Footer from '@/components/Footer';
 import { getDictionary } from '@/i18n/get-dictionary';
@@ -26,7 +27,10 @@ export default async function Page({
 
   return (
     <>
-      <Rails scrollLabel={dict.landing.scroll} />
+      <Rails
+        phone={dict.contact.info.phone}
+        scrollLabel={dict.landing.scroll}
+      />
       <Header
         lang={lang}
         t={{
@@ -45,6 +49,7 @@ export default async function Page({
       <Products dict={dict} lang={lang} />
       <Geo dict={dict} lang={lang} />
       <Certification dict={dict} />
+      <Team dict={dict} />
       <Cta dict={dict} lang={lang} />
       <Footer dict={dict} />
     </>

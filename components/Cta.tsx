@@ -1,8 +1,17 @@
 import ContactForm from './ContactForm';
-import { CONTACTS } from '@/lib/contacts';
+import { PhoneIcon, WhatsAppIcon, MapPinIcon, SOCIAL_ICONS } from './Icons';
+import {
+  ACTIVE_SOCIALS,
+  CONTACTS,
+  WHATSAPP,
+  WHATSAPP_DISPLAY,
+} from '@/lib/contacts';
 import { PRODUCTS } from '@/lib/products';
 import type { Locale } from '@/i18n/config';
 import type { Dictionary } from '@/i18n/types';
+
+/** WhatsApp bu bo'limda raqam bilan chiqqani uchun ikonkalar qatorida takrorlanmaydi. */
+const HIDDEN_IN_CTA = new Set(['WhatsApp']);
 
 export default function Cta({
   dict,
@@ -31,20 +40,52 @@ export default function Cta({
           <p className="cta__price reveal-up">{dict.products.priceNote}</p>
 
           <div className="cta__contacts reveal-up">
-            <a href={`tel:${CONTACTS.phoneHref}`}>{info.phone}</a>
-            <a href={`mailto:${CONTACTS.email}`}>{info.email}</a>
+            <a href={`tel:${CONTACTS.phoneHref}`} dir="ltr">
+              <PhoneIcon className="cta__lineicon" />
+              <span>{info.phone}</span>
+            </a>
+            <a
+              href={`https://wa.me/${WHATSAPP}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              dir="ltr"
+            >
+              <WhatsAppIcon className="cta__lineicon" />
+              <span>{WHATSAPP_DISPLAY}</span>
+            </a>
           </div>
 
-          <dl className="cta__info reveal-up">
-            <dt>{info.addressLabel}</dt>
-            <dd>
-              <a href={CONTACTS.mapsUrl} target="_blank" rel="noopener noreferrer">
-                {info.address}
+          <ul className="cta__socials reveal-up">
+            {ACTIVE_SOCIALS.map((social) => {
+              if (HIDDEN_IN_CTA.has(social.label)) return null;
+              const Icon = SOCIAL_ICONS[social.label];
+              if (!Icon) return null;
+              return (
+                <li key={social.label}>
+                  <a
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={social.label}
+                    title={social.label}
+                  >
+                    <Icon />
+                  </a>
+                </li>
+              );
+            })}
+            <li>
+              <a
+                href={CONTACTS.mapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={info.viewOnMap}
+                title={info.viewOnMap}
+              >
+                <MapPinIcon />
               </a>
-            </dd>
-            <dt>{info.hoursLabel}</dt>
-            <dd>{info.hours}</dd>
-          </dl>
+            </li>
+          </ul>
         </div>
         <ContactForm
           lang={lang}

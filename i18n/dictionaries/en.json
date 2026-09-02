@@ -120,6 +120,16 @@
     "coveredLabel": "Covered HS codes",
     "coveredNote": "The GACC listing covers dried apricots (HS 0813 10) and dried plums and cherries (HS 0813 20). Our other lines ship to markets where this registration is not required."
   },
+  "team": {
+    "eyebrow": "Our team",
+    "title": "The family behind the business",
+    "subtitle": "Kokand Dry Fruits has been run by one family since 2020 — the same people who answer your enquiry, check the lots and sign the contract.",
+    "roles": {
+      "founder": "Founder",
+      "shuhratjon": "Management",
+      "hojiakbar": "Management"
+    }
+  },
   "cta": {
     "title": "Partner With Us",
     "subtitle": "Whether you're an importer, a wholesaler or a food manufacturer — including under your own label — let's build a fruitful partnership together.",

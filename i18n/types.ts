@@ -75,6 +75,13 @@ export type Dictionary = {
     coveredLabel: string;
     coveredNote: string;
   };
+  /** Rahbariyat bo'limi — ismlar lib/contacts.ts da, bu yerda faqat lavozimlar */
+  team: {
+    eyebrow: string;
+    title: string;
+    subtitle: string;
+    roles: { founder: string; shuhratjon: string; hojiakbar: string };
+  };
   cta: { title: string; subtitle: string; button: string };
   about: {
     heroTitle: string;
